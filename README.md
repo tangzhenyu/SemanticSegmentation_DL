@@ -16,5 +16,6 @@ Some implementation of semantic segmantation for DL model</br>
 [Large Kernel Matters -- Improve Semantic Segmentation by Global Convolutional Network](https://arxiv.org/abs/1703.02719)</br>
 [Deeplab v3: Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/abs/1706.05587)</br>
 [Efficient piecewise training of deep structured models for semantic segmentation](https://arxiv.org/abs/1504.01013)</br>
+[Understanding Convolution for Semantic Segmentation](https://arxiv.org/abs/1702.08502)</br>
 #Project:</br>
 #People:</br>
