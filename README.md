@@ -75,6 +75,17 @@ Some implementation of semantic segmantation for DL model</br>
 67.  Deep Joint Task Learning for Generic Object Extraction-2014 [[Project]](http://vision.sysu.edu.cn/projects/deep-joint-task-learning/) [[Code-Caffe]](https://github.com/xiaolonw/nips14_loc_seg_testonly) [[Dataset]](http://objectextraction.github.io/) [[Paper]](http://ss.sysu.edu.cn/~ll/files/NIPS2014_JointTask.pdf)</br>
 68.  Highly Efficient Forward and Backward Propagation of Convolutional Neural Networks for Pixelwise Classification-2014 [[Code-Caffe]](https://dl.dropboxusercontent.com/u/6448899/caffe.zip) [[Paper]](https://arxiv.org/abs/1412.4526)</br>
 69.	 **Wider or deeper: Revisiting the resnet model for visual recognition** [[Paper]](https://arxiv.org/abs/1611.10080)</br>
+70.	 Describing the Scene as a Whole: Joint Object Detection, Scene Classification and Semantic Segmentation[[Paper]](https://ttic.uchicago.edu/~yaojian/Paper_Holistic.pdf)</br>
+71.	 Analyzing Semantic Segmentation Using Hybrid Human-Machine CRFs[[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Mottaghi_Analyzing_Semantic_Segmentation_2013_CVPR_paper.pdf)</br>
+72.	 Convolutional Patch Networks with Spatial Prior for Road Detection and Urban Scene Understanding[[Paper]](https://arxiv.org/abs/1502.06344.pdf)</br>
+73.	 Deep Deconvolutional Networks for Scene Parsing[[Paper]](https://arxiv.org/abs/1411.4101)</br>
+
+#Real-Time Semantic Segmentation
+</br>
+1.	 LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation [[Paper]](https://arxiv.org/abs/1707.03718.pdf)</br>
+2.	 ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation-2016 [[Code-Caffe1]](https://github.com/e-lab/ENet-training)[[Code-Caffe2]](https://github.com/TimoSaemann/ENet) [[Paper]](https://arxiv.org/abs/1606.02147) [[Blog]](https://culurciello.github.io/tech/2016/06/20/training-enet.html)</br>
+3.	 Efficient Deep Models for Monocular Road Segmentation[[Paper]](http://ais.informatik.uni-freiburg.de/publications/papers/oliveira16iros.pdf)</br>
+4.	 Real-Time Coarse-to-fine Topologically Preserving Segmentation[[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Yao_Real-Time_Coarse-to-Fine_Topologically_2015_CVPR_paper.pdf)</br>
 </br>
 # Part Semantic Segmentation
 </br>
@@ -85,6 +96,7 @@ Some implementation of semantic segmantation for DL model</br>
 5.  Neural Activation Constellations-Unsupervised Part Model Discovery with Convolutional Networks-2015 [[Paper]](https://arxiv.org/abs/1504.08289)</br>
 6.  Human Parsing with Contextualized Convolutional Neural Network-2015 [[Paper]](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liang_Human_Parsing_With_ICCV_2015_paper.pdf)</br>
 7.  Part detector discovery in deep convolutional neural networks-2014 [[Code]](https://github.com/cvjena/PartDetectorDisovery) [[Paper]](https://arxiv.org/abs/1411.3159)</br>
+8.	Hypercolumns for object segmentation and fine-grained localization [[Paper]](http://www.eecs.berkeley.edu/~bharath2/pubs/pdfs/BharathCVPR2015.pdf)</br>
 </br>
 # Clothes Parsing
 </br>
