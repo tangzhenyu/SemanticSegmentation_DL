@@ -74,7 +74,7 @@ Some implementation of semantic segmantation for DL model</br>
 66.  **Fully Convolutional Networks for Semantic Segmentation-2015** [[Code-Caffe]](https://github.com/shelhamer/fcn.berkeleyvision.org) [[Model-Caffe]](https://github.com/BVLC/caffe/wiki/Model-Zoo#fcn) [[Code-Tensorflow1]](https://github.com/MarvinTeichmann/tensorflow-fcn) [[Code-Tensorflow2]](https://github.com/shekkizh/FCN.tensorflow) [[Code-Chainer]](https://github.com/wkentaro/fcn) [[Code-PyTorch]](https://github.com/wkentaro/pytorch-fcn) [[Paper1]](http://arxiv.org/abs/1411.4038) [[Paper2]](http://arxiv.org/abs/1605.06211) [[Slides1]](https://docs.google.com/presentation/d/1VeWFMpZ8XN7OC3URZP4WdXvOGYckoFWGVN7hApoXVnc) [[Slides2]](http://tutorial.caffe.berkeleyvision.org/caffe-cvpr15-pixels.pdf)</br>
 67.  Deep Joint Task Learning for Generic Object Extraction-2014 [[Project]](http://vision.sysu.edu.cn/projects/deep-joint-task-learning/) [[Code-Caffe]](https://github.com/xiaolonw/nips14_loc_seg_testonly) [[Dataset]](http://objectextraction.github.io/) [[Paper]](http://ss.sysu.edu.cn/~ll/files/NIPS2014_JointTask.pdf)</br>
 68.  Highly Efficient Forward and Backward Propagation of Convolutional Neural Networks for Pixelwise Classification-2014 [[Code-Caffe]](https://dl.dropboxusercontent.com/u/6448899/caffe.zip) [[Paper]](https://arxiv.org/abs/1412.4526)</br>
-69.	 **Wider or deeper: Revisiting the resnet model for visual recognition [[Paper]](https://arxiv.org/abs/1611.10080)</br>
+69.	 **Wider or deeper: Revisiting the resnet model for visual recognition** [[Paper]](https://arxiv.org/abs/1611.10080)</br>
 </br>
 # Part Semantic Segmentation
 </br>
