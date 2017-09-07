@@ -79,13 +79,14 @@ Some implementation of semantic segmantation for DL model</br>
 71.	 Analyzing Semantic Segmentation Using Hybrid Human-Machine CRFs[[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Mottaghi_Analyzing_Semantic_Segmentation_2013_CVPR_paper.pdf)</br>
 72.	 Convolutional Patch Networks with Spatial Prior for Road Detection and Urban Scene Understanding[[Paper]](https://arxiv.org/abs/1502.06344.pdf)</br>
 73.	 Deep Deconvolutional Networks for Scene Parsing[[Paper]](https://arxiv.org/abs/1411.4101)</br>
+74.  FusionSeg: Learning to combine motion and appearance for fully automatic segmention of generic objects in videos[[Paper]](https://arxiv.org/pdf/1701.05384.pdf)[[Poject]](http://vision.cs.utexas.edu/projects/fusionseg/)</br>
 
 # Real-Time Semantic Segmentation
 1.	 LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation [[Paper]](https://arxiv.org/abs/1707.03718.pdf)</br>
 2.	 ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation-2016 [[Code-Caffe1]](https://github.com/e-lab/ENet-training)[[Code-Caffe2]](https://github.com/TimoSaemann/ENet) [[Paper]](https://arxiv.org/abs/1606.02147) [[Blog]](https://culurciello.github.io/tech/2016/06/20/training-enet.html)</br>
 3.	 Efficient Deep Models for Monocular Road Segmentation[[Paper]](http://ais.informatik.uni-freiburg.de/publications/papers/oliveira16iros.pdf)</br>
 4.	 Real-Time Coarse-to-fine Topologically Preserving Segmentation[[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Yao_Real-Time_Coarse-to-Fine_Topologically_2015_CVPR_paper.pdf)</br>
-</br>
+
 # Part Semantic Segmentation
 1.  Look into Person: Self-supervised Structure-sensitive Learning and A New Benchmark for Human Parsing-2017 [[Project]](http://hcp.sysu.edu.cn/lip/) [[Code-Caffe]](https://github.com/Engineering-Course/LIP_SSL) [[Paper]](https://arxiv.org/abs/1703.05446)</br>
 2.  **Deep Learning for Human Part Discovery in Images-2016** [[Code-Chainer]](https://github.com/shiba24/deep-learning-for-human-part-discovery-in-images) [[Paper]](http://lmb.informatik.uni-freiburg.de/Publications/2016/OB16a/oliveira16icra.pdf)</br>
@@ -95,17 +96,16 @@ Some implementation of semantic segmantation for DL model</br>
 6.  Human Parsing with Contextualized Convolutional Neural Network-2015 [[Paper]](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liang_Human_Parsing_With_ICCV_2015_paper.pdf)</br>
 7.  Part detector discovery in deep convolutional neural networks-2014 [[Code]](https://github.com/cvjena/PartDetectorDisovery) [[Paper]](https://arxiv.org/abs/1411.3159)</br>
 8.	Hypercolumns for object segmentation and fine-grained localization [[Paper]](http://www.eecs.berkeley.edu/~bharath2/pubs/pdfs/BharathCVPR2015.pdf)</br>
-</br>
+
 # Clothes Parsing
-</br>
 1.  Looking at Outfit to Parse Clothing-2017 [[Paper]](https://arxiv.org/abs/1703.01386)</br>
 2.  Semantic Object Parsing with Local-Global Long Short-Term Memory-2015 [[Paper]](https://arxiv.org/abs/1511.04510)</br>
 3.  A High Performance CRF Model for Clothes Parsing-2014 [[Project]](http://hi.cs.waseda.ac.jp/~esimo/en/code/clothes_parsing/) [[Code]](https://github.com/bobbens/clothes_parsing) [[Dataset]](http://vision.is.tohoku.ac.jp/~kyamagu/ja/research/clothing_parsing/) [[Paper]](https://pdfs.semanticscholar.org/0416/f5d1564d1f2a597acac04e81b02b2eff67d2.pdf)</br>
 4.  Clothing co-parsing by joint image segmentation and labeling-2013 [[Project]](http://hcp.sysu.edu.cn/clothing-co-parsing-by-joint-image-segmentation-and-labeling/) [[Dataset]](https://github.com/bearpaw/clothing-co-parsing) [[Paper]](https://arxiv.org/abs/1502.00739)</br>
 5.  Parsing clothing in fashion photographs-2012 [[Project]](http://vision.is.tohoku.ac.jp/~kyamagu/research/clothing_parsing/) [[Paper]](http://vision.is.tohoku.ac.jp/~kyamagu/papers/yamaguchi_cvpr2012.pdf)</br>
-</br>
+
+
 # Instance Segmentation
-</br>
 1.  Pixelwise Instance Segmentation with a Dynamically Instantiated Network-2017 [[Paper]](https://arxiv.org/abs/1704.02386)</br>
 2.  Semantic Instance Segmentation via Deep Metric Learning-2017 [[Paper]](https://arxiv.org/abs/1703.10277)</br>
 3.  Mask R-CNN-2017 [[Code-Tensorflow]](https://github.com/CharlesShang/FastMaskRCNN) [[Paper]](https://arxiv.org/abs/1703.06870)</br>
@@ -116,13 +116,11 @@ Some implementation of semantic segmantation for DL model</br>
 8.  Recurrent Instance Segmentation-2015 [[Project]](http://romera-paredes.com/ris) [[Code-Torch7]](https://github.com/bernard24/ris) [[Paper]](http://arxiv.org/abs/1511.08250) [[Poster]](http://www.eccv2016.org/files/posters/P-4B-46.pdf) [[Video]](https://www.youtube.com/watch?v=l_WD2OWOqBk)</br>
 </br>
 # Segment Object Candidates
-</br>
 1.  FastMask: Segment Object Multi-scale Candidates in One Shot-2016 [[Code-Caffe]](https://github.com/voidrank/FastMask) [[Paper]](https://arxiv.org/abs/1612.08843)</br>
 2.  Learning to Refine Object Segments-2016 [[Code-Torch]](https://github.com/facebookresearch/deepmask) [[Paper]](http://arxiv.org/abs/1603.08695)</br>
 3.  Learning to Segment Object Candidates-2015 [[Code-Torch]](https://github.com/facebookresearch/deepmask) [[Code-Theano-Keras]](https://github.com/abbypa/NNProject_DeepMask) [[Paper]](http://arxiv.org/abs/1506.06204)</br>
-</br>
+
 # Foreground Object Segmentation
-</br>
 1.  **Pixel Objectness-2017** [[Project]](http://vision.cs.utexas.edu/projects/pixelobjectness/) [[Code-Caffe]](https://github.com/suyogduttjain/pixelobjectness) [[Paper]](https://arxiv.org/abs/1701.05349)</br>
 2.  A Deep Convolutional Neural Network for Background Subtraction-2017 [[Paper]](https://arxiv.org/abs/1702.01731)</br>
 
