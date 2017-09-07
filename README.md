@@ -4,8 +4,8 @@ Some implementation of semantic segmantation for DL model</br>
 [voc2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)</br>
 [MSCOCO](http://mscoco.org/explore/)</br>
 </br>
-#Resources:</br>
-# Semantic Segmentation</br>
+# Resources:
+# Semantic Segmentation
 1.  Stacked Deconvolutional Network for Semantic Segmentation-2017 [[Paper]](https://arxiv.org/pdf/1708.04943.pdf)</br>
 2.  Deeplab v3: Rethinking Atrous Convolution for Semantic Image Segmentation-2017(DeeplabV3) [[Paper]](https://arxiv.org/pdf/1706.05587.pdf)</br>
 3.  Learning Object Interactions and Descriptions for Semantic Image Segmentation-2017 [[Paper]](http://personal.ie.cuhk.edu.hk/~pluo/pdf/wangLLWcvpr17.pdf)</br>
@@ -80,15 +80,13 @@ Some implementation of semantic segmantation for DL model</br>
 72.	 Convolutional Patch Networks with Spatial Prior for Road Detection and Urban Scene Understanding[[Paper]](https://arxiv.org/abs/1502.06344.pdf)</br>
 73.	 Deep Deconvolutional Networks for Scene Parsing[[Paper]](https://arxiv.org/abs/1411.4101)</br>
 
-#Real-Time Semantic Segmentation
-</br>
+# Real-Time Semantic Segmentation
 1.	 LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation [[Paper]](https://arxiv.org/abs/1707.03718.pdf)</br>
 2.	 ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation-2016 [[Code-Caffe1]](https://github.com/e-lab/ENet-training)[[Code-Caffe2]](https://github.com/TimoSaemann/ENet) [[Paper]](https://arxiv.org/abs/1606.02147) [[Blog]](https://culurciello.github.io/tech/2016/06/20/training-enet.html)</br>
 3.	 Efficient Deep Models for Monocular Road Segmentation[[Paper]](http://ais.informatik.uni-freiburg.de/publications/papers/oliveira16iros.pdf)</br>
 4.	 Real-Time Coarse-to-fine Topologically Preserving Segmentation[[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Yao_Real-Time_Coarse-to-Fine_Topologically_2015_CVPR_paper.pdf)</br>
 </br>
 # Part Semantic Segmentation
-</br>
 1.  Look into Person: Self-supervised Structure-sensitive Learning and A New Benchmark for Human Parsing-2017 [[Project]](http://hcp.sysu.edu.cn/lip/) [[Code-Caffe]](https://github.com/Engineering-Course/LIP_SSL) [[Paper]](https://arxiv.org/abs/1703.05446)</br>
 2.  **Deep Learning for Human Part Discovery in Images-2016** [[Code-Chainer]](https://github.com/shiba24/deep-learning-for-human-part-discovery-in-images) [[Paper]](http://lmb.informatik.uni-freiburg.de/Publications/2016/OB16a/oliveira16icra.pdf)</br>
 3.  **A CNN Cascade for Landmark Guided Semantic Part Segmentation-2016** [[Project]](http://aaronsplace.co.uk/papers/jackson2016guided/) [[Paper]](https://arxiv.org/abs/1609.09642)</br>
