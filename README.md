@@ -114,7 +114,7 @@ Some implementation of semantic segmantation for DL model</br>
 6.  Fully Convolutional Instance-aware Semantic Segmentation-2016 [[Code]](https://github.com/msracver/FCIS) [[Paper]](https://arxiv.org/abs/1611.07709)</br>
 7.  **Instance-aware Semantic Segmentation via Multi-task Network Cascades-2015** [[Code]](https://github.com/daijifeng001/MNC) [[Paper]](http://arxiv.org/abs/1512.04412)</br>
 8.  Recurrent Instance Segmentation-2015 [[Project]](http://romera-paredes.com/ris) [[Code-Torch7]](https://github.com/bernard24/ris) [[Paper]](http://arxiv.org/abs/1511.08250) [[Poster]](http://www.eccv2016.org/files/posters/P-4B-46.pdf) [[Video]](https://www.youtube.com/watch?v=l_WD2OWOqBk)</br>
-</br>
+
 # Segment Object Candidates
 1.  FastMask: Segment Object Multi-scale Candidates in One Shot-2016 [[Code-Caffe]](https://github.com/voidrank/FastMask) [[Paper]](https://arxiv.org/abs/1612.08843)</br>
 2.  Learning to Refine Object Segments-2016 [[Code-Torch]](https://github.com/facebookresearch/deepmask) [[Paper]](http://arxiv.org/abs/1603.08695)</br>
