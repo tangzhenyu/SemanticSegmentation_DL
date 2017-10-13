@@ -30,7 +30,7 @@ Some implementation of semantic segmantation for DL model</br>
 [MSCOCO](http://mscoco.org/explore/)</br>
 </br>
 # Resources:
-# Paper of Semantic Segmentation
+# Semantic Segmentation
 1.  Stacked Deconvolutional Network for Semantic Segmentation-2017 [[Paper]](https://arxiv.org/pdf/1708.04943.pdf)</br>
 2.  Deeplab v3: Rethinking Atrous Convolution for Semantic Image Segmentation-2017(DeeplabV3) [[Paper]](https://arxiv.org/pdf/1706.05587.pdf)</br>
 3.  Learning Object Interactions and Descriptions for Semantic Image Segmentation-2017 [[Paper]](http://personal.ie.cuhk.edu.hk/~pluo/pdf/wangLLWcvpr17.pdf)</br>
@@ -105,6 +105,9 @@ Some implementation of semantic segmantation for DL model</br>
 72.	 Convolutional Patch Networks with Spatial Prior for Road Detection and Urban Scene Understanding[[Paper]](https://arxiv.org/abs/1502.06344.pdf)</br>
 73.	 Deep Deconvolutional Networks for Scene Parsing[[Paper]](https://arxiv.org/abs/1411.4101)</br>
 74.  FusionSeg: Learning to combine motion and appearance for fully automatic segmention of generic objects in videos[[Paper]](https://arxiv.org/pdf/1701.05384.pdf)[[Poject]](http://vision.cs.utexas.edu/projects/fusionseg/)</br>
+
+# Transferable Semantic Segmentation
+1. Weakly Supervised Object Localization Using Things and Stuff Transfer [[Paper]](https://arxiv.org/pdf/1703.08000.pdf)
 
 # Real-Time Semantic Segmentation
 1.	 LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation [[Paper]](https://arxiv.org/abs/1707.03718.pdf)</br>
