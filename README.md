@@ -1,11 +1,36 @@
+
+Merge something from [https://github.com/nightrome/really-awesome-semantic-segmentation](https://github.com/nightrome/really-awesome-semantic-segmentation)
+
+# really-awesome-semantic-segmentation
+A list of all papers on Semantic Segmentation and the datasets they use.
+[COCO-Stuff dataset](https://github.com/nightrome/cocostuff).
+
+**Announcement:** Starting from September 1 we are organizing the public [COCO 2017 Stuff Segmentation Challenge](http://cocodataset.org). Please consider participating. Winners will be announced at the [Joint COCO and Places Recognition](https://places-coco2017.github.io/) workshop at ICCV 2017.
+
+# Dataset importance
+![Dataset importance plot](http://www.it-caesar.com/github/Dataset_importance.png?raw=true "Dataset importance plot")
+
+# Details
+For details which paper uses which dataset, please open the [Google Drive document](https://docs.google.com/spreadsheets/d/1r1PNqpcNyo3E8enQdBz-zze7nMiOUd4lb890WPh7aII/edit?usp=sharing).
+
+# Survey papers
+- A 2017 Guide to Semantic Segmentation with Deep Learning by Qure AI [[Blog about different sem. segm. methods]](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review)
+- A Review on Deep Learning Techniques Applied to Semantic Segmentation [[Survey paper with a special focus on datasets and the highest performing methods]](https://arxiv.org/abs/1704.06857)
+- Computer Vision for Autonomous Vehicles: Problems, Datasets and State-of-the-Art [[Survey paper about all aspects of autonomous vehicles, including sem. segm.]](https://arxiv.org/abs/1704.05519) [[Webpage with a summary of all relevant publications]](http://www.cvlibs.net/projects/autonomous_vision_survey/)
+
+# Online demos
+- [CRF as RNN](http://www.robots.ox.ac.uk/~szheng/crfasrnndemo)
+- [SegNet](http://mi.eng.cam.ac.uk/projects/segnet/demo.php#demo)
+
+
 # SemanticSegmentation_DL
 Some implementation of semantic segmantation for DL model</br>
-#Dataset:</br>
+# Dataset:</br>
 [voc2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)</br>
 [MSCOCO](http://mscoco.org/explore/)</br>
 </br>
 # Resources:
-# Semantic Segmentation
+# Paper of Semantic Segmentation
 1.  Stacked Deconvolutional Network for Semantic Segmentation-2017 [[Paper]](https://arxiv.org/pdf/1708.04943.pdf)</br>
 2.  Deeplab v3: Rethinking Atrous Convolution for Semantic Image Segmentation-2017(DeeplabV3) [[Paper]](https://arxiv.org/pdf/1706.05587.pdf)</br>
 3.  Learning Object Interactions and Descriptions for Semantic Image Segmentation-2017 [[Paper]](http://personal.ie.cuhk.edu.hk/~pluo/pdf/wangLLWcvpr17.pdf)</br>
