@@ -106,9 +106,11 @@ Some implementation of semantic segmantation for DL model</br>
 73.	 Deep Deconvolutional Networks for Scene Parsing[[Paper]](https://arxiv.org/abs/1411.4101)</br>
 74.  FusionSeg: Learning to combine motion and appearance for fully automatic segmention of generic objects in videos[[Paper]](https://arxiv.org/pdf/1701.05384.pdf)[[Poject]](http://vision.cs.utexas.edu/projects/fusionseg/)</br>
 75. Deep Dual Learning for Semantic Image Segmentation [[Paper]](http://personal.ie.cuhk.edu.hk/~pluo/pdf/luoWLWiccv17.pdf)
+76. From image-level to pixel level labeling with convolutional networks [[Paper]]()
 
 # Transferable Semantic Segmentation
 1. Weakly Supervised Object Localization Using Things and Stuff Transfer [[Paper]](https://arxiv.org/pdf/1703.08000.pdf)
+2.  Semi and Weakly Supervised Semantic Segmentation Using Generative Adversarial Network [[Paper]](http://crcv.ucf.edu/papers/1703.09695.pdf)
 
 # Real-Time Semantic Segmentation
 1.	 LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation [[Paper]](https://arxiv.org/abs/1707.03718.pdf)</br>
