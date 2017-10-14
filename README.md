@@ -105,6 +105,7 @@ Some implementation of semantic segmantation for DL model</br>
 72.	 Convolutional Patch Networks with Spatial Prior for Road Detection and Urban Scene Understanding[[Paper]](https://arxiv.org/abs/1502.06344.pdf)</br>
 73.	 Deep Deconvolutional Networks for Scene Parsing[[Paper]](https://arxiv.org/abs/1411.4101)</br>
 74.  FusionSeg: Learning to combine motion and appearance for fully automatic segmention of generic objects in videos[[Paper]](https://arxiv.org/pdf/1701.05384.pdf)[[Poject]](http://vision.cs.utexas.edu/projects/fusionseg/)</br>
+75. Deep Dual Learning for Semantic Image Segmentation [[Paper]](http://personal.ie.cuhk.edu.hk/~pluo/pdf/luoWLWiccv17.pdf)
 
 # Transferable Semantic Segmentation
 1. Weakly Supervised Object Localization Using Things and Stuff Transfer [[Paper]](https://arxiv.org/pdf/1703.08000.pdf)
