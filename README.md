@@ -107,6 +107,7 @@ Some implementation of semantic segmantation for DL model</br>
 74.  FusionSeg: Learning to combine motion and appearance for fully automatic segmention of generic objects in videos[[Paper]](https://arxiv.org/pdf/1701.05384.pdf)[[Poject]](http://vision.cs.utexas.edu/projects/fusionseg/)</br>
 75. Deep Dual Learning for Semantic Image Segmentation [[Paper]](http://personal.ie.cuhk.edu.hk/~pluo/pdf/luoWLWiccv17.pdf)
 76. From image-level to pixel level labeling with convolutional networks [[Paper]]()
+77. Scene Segmentation with DAG-Recurrent Neural Networks [[Paper]](http://ieeexplore.ieee.org/abstract/document/7940028/)
 
 # Transferable Semantic Segmentation
 1. Weakly Supervised Object Localization Using Things and Stuff Transfer [[Paper]](https://arxiv.org/pdf/1703.08000.pdf)
