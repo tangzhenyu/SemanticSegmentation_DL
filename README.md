@@ -50,7 +50,7 @@ Some implementation of semantic segmantation for DL model</br>
 17.  **PixelNet: Representation of the pixels, by the pixels, and for the pixels-2017** [[Project]](http://www.cs.cmu.edu/~aayushb/pixelNet/) [[Code-Caffe]](https://github.com/aayushbansal/PixelNet) [[Paper]](https://arxiv.org/abs/1702.06506)</br>
 18.  LabelBank: Revisiting Global Perspectives for Semantic Segmentation-2017 [[Paper]](https://arxiv.org/abs/1703.09891)</br>
 19.  Progressively Diffused Networks for Semantic Image Segmentation-2017 [[Paper]](https://arxiv.org/abs/1702.05839)</br>
-20.  Understanding Convolution for Semantic Segmentation-2017 [[Model-Mxnet]](https://drive.google.com/drive/folders/0B72xLTlRb0SoREhISlhibFZTRmM) [[Paper]](https://arxiv.org/abs/1702.08502)</br>
+20.  Understanding Convolution for Semantic Segmentation-2017 [[Model-Mxnet]](https://drive.google.com/drive/folders/0B72xLTlRb0SoREhISlhibFZTRmM) [[Paper]](https://arxiv.org/abs/1702.08502) [[Code]](https://github.com/TuSimple/TuSimple-DUC)</br>
 21.  Predicting Deeper into the Future of Semantic Segmentation-2017 [[Paper]](https://arxiv.org/abs/1703.07684)</br>
 22.  **Pyramid Scene Parsing Network-2017** [[Project]](https://hszhao.github.io/projects/pspnet/) [[Code-Caffe]](https://github.com/hszhao/PSPNet) [[Paper]](https://arxiv.org/abs/1612.01105) [[Slides]](http://image-net.org/challenges/talks/2016/SenseCUSceneParsing.pdf)</br>
 23.  FCNs in the Wild: Pixel-level Adversarial and Constraint-based Adaptation-2016 [[Paper]](https://arxiv.org/abs/1612.02649)</br>
