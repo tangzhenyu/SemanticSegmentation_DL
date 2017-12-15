@@ -28,6 +28,7 @@ Some implementation of semantic segmantation for DL model</br>
 # Dataset:</br>
 [voc2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)</br>
 [MSCOCO](http://mscoco.org/explore/)</br>
+[CitySpaces](https://www.cityscapes-dataset.com/)</br>
 </br>
 # Resources:
 # Semantic Segmentation
@@ -110,6 +111,8 @@ Some implementation of semantic segmantation for DL model</br>
 77. Scene Segmentation with DAG-Recurrent Neural Networks [[Paper]](http://ieeexplore.ieee.org/abstract/document/7940028/)
 78. Learning to Segment Every Thing [[Paper]](https://arxiv.org/pdf/1711.10370.pdf)
 
+# Video Semantic Segmentation
+1. Feature Space Optimization for Semantic Video Segmentation[[Paper]](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Kundu2016CVPR.pdf)[[Slides]](http://www.cvlibs.net/projects/autonomous_vision_survey/slides/Kundu2016CVPR/top.pdf)
 
 # Transferable Semantic Segmentation
 1. Weakly Supervised Object Localization Using Things and Stuff Transfer [[Paper]](https://arxiv.org/pdf/1703.08000.pdf)
