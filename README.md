@@ -29,6 +29,14 @@ Some implementation of semantic segmantation for DL model</br>
 [voc2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)</br>
 [MSCOCO](http://mscoco.org/explore/)</br>
 [CitySpaces](https://www.cityscapes-dataset.com/)</br>
+[KITTI](http://www.cvlibs.net/datasets/kitti/)</br>
+[Mapillary](https://www.mapillary.com/dataset/vistas)</br>
+[ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)</br>
+[PASCAL Context](http://www.cs.stanford.edu/~roozbeh/pascal-context/)</br>
+[COCO-Stuff 10K dataset v1.1](https://github.com/nightrome/cocostuff)</br>
+[2D-3D-S dataset](http://buildingparser.stanford.edu/dataset.html)</br>
+[Mapillary Vistas](https://www.youtube.com/karolmajek)</br>
+
 </br>
 # Resources:
 # Semantic Segmentation
@@ -106,17 +114,27 @@ Some implementation of semantic segmantation for DL model</br>
 72.	 Convolutional Patch Networks with Spatial Prior for Road Detection and Urban Scene Understanding[[Paper]](https://arxiv.org/abs/1502.06344.pdf)</br>
 73.	 Deep Deconvolutional Networks for Scene Parsing[[Paper]](https://arxiv.org/abs/1411.4101)</br>
 74.  FusionSeg: Learning to combine motion and appearance for fully automatic segmention of generic objects in videos[[Paper]](https://arxiv.org/pdf/1701.05384.pdf)[[Poject]](http://vision.cs.utexas.edu/projects/fusionseg/)</br>
-75. Deep Dual Learning for Semantic Image Segmentation [[Paper]](http://personal.ie.cuhk.edu.hk/~pluo/pdf/luoWLWiccv17.pdf)
-76. From image-level to pixel level labeling with convolutional networks [[Paper]]()
-77. Scene Segmentation with DAG-Recurrent Neural Networks [[Paper]](http://ieeexplore.ieee.org/abstract/document/7940028/)
-78. Learning to Segment Every Thing [[Paper]](https://arxiv.org/pdf/1711.10370.pdf)
+75. Deep Dual Learning for Semantic Image Segmentation [[Paper]](http://personal.ie.cuhk.edu.hk/~pluo/pdf/luoWLWiccv17.pdf)</br>
+76. From image-level to pixel level labeling with convolutional networks [[Paper]]()</br>
+77. Scene Segmentation with DAG-Recurrent Neural Networks [[Paper]](http://ieeexplore.ieee.org/abstract/document/7940028/)</br>
+78. Learning to Segment Every Thing [[Paper]](https://arxiv.org/pdf/1711.10370.pdf)</br>
 
 # Video Semantic Segmentation
-1. Feature Space Optimization for Semantic Video Segmentation[[Paper]](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Kundu2016CVPR.pdf)[[Slides]](http://www.cvlibs.net/projects/autonomous_vision_survey/slides/Kundu2016CVPR/top.pdf)
+1. Feature Space Optimization for Semantic Video Segmentation[[Paper]](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Kundu2016CVPR.pdf)[[Slides]](http://www.cvlibs.net/projects/autonomous_vision_survey/slides/Kundu2016CVPR/top.pdf)</br>
+
+# Road Segmentation
+1. MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving [[Paper]](https://arxiv.org/pdf/1612.07695.pdf)</br>
+2. self-driving-car-road-segmentation [[Link]](https://medium.com/@karol_majek/self-driving-car-road-segmentation-514ae80e103a)</br>
+3. Efficient Deep Models for Monocular Road Segmentation[[Paper]](http://ais.informatik.uni-freiburg.de/publications/papers/oliveira16iros.pdf)</br>
+4. Semantic Road Segmentation via Multi-scale Ensembles of Learned Features [[Paper]]()</br>
+5. Distantly Supervised Road Segmentation [[Paper]](https://arxiv.org/pdf/1708.06118)</br>
+6. Deep Fully Convolutional Networks with Random Data Augmentation for Enhanced Generalization in Road Detection [[Paper]](http://isislab.es/llorca/publications_files/IEEEITSC17_RoadAugmentedDataFCNN.pdf)</br>
+7. Real-time category-based and general obstacle detection for autonomous driving [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Garnett_Real-Time_Category-Based_and_ICCV_2017_paper.pdf)</br>
+8. Road Scene Segmentation from a Single Image [[Paper]]()</br>
 
 # Transferable Semantic Segmentation
-1. Weakly Supervised Object Localization Using Things and Stuff Transfer [[Paper]](https://arxiv.org/pdf/1703.08000.pdf)
-2.  Semi and Weakly Supervised Semantic Segmentation Using Generative Adversarial Network [[Paper]](http://crcv.ucf.edu/papers/1703.09695.pdf)
+1. Weakly Supervised Object Localization Using Things and Stuff Transfer [[Paper]](https://arxiv.org/pdf/1703.08000.pdf)</br>
+2.  Semi and Weakly Supervised Semantic Segmentation Using Generative Adversarial Network [[Paper]](http://crcv.ucf.edu/papers/1703.09695.pdf)</br>
 
 # Real-Time Semantic Segmentation
 1.	 LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation [[Paper]](https://arxiv.org/abs/1707.03718.pdf)</br>
