@@ -1,4 +1,4 @@
-# really-awesome-semantic-segmentation
+# Semantic-Segmentation
 A list of all papers on Semantic Segmentation and the datasets they use.
 [COCO-Stuff dataset](https://github.com/nightrome/cocostuff).
 
