@@ -167,6 +167,7 @@ Some implementation of semantic segmantation for DL model</br>
 7.  **Instance-aware Semantic Segmentation via Multi-task Network Cascades-2015** [[Code]](https://github.com/daijifeng001/MNC) [[Paper]](http://arxiv.org/abs/1512.04412)</br>
 8.  Recurrent Instance Segmentation-2015 [[Project]](http://romera-paredes.com/ris) [[Code-Torch7]](https://github.com/bernard24/ris) [[Paper]](http://arxiv.org/abs/1511.08250) [[Poster]](http://www.eccv2016.org/files/posters/P-4B-46.pdf) [[Video]](https://www.youtube.com/watch?v=l_WD2OWOqBk)</br>
 9. Annotating Object Instances with a Polygon-RNN [[Paper]](https://arxiv.org/abs/1704.05548)
+10. MaskLab: Instance Segmentation by Refining Object Detection with Semantic and Direction Features [[Paper]](https://arxiv.org/abs/1712.04837v1)
 
 # Segment Object Candidates
 1.  FastMask: Segment Object Multi-scale Candidates in One Shot-2016 [[Code-Caffe]](https://github.com/voidrank/FastMask) [[Paper]](https://arxiv.org/abs/1612.08843)</br>
