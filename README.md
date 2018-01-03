@@ -117,6 +117,12 @@ Some implementation of semantic segmantation for DL model</br>
 78. Learning to Segment Every Thing [[Paper]](https://arxiv.org/pdf/1711.10370.pdf)</br>
 79. Weakly-Supervised Dual Clustering for Image Semantic Segmentation [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Liu_Weakly-Supervised_Dual_Clustering_2013_CVPR_paper.pdf)</br>
 
+# Medical Image Semantic Segmentation
+1. Semantic Image  Segmentation with Deep Learning [[Paper]](http://www.robots.ox.ac.uk/~sadeep/files/crfasrnn_presentation.pdf)
+2. Automatic Liver and Tumor Segmentation of CT and MRI Volumes Using Cascaded Fully Convolutional Neural Networks [[Paper]](https://arxiv.org/pdf/1702.05970.pdf)
+3. DeepNAT: Deep Convolutional Neural Network for Segmenting Neuroanatomy [[Paper]](https://arxiv.org/pdf/1702.08192.pdf)
+4. CNN-based Segmentation of Medical Imaging Data [[Paper]](https://arxiv.org/pdf/1701.03056.pdf)
+
 # Video Semantic Segmentation
 1. Feature Space Optimization for Semantic Video Segmentation[[Paper]](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Kundu2016CVPR.pdf)[[Slides]](http://www.cvlibs.net/projects/autonomous_vision_survey/slides/Kundu2016CVPR/top.pdf)</br>
 
