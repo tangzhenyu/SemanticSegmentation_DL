@@ -125,7 +125,8 @@ Some implementation of semantic segmantation for DL model</br>
 
 # Video Semantic Segmentation
 1. Feature Space Optimization for Semantic Video Segmentation[[Paper]](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Kundu2016CVPR.pdf)[[Slides]](http://www.cvlibs.net/projects/autonomous_vision_survey/slides/Kundu2016CVPR/top.pdf)</br>
-## Result of DAVIS-Challenge 2017
+2. The Basics of Video Object Segmentation [[Blog]](https://techburst.io/video-object-segmentation-the-basics-758e77321914)
+- Result of DAVIS-Challenge 2017
 2016----A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation</br>
 2016----Clockwork Convnets for Video Semantic Segmentation</br>
 2016----MaskTrack ----Learning Video Object Segmentation from Static Images</br>
