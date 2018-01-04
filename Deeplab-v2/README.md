@@ -3,9 +3,6 @@
 Deeplab v2 + VGGNet16
 Deeplab v2 + ResNet 101 or 50
 
-
-The deeplab pre-trained ResNet-101 ckpt files (pre-trained on MSCOCO) are [here](https://drive.google.com/drive/folders/0B_rootXHuswsZ0E4Mjh1ZU5xZVU).
-
 ## Dependency
 Python 3.5
 tensorflow-gpu >= 1.2.0
