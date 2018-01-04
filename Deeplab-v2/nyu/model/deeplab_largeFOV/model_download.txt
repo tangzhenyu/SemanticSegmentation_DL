@@ -1,0 +1,2 @@
+http://liangchiehchen.com/projects/released/deeplab_aspp_vgg16/prototxt_and_model.zip
+or you can download it in my blog: http://download.csdn.net/download/xmo_jiao/9943695
