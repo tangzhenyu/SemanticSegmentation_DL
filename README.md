@@ -125,6 +125,24 @@ Some implementation of semantic segmantation for DL model</br>
 
 # Video Semantic Segmentation
 1. Feature Space Optimization for Semantic Video Segmentation[[Paper]](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Kundu2016CVPR.pdf)[[Slides]](http://www.cvlibs.net/projects/autonomous_vision_survey/slides/Kundu2016CVPR/top.pdf)</br>
+## Result of DAVIS-Challenge 2017
+2016----A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation</br>
+2016----Clockwork Convnets for Video Semantic Segmentation</br>
+2016----MaskTrack ----Learning Video Object Segmentation from Static Images</br>
+2017----DAVIS-Challenge-1st----Video Object Segmentation with Re-identification</br>
+2017----DAVIS-Challenge-2nd----Lucid Data Dreaming for Multiple Object Tracking</br>
+2017----DAVIS-Challenge-3rd----Instance Re-Identification Flow for Video Object Segmentation</br>
+2017----DAVIS-Challenge-4th----Multiple-Instance Video Segmentation with Sequence-Specific Object Proposals</br>
+2017----DAVIS-Challenge-5th Online Adaptation of Convolutional Neural Networks for the 2017 DAVIS Challenge on Video Object Segmentation</br>
+2017----DAVIS-Challenge-6th ----Learning to Segment Instances in Videos with Spatial Propagation Network</br>
+2017----DAVIS-Challenge-7th----Some Promising Ideas about Multi-instance Video Segmentation</br>
+2017----DAVIS-Challenge-8th----One-Shot Video Object Segmentation with Iterative Online Fine-Tuning</br>
+2017----DAVIS-Challenge-9th----Video Object Segmentation using Tracked Object Proposals</br>
+2017----ICCV2017----SegFlow_Joint Learning for Video Object Segmentation and Optical Flow</br>
+2017----OSVOS----One-Shot Video Object Segmentation</br>
+2017----Surveillance Video Parsing with Single Frame Supervision</br>
+2017----The 2017 DAVIS Challenge on Video Object Segmentation</br>
+2017----Video Propagation Networks</br>
 
 # Road Segmentation
 1. MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving [[Paper]](https://arxiv.org/pdf/1612.07695.pdf)</br>
