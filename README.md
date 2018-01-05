@@ -75,7 +75,9 @@ Some implementation of semantic segmantation for DL model</br>
 34.  Boundary-aware Instance Segmentation-2016 [[Paper]](https://infoscience.epfl.ch/record/227439/files/HayderHeSalzmannCVPR17.pdf)</br>
 35.  Improving Fully Convolution Network for Semantic Segmentation-2016 [[Paper]](https://arxiv.org/abs/1611.08986)</br>
 36.  Deep Structured Features for Semantic Segmentation-2016 [[Paper]](https://arxiv.org/abs/1609.07916)</br>
-37.  Deeplab v2: DeepLab:Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs-2016** [[Project]](http://liangchiehchen.com/projects/DeepLab.html) [[Code-Caffe]](https://bitbucket.org/deeplab/deeplab-public/) [[Code-Tensorflow]](https://github.com/DrSleep/tensorflow-deeplab-resnet) [[Code-PyTorch]](https://github.com/isht7/pytorch-deeplab-resnet) [[Paper]](https://arxiv.org/abs/1606.00915)</br>
+37.  
+
+v2: DeepLab:Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs-2016** [[Project]](http://liangchiehchen.com/projects/DeepLab.html) [[Code-Caffe]](https://bitbucket.org/deeplab/deeplab-public/) [[Code-Tensorflow]](https://github.com/DrSleep/tensorflow-deeplab-resnet) [[Code-PyTorch]](https://github.com/isht7/pytorch-deeplab-resnet) [[Paper]](https://arxiv.org/abs/1606.00915)</br>
 38.  DeepLab v1: Semantic Image Segmentation With Deep Convolutional Nets and Fully Connected CRFs-2014** [[Code-Caffe1]](https://bitbucket.org/deeplab/deeplab-public/) [[Code-Caffe2]](https://github.com/TheLegendAli/DeepLab-Context) [[Paper]](http://arxiv.org/abs/1412.7062)</br>
 39.  Deep Learning Markov Random Field for Semantic Segmentation-2016 [[Project]](http://personal.ie.cuhk.edu.hk/~lz013/projects/DPN.html) [[Paper]](https://arxiv.org/abs/1606.07230)</br>
 40.  Convolutional Random Walk Networks for Semantic Image Segmentation-2016 [[Paper]](https://arxiv.org/abs/1605.07681)</br>
@@ -155,7 +157,8 @@ Some implementation of semantic segmantation for DL model</br>
 5. Distantly Supervised Road Segmentation [[Paper]](https://arxiv.org/pdf/1708.06118)</br>
 6. Deep Fully Convolutional Networks with Random Data Augmentation for Enhanced Generalization in Road Detection [[Paper]](http://isislab.es/llorca/publications_files/IEEEITSC17_RoadAugmentedDataFCNN.pdf)</br>
 7. Real-time category-based and general obstacle detection for autonomous driving [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Garnett_Real-Time_Category-Based_and_ICCV_2017_paper.pdf)</br>
-8. Road Scene Segmentation from a Single Image [[Paper]]()</br>
+8. Road Scene Segmentation from a Single Image [[Paper]](http://yann.lecun.com/exdb/publis/pdf/alvarez-eccv-12.pdf)</br>
+9. FoveaNet: Perspective-aware Urban Scene Parsing [[Paper]](http://users.eecs.northwestern.edu/~xsh835/assets/iccv2017_foveanet.pdf)</br>
 
 # Transferable Semantic Segmentation
 1. Weakly Supervised Object Localization Using Things and Stuff Transfer [[Paper]](https://arxiv.org/pdf/1703.08000.pdf)</br>
