@@ -35,7 +35,9 @@ Some implementation of semantic segmantation for DL model</br>
 [Mapillary Vistas](https://www.youtube.com/karolmajek)</br>
 
 </br>
-# Resources:
+
+# Papers:
+
 # Semantic Segmentation
 1.  Stacked Deconvolutional Network for Semantic Segmentation-2017 [[Paper]](https://arxiv.org/pdf/1708.04943.pdf)</br>
 2.  Deeplab v3: Rethinking Atrous Convolution for Semantic Image Segmentation-2017(DeeplabV3) [[Paper]](https://arxiv.org/pdf/1706.05587.pdf)</br>
