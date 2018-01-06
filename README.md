@@ -120,6 +120,7 @@ v2: DeepLab:Semantic Image Segmentation with Deep Convolutional Nets, Atrous Con
 77. Scene Segmentation with DAG-Recurrent Neural Networks [[Paper]](http://ieeexplore.ieee.org/abstract/document/7940028/)</br>
 78. Learning to Segment Every Thing [[Paper]](https://arxiv.org/pdf/1711.10370.pdf)</br>
 79. Weakly-Supervised Dual Clustering for Image Semantic Segmentation [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Liu_Weakly-Supervised_Dual_Clustering_2013_CVPR_paper.pdf)</br>
+80. Panoptic Segmentation [[Paper]](https://arxiv.org/pdf/1801.00868.pdf)
 
 # Medical Image Semantic Segmentation
 1. Semantic Image  Segmentation with Deep Learning [[Paper]](http://www.robots.ox.ac.uk/~sadeep/files/crfasrnn_presentation.pdf)
