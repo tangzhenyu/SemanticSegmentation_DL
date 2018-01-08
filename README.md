@@ -121,6 +121,8 @@ v2: DeepLab:Semantic Image Segmentation with Deep Convolutional Nets, Atrous Con
 78. Learning to Segment Every Thing [[Paper]](https://arxiv.org/pdf/1711.10370.pdf)</br>
 79. Weakly-Supervised Dual Clustering for Image Semantic Segmentation [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Liu_Weakly-Supervised_Dual_Clustering_2013_CVPR_paper.pdf)</br>
 80. Panoptic Segmentation [[Paper]](https://arxiv.org/pdf/1801.00868.pdf)
+81. The Devil is in the Decoder [[Paper]](https://arxiv.org/pdf/1707.05847.pdf)
+82. Attention to Scale: Scale-aware Semantic Image Segmentation [[Paper]](http://arxiv.org/pdf/1511.03339)[[Project]](http://liangchiehchen.com/projects/DeepLab.html)
 
 # Medical Image Semantic Segmentation
 1. Semantic Image  Segmentation with Deep Learning [[Paper]](http://www.robots.ox.ac.uk/~sadeep/files/crfasrnn_presentation.pdf)
@@ -199,7 +201,7 @@ v2: DeepLab:Semantic Image Segmentation with Deep Convolutional Nets, Atrous Con
 7.  **Instance-aware Semantic Segmentation via Multi-task Network Cascades-2015** [[Code]](https://github.com/daijifeng001/MNC) [[Paper]](http://arxiv.org/abs/1512.04412)</br>
 8.  Recurrent Instance Segmentation-2015 [[Project]](http://romera-paredes.com/ris) [[Code-Torch7]](https://github.com/bernard24/ris) [[Paper]](http://arxiv.org/abs/1511.08250) [[Poster]](http://www.eccv2016.org/files/posters/P-4B-46.pdf) [[Video]](https://www.youtube.com/watch?v=l_WD2OWOqBk)</br>
 9. Annotating Object Instances with a Polygon-RNN [[Paper]](https://arxiv.org/abs/1704.05548)
-
+10. MaskLab: Instance Segmentation by Refining Object Detection with Semantic and Direction Features [[Paper]](https://arxiv.org/pdf/1712.04837.pdf)
 # Segment Object Candidates
 1.  FastMask: Segment Object Multi-scale Candidates in One Shot-2016 [[Code-Caffe]](https://github.com/voidrank/FastMask) [[Paper]](https://arxiv.org/abs/1612.08843)</br>
 2.  Learning to Refine Object Segments-2016 [[Code-Torch]](https://github.com/facebookresearch/deepmask) [[Paper]](http://arxiv.org/abs/1603.08695)</br>
