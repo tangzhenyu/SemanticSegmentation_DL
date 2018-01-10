@@ -75,9 +75,7 @@ Some implementation of semantic segmantation for DL model</br>
 34.  Boundary-aware Instance Segmentation-2016 [[Paper]](https://infoscience.epfl.ch/record/227439/files/HayderHeSalzmannCVPR17.pdf)</br>
 35.  Improving Fully Convolution Network for Semantic Segmentation-2016 [[Paper]](https://arxiv.org/abs/1611.08986)</br>
 36.  Deep Structured Features for Semantic Segmentation-2016 [[Paper]](https://arxiv.org/abs/1609.07916)</br>
-37.  
-
-v2: DeepLab:Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs-2016** [[Project]](http://liangchiehchen.com/projects/DeepLab.html) [[Code-Caffe]](https://bitbucket.org/deeplab/deeplab-public/) [[Code-Tensorflow]](https://github.com/DrSleep/tensorflow-deeplab-resnet) [[Code-PyTorch]](https://github.com/isht7/pytorch-deeplab-resnet) [[Paper]](https://arxiv.org/abs/1606.00915)</br>
+37.  v2: DeepLab:Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs-2016** [[Project]](http://liangchiehchen.com/projects/DeepLab.html) [[Code-Caffe]](https://bitbucket.org/deeplab/deeplab-public/) [[Code-Tensorflow]](https://github.com/DrSleep/tensorflow-deeplab-resnet) [[Code-PyTorch]](https://github.com/isht7/pytorch-deeplab-resnet) [[Paper]](https://arxiv.org/abs/1606.00915)</br>
 38.  DeepLab v1: Semantic Image Segmentation With Deep Convolutional Nets and Fully Connected CRFs-2014** [[Code-Caffe1]](https://bitbucket.org/deeplab/deeplab-public/) [[Code-Caffe2]](https://github.com/TheLegendAli/DeepLab-Context) [[Paper]](http://arxiv.org/abs/1412.7062)</br>
 39.  Deep Learning Markov Random Field for Semantic Segmentation-2016 [[Project]](http://personal.ie.cuhk.edu.hk/~lz013/projects/DPN.html) [[Paper]](https://arxiv.org/abs/1606.07230)</br>
 40.  Convolutional Random Walk Networks for Semantic Image Segmentation-2016 [[Paper]](https://arxiv.org/abs/1605.07681)</br>
@@ -129,6 +127,12 @@ v2: DeepLab:Semantic Image Segmentation with Deep Convolutional Nets, Atrous Con
 2. Automatic Liver and Tumor Segmentation of CT and MRI Volumes Using Cascaded Fully Convolutional Neural Networks [[Paper]](https://arxiv.org/pdf/1702.05970.pdf)
 3. DeepNAT: Deep Convolutional Neural Network for Segmenting Neuroanatomy [[Paper]](https://arxiv.org/pdf/1702.08192.pdf)
 4. CNN-based Segmentation of Medical Imaging Data [[Paper]](https://arxiv.org/pdf/1701.03056.pdf)
+
+# Weakly-Supervised-Segmentation
+1. Di Lin, Jifeng Dai, Jiaya Jia, Kaiming He, and Jian Sun.ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016
+2. Pathak, Deepak, Philipp Krahenbuhl, and Trevor Darrell. Constrained convolutional neural networks for weakly supervised segmentation. Proceedings of the IEEE International Conference on Computer Vision. 2015.
+3. Papandreou, George, et al. Weakly-and semi-supervised learning of a DCNN for semantic image segmentation. arXiv preprint arXiv:1502.02734 (2015).
+4. Xu, Jia, Alexander G. Schwing, and Raquel Urtasun. Learning to segment under various forms of weak supervision. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015.
 
 # Video Semantic Segmentation
 1. Feature Space Optimization for Semantic Video Segmentation[[Paper]](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Kundu2016CVPR.pdf)[[Slides]](http://www.cvlibs.net/projects/autonomous_vision_survey/slides/Kundu2016CVPR/top.pdf)</br>
