@@ -215,7 +215,9 @@ Some implementation of semantic segmantation for DL model</br>
 1.  **Pixel Objectness-2017** [[Project]](http://vision.cs.utexas.edu/projects/pixelobjectness/) [[Code-Caffe]](https://github.com/suyogduttjain/pixelobjectness) [[Paper]](https://arxiv.org/abs/1701.05349)</br>
 2.  A Deep Convolutional Neural Network for Background Subtraction-2017 [[Paper]](https://arxiv.org/abs/1702.01731)</br>
 
-# People:</br>
+# Distinguished Researchers & Teams:</br>
+- [Liang-Chieh (Jay) Chen](http://liangchiehchen.com/)(Deeplab)
+- [Jianping Shi](http://shijianping.me/)
 
 # Reference
 [https://github.com/nightrome/really-awesome-semantic-segmentation](https://github.com/nightrome/really-awesome-semantic-segmentation)
