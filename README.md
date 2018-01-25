@@ -121,6 +121,8 @@ Some implementation of semantic segmantation for DL model</br>
 80. Panoptic Segmentation [[Paper]](https://arxiv.org/pdf/1801.00868.pdf)
 81. The Devil is in the Decoder [[Paper]](https://arxiv.org/pdf/1707.05847.pdf)
 82. Attention to Scale: Scale-aware Semantic Image Segmentation [[Paper]](http://arxiv.org/pdf/1511.03339)[[Project]](http://liangchiehchen.com/projects/DeepLab.html)
+83. Convolutional Oriented Boundaries: From Image Segmentation to High-Level Tasks [[Paper]](https://arxiv.org/pdf/1701.04658.pdf) [[Project]](http://www.vision.ee.ethz.ch/~cvlsegmentation/)
+84. Scale-Aware Alignment of Hierarchical Image Segmentation [[Paper]](https://www.vision.ee.ethz.ch/en/publications/papers/proceedings/eth_biwi_01271.pdf) [[Project]](http://www.vision.ee.ethz.ch/~cvlsegmentation/)
 
 # Medical Image Semantic Segmentation
 1. Semantic Image  Segmentation with Deep Learning [[Paper]](http://www.robots.ox.ac.uk/~sadeep/files/crfasrnn_presentation.pdf)
@@ -148,7 +150,7 @@ Some implementation of semantic segmantation for DL model</br>
 2017----DAVIS-Challenge-5th Online Adaptation of Convolutional Neural Networks for the 2017 DAVIS Challenge on Video Object Segmentation</br>
 2017----DAVIS-Challenge-6th ----Learning to Segment Instances in Videos with Spatial Propagation Network</br>
 2017----DAVIS-Challenge-7th----Some Promising Ideas about Multi-instance Video Segmentation</br>
-2017----DAVIS-Challenge-8th----One-Shot Video Object Segmentation with Iterative Online Fine-Tuning</br>
+2017----DAVIS-Challenge-8th----[One-Shot Video Object Segmentation with Iterative Online Fine-Tuning](https://arxiv.org/pdf/1611.05198.pdf)</br>
 2017----DAVIS-Challenge-9th----Video Object Segmentation using Tracked Object Proposals</br>
 2017----ICCV2017----SegFlow_Joint Learning for Video Object Segmentation and Optical Flow</br>
 2017----OSVOS----One-Shot Video Object Segmentation</br>
