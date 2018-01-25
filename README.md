@@ -118,17 +118,18 @@ Some implementation of semantic segmantation for DL model</br>
 77. Scene Segmentation with DAG-Recurrent Neural Networks [[Paper]](http://ieeexplore.ieee.org/abstract/document/7940028/)</br>
 78. Learning to Segment Every Thing [[Paper]](https://arxiv.org/pdf/1711.10370.pdf)</br>
 79. Weakly-Supervised Dual Clustering for Image Semantic Segmentation [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Liu_Weakly-Supervised_Dual_Clustering_2013_CVPR_paper.pdf)</br>
-80. Panoptic Segmentation [[Paper]](https://arxiv.org/pdf/1801.00868.pdf)
-81. The Devil is in the Decoder [[Paper]](https://arxiv.org/pdf/1707.05847.pdf)
-82. Attention to Scale: Scale-aware Semantic Image Segmentation [[Paper]](http://arxiv.org/pdf/1511.03339)[[Project]](http://liangchiehchen.com/projects/DeepLab.html)
-83. Convolutional Oriented Boundaries: From Image Segmentation to High-Level Tasks [[Paper]](https://arxiv.org/pdf/1701.04658.pdf) [[Project]](http://www.vision.ee.ethz.ch/~cvlsegmentation/)
-84. Scale-Aware Alignment of Hierarchical Image Segmentation [[Paper]](https://www.vision.ee.ethz.ch/en/publications/papers/proceedings/eth_biwi_01271.pdf) [[Project]](http://www.vision.ee.ethz.ch/~cvlsegmentation/)
+80. Panoptic Segmentation [[Paper]](https://arxiv.org/pdf/1801.00868.pdf)</br>
+81. The Devil is in the Decoder [[Paper]](https://arxiv.org/pdf/1707.05847.pdf)</br>
+82. Attention to Scale: Scale-aware Semantic Image Segmentation [[Paper]](http://arxiv.org/pdf/1511.03339)[[Project]](http://liangchiehchen.com/projects/DeepLab.html)</br>
+83. Convolutional Oriented Boundaries: From Image Segmentation to High-Level Tasks [[Paper]](https://arxiv.org/pdf/1701.04658.pdf) [[Project]](http://www.vision.ee.ethz.ch/~cvlsegmentation/)</br>
+84. Scale-Aware Alignment of Hierarchical Image Segmentation [[Paper]](https://www.vision.ee.ethz.ch/en/publications/papers/proceedings/eth_biwi_01271.pdf) [[Project]](http://www.vision.ee.ethz.ch/~cvlsegmentation/)</br>
 
 # Medical Image Semantic Segmentation
-1. Semantic Image  Segmentation with Deep Learning [[Paper]](http://www.robots.ox.ac.uk/~sadeep/files/crfasrnn_presentation.pdf)
-2. Automatic Liver and Tumor Segmentation of CT and MRI Volumes Using Cascaded Fully Convolutional Neural Networks [[Paper]](https://arxiv.org/pdf/1702.05970.pdf)
-3. DeepNAT: Deep Convolutional Neural Network for Segmenting Neuroanatomy [[Paper]](https://arxiv.org/pdf/1702.08192.pdf)
-4. CNN-based Segmentation of Medical Imaging Data [[Paper]](https://arxiv.org/pdf/1701.03056.pdf)
+1. Semantic Image  Segmentation with Deep Learning [[Paper]](http://www.robots.ox.ac.uk/~sadeep/files/crfasrnn_presentation.pdf)</br>
+2. Automatic Liver and Tumor Segmentation of CT and MRI Volumes Using Cascaded Fully Convolutional Neural Networks [[Paper]](https://arxiv.org/pdf/1702.05970.pdf)</br>
+3. DeepNAT: Deep Convolutional Neural Network for Segmenting Neuroanatomy [[Paper]](https://arxiv.org/pdf/1702.08192.pdf)</br>
+4. CNN-based Segmentation of Medical Imaging Data [[Paper]](https://arxiv.org/pdf/1701.03056.pdf)</br>
+5. Deep Retinal Image Understanding (http://www.vision.ee.ethz.ch/~cvlsegmentation/driu/data/paper/DRIU_MICCAI2016.pdf)</br>
 
 # Weakly-Supervised-Segmentation
 1. Di Lin, Jifeng Dai, Jiaya Jia, Kaiming He, and Jian Sun.ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016
