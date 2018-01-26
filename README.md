@@ -12,36 +12,36 @@ A list of all papers and resoureces on Semantic Segmentation.
 # SemanticSegmentation_DL
 Some implementation of semantic segmantation for DL model</br>
 ## Dataset
-	+ [voc2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)</br>
-	+ [CitySpaces](https://www.cityscapes-dataset.com/)</br>
-	+ [Mapillary](https://www.mapillary.com/dataset/vistas)</br>
-	+ [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)</br>
-	+ [PASCAL Context](http://www.cs.stanford.edu/~roozbeh/pascal-context/)</br>
-	+ [COCO-Stuff 10K dataset v1.1](https://github.com/nightrome/cocostuff)</br>
-	+ [2D-3D-S dataset](http://buildingparser.stanford.edu/dataset.html)</br>
-	+ [Mapillary Vistas](https://www.youtube.com/karolmajek)</br>
-  + [Stanford Background Dataset](http://dags.stanford.edu/projects/scenedataset.html)
-  + [Sift Flow Dataset](http://people.csail.mit.edu/celiu/SIFTflow/)
-  + [Barcelona Dataset](http://www.cs.unc.edu/~jtighe/Papers/ECCV10/)
-  + [Microsoft COCO dataset](http://mscoco.org/)
-  + [MSRC Dataset](http://research.microsoft.com/en-us/projects/objectclassrecognition/)
-  + [LITS Liver Tumor Segmentation Dataset](https://competitions.codalab.org/competitions/15595)
-  + [KITTI](http://www.cvlibs.net/datasets/kitti/eval_road.php)
-  + [Pascal Context](http://www.cs.stanford.edu/~roozbeh/pascal-context/)
-  + [Data from Games dataset](https://download.visinf.tu-darmstadt.de/data/from_games/)
-  + [Human parsing dataset](https://github.com/lemondan/HumanParsing-Dataset)
-  + [Mapillary Vistas Dataset](https://www.mapillary.com/dataset/vistas)
-  + [Microsoft AirSim](https://github.com/Microsoft/AirSim)
-  + [MIT Scene Parsing Benchmark](http://sceneparsing.csail.mit.edu/)
-  + [COCO 2017 Stuff Segmentation Challenge](http://cocodataset.org/#stuff-challenge2017)
-  + [ADE20K Dataset](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
-  + [INRIA Annotations for Graz-02](http://lear.inrialpes.fr/people/marszalek/data/ig02/)
-  + [Daimler dataset](http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html)
-  + [ISBI Challenge: Segmentation of neuronal structures in EM stacks](http://brainiac2.mit.edu/isbi_challenge/)
-  + [INRIA Annotations for Graz-02 (IG02)](https://lear.inrialpes.fr/people/marszalek/data/ig02/)
-  + [Pratheepan Dataset](http://cs-chan.com/downloads_skin_dataset.html)
-  + [Clothing Co-Parsing (CCP) Dataset](https://github.com/bearpaw/clothing-co-parsing)
-</br>
++ [voc2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
++ [CitySpaces](https://www.cityscapes-dataset.com/)
++ [Mapillary](https://www.mapillary.com/dataset/vistas)
++ [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
++ [PASCAL Context](http://www.cs.stanford.edu/~roozbeh/pascal-context/)
++ [COCO-Stuff 10K dataset v1.1](https://github.com/nightrome/cocostuff)
++ [2D-3D-S dataset](http://buildingparser.stanford.edu/dataset.html)
++ [Mapillary Vistas](https://www.youtube.com/karolmajek)
++ [Stanford Background Dataset](http://dags.stanford.edu/projects/scenedataset.html)
++ [Sift Flow Dataset](http://people.csail.mit.edu/celiu/SIFTflow/)
++ [Barcelona Dataset](http://www.cs.unc.edu/~jtighe/Papers/ECCV10/)
++ [Microsoft COCO dataset](http://mscoco.org/)
++ [MSRC Dataset](http://research.microsoft.com/en-us/projects/objectclassrecognition/)
++ [LITS Liver Tumor Segmentation Dataset](https://competitions.codalab.org/competitions/15595)
++ [KITTI](http://www.cvlibs.net/datasets/kitti/eval_road.php)
++ [Pascal Context](http://www.cs.stanford.edu/~roozbeh/pascal-context/)
++ [Data from Games dataset](https://download.visinf.tu-darmstadt.de/data/from_games/)
++ [Human parsing dataset](https://github.com/lemondan/HumanParsing-Dataset)
++ [Mapillary Vistas Dataset](https://www.mapillary.com/dataset/vistas)
++ [Microsoft AirSim](https://github.com/Microsoft/AirSim)
++ [MIT Scene Parsing Benchmark](http://sceneparsing.csail.mit.edu/)
++ [COCO 2017 Stuff Segmentation Challenge](http://cocodataset.org/#stuff-challenge2017)
++ [ADE20K Dataset](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
++ [INRIA Annotations for Graz-02](http://lear.inrialpes.fr/people/marszalek/data/ig02/)
++ [Daimler dataset](http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html)
++ [ISBI Challenge: Segmentation of neuronal structures in EM stacks](http://brainiac2.mit.edu/isbi_challenge/)
++ [INRIA Annotations for Graz-02 (IG02)](https://lear.inrialpes.fr/people/marszalek/data/ig02/)
++ [Pratheepan Dataset](http://cs-chan.com/downloads_skin_dataset.html)
++ [Clothing Co-Parsing (CCP) Dataset](https://github.com/bearpaw/clothing-co-parsing)
+
 ## Resources
 
 
