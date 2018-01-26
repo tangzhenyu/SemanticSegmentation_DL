@@ -290,6 +290,12 @@ MINOS is a simulator designed to support the development of multisensory models 
 9. Annotating Object Instances with a Polygon-RNN [[Paper]](https://arxiv.org/abs/1704.05548)
 10. MaskLab: Instance Segmentation by Refining Object Detection with Semantic and Direction Features [[Paper]](https://arxiv.org/pdf/1712.04837.pdf)
 11. BlitzNet: A Real-Time Deep Network for Scene Understanding [[Paper]](https://arxiv.org/pdf/1708.02813.pdf)
+12. FCIS [[Paper]](https://arxiv.org/pdf/1611.07709.pdf)[Code](https://github.com/msracver/FCIS)
+13. MNC [[Paper]](https://arxiv.org/pdf/1512.04412.pdf)[Code](https://github.com/daijifeng001/MNC)
+14. DeepMask [[Paper]](https://arxiv.org/pdf/1506.06204.pdf)[Code](thttps://github.com/facebookresearch/deepmask)
+15. SharpMask [[Paper]](https://arxiv.org/pdf/1603.08695.pdf)[Code](https://github.com/facebookresearch/deepmask)
+16. RIS [[Paper]](https://arxiv.org/pdf/1511.08250.pdf)[Code](https://github.com/bernard24/RIS)
+17. FastMask [[Paper]](https://arxiv.org/pdf/1612.08843.pdf)[Code](https://github.com/voidrank/FastMask)
 
 ## Segment Object Candidates
 1.  FastMask: Segment Object Multi-scale Candidates in One Shot-2016 [[Code-Caffe]](https://github.com/voidrank/FastMask) [[Paper]](https://arxiv.org/abs/1612.08843)</br>
@@ -303,6 +309,75 @@ MINOS is a simulator designed to support the development of multisensory models 
 ## Distinguished Researchers & Teams:</br>
 - [Liang-Chieh (Jay) Chen](http://liangchiehchen.com/)(Deeplab)
 - [Jianping Shi](http://shijianping.me/)
+
+## Popular Methods and Implementations
+- U-Net [https://arxiv.org/pdf/1505.04597.pdf]
+https://github.com/tangzhenyu/SemanticSegmentation_DL/tree/master/U-net
+
+- SegNet [https://arxiv.org/pdf/1511.00561.pdf]
++ https://github.com/alexgkendall/caffe-segnet [Caffe]
+
+- DeepLab [https://arxiv.org/pdf/1606.00915.pdf]
++ https://bitbucket.org/deeplab/deeplab-public/ [Caffe]
+
+
+- FCN [https://arxiv.org/pdf/1605.06211.pdf]
++ https://github.com/tangzhenyu/SemanticSegmentation_DL/tree/master/FCN
+
+- ENet [https://arxiv.org/pdf/1606.02147.pdf]
+ + https://github.com/TimoSaemann/ENet [Caffe]
+
+- LinkNet [https://arxiv.org/pdf/1707.03718.pdf]
++ https://github.com/e-lab/LinkNet [Torch]
+
+- DenseNet [https://arxiv.org/pdf/1608.06993.pdf]
+
+- Tiramisu [https://arxiv.org/pdf/1611.09326.pdf]
+
+- DilatedNet [https://arxiv.org/pdf/1511.07122.pdf]
+
+- PixelNet [https://arxiv.org/pdf/1609.06694.pdf]
++ https://github.com/aayushbansal/PixelNet [Caffe]
+
+- ICNet [https://arxiv.org/pdf/1704.08545.pdf]
++ https://github.com/hszhao/ICNet [Caffe]
+
+- ERFNet [http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17iv.pdf]
++ https://github.com/Eromera/erfnet [Torch]
+
+- RefineNet [https://arxiv.org/pdf/1611.06612.pdf]
++ https://github.com/tangzhenyu/SemanticSegmentation_DL/tree/master/RefineNet
+
+- PSPNet [https://arxiv.org/pdf/1612.01105.pdf,https://hszhao.github.io/projects/pspnet/]
++ https://github.com/hszhao/PSPNet [Caffe]
+
+- Dilated convolution [https://arxiv.org/pdf/1511.07122.pdf]
++ https://github.com/fyu/dilation [Caffe]
+
+- DeconvNet [https://arxiv.org/pdf/1505.04366.pdf]
++ http://cvlab.postech.ac.kr/research/deconvnet/ [Caffe]
+
+- FRRN [https://arxiv.org/pdf/1611.08323.pdf]
++ https://github.com/TobyPDE/FRRN [Lasagne]
+
+- GCN [https://arxiv.org/pdf/1703.02719.pdf]
++ https://github.com/ZijunDeng/pytorch-semantic-segmentation [PyTorch]
+
+- LRR [https://arxiv.org/pdf/1605.02264.pdf]
++ https://github.com/golnazghiasi/LRR [Matconvnet]
+
+- DUC, HDC [https://arxiv.org/pdf/1702.08502.pdf]
++ https://github.com/ZijunDeng/pytorch-semantic-segmentation [PyTorch]
+
+- MultiNet [https://arxiv.org/pdf/1612.07695.pdf]
++ https://github.com/MarvinTeichmann/MultiNet
++ https://github.com/MarvinTeichmann/KittiSeg
+
+- Segaware [https://arxiv.org/pdf/1708.04607.pdf]
++ https://github.com/aharley/segaware [Caffe]
+
+- Semantic Segmentation using Adversarial Networks [https://arxiv.org/pdf/1611.08408.pdf]
++ https://github.com/oyam/Semantic-Segmentation-using-Adversarial-Networks [Chainer]
 
 ## Annotation Tools:
 
