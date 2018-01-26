@@ -1,13 +1,8 @@
 # Semantic-Segmentation
 A list of all papers and resoureces on Semantic Segmentation.
 
-**Announcement:** Starting from September 1 we are organizing the public [COCO 2017 Stuff Segmentation Challenge](http://cocodataset.org). Please consider participating. Winners will be announced at the [Joint COCO and Places Recognition](https://places-coco2017.github.io/) workshop at ICCV 2017.
-
 # Dataset importance
 ![Dataset importance plot](http://www.it-caesar.com/github/Dataset_importance.png?raw=true "Dataset importance plot")
-
-
-
 
 # SemanticSegmentation_DL
 Some implementation of semantic segmantation for DL model</br>
@@ -244,6 +239,7 @@ MINOS is a simulator designed to support the development of multisensory models 
 7. Real-time category-based and general obstacle detection for autonomous driving [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Garnett_Real-Time_Category-Based_and_ICCV_2017_paper.pdf)</br>
 8. Road Scene Segmentation from a Single Image [[Paper]](http://yann.lecun.com/exdb/publis/pdf/alvarez-eccv-12.pdf)</br>
 9. FoveaNet: Perspective-aware Urban Scene Parsing [[Paper]](http://users.eecs.northwestern.edu/~xsh835/assets/iccv2017_foveanet.pdf)</br>
+
 ### Codes
   + https://github.com/MarvinTeichmann/MultiNet
   + https://github.com/MarvinTeichmann/KittiSeg
@@ -293,6 +289,7 @@ MINOS is a simulator designed to support the development of multisensory models 
 8.  Recurrent Instance Segmentation-2015 [[Project]](http://romera-paredes.com/ris) [[Code-Torch7]](https://github.com/bernard24/ris) [[Paper]](http://arxiv.org/abs/1511.08250) [[Poster]](http://www.eccv2016.org/files/posters/P-4B-46.pdf) [[Video]](https://www.youtube.com/watch?v=l_WD2OWOqBk)</br>
 9. Annotating Object Instances with a Polygon-RNN [[Paper]](https://arxiv.org/abs/1704.05548)
 10. MaskLab: Instance Segmentation by Refining Object Detection with Semantic and Direction Features [[Paper]](https://arxiv.org/pdf/1712.04837.pdf)
+11. BlitzNet: A Real-Time Deep Network for Scene Understanding [[Paper]](https://arxiv.org/pdf/1708.02813.pdf)
 
 ## Segment Object Candidates
 1.  FastMask: Segment Object Multi-scale Candidates in One Shot-2016 [[Code-Caffe]](https://github.com/voidrank/FastMask) [[Paper]](https://arxiv.org/abs/1612.08843)</br>
@@ -324,4 +321,5 @@ MINOS is a simulator designed to support the development of multisensory models 
 
 # Reference
 [https://github.com/nightrome/really-awesome-semantic-segmentation](https://github.com/nightrome/really-awesome-semantic-segmentation)
+
 [https://github.com/mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
