@@ -12,14 +12,14 @@ A list of all papers and resoureces on Semantic Segmentation.
 # SemanticSegmentation_DL
 Some implementation of semantic segmantation for DL model</br>
 ## Dataset
-+ [voc2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)</br>
-+ [CitySpaces](https://www.cityscapes-dataset.com/)</br>
-+ [Mapillary](https://www.mapillary.com/dataset/vistas)</br>
-+ [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)</br>
-+ [PASCAL Context](http://www.cs.stanford.edu/~roozbeh/pascal-context/)</br>
-+ [COCO-Stuff 10K dataset v1.1](https://github.com/nightrome/cocostuff)</br>
-+ [2D-3D-S dataset](http://buildingparser.stanford.edu/dataset.html)</br>
-+ [Mapillary Vistas](https://www.youtube.com/karolmajek)</br>
+	+ [voc2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)</br>
+	+ [CitySpaces](https://www.cityscapes-dataset.com/)</br>
+	+ [Mapillary](https://www.mapillary.com/dataset/vistas)</br>
+	+ [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)</br>
+	+ [PASCAL Context](http://www.cs.stanford.edu/~roozbeh/pascal-context/)</br>
+	+ [COCO-Stuff 10K dataset v1.1](https://github.com/nightrome/cocostuff)</br>
+	+ [2D-3D-S dataset](http://buildingparser.stanford.edu/dataset.html)</br>
+	+ [Mapillary Vistas](https://www.youtube.com/karolmajek)</br>
   + [Stanford Background Dataset](http://dags.stanford.edu/projects/scenedataset.html)
   + [Sift Flow Dataset](http://people.csail.mit.edu/celiu/SIFTflow/)
   + [Barcelona Dataset](http://www.cs.unc.edu/~jtighe/Papers/ECCV10/)
