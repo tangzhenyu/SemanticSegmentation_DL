@@ -139,9 +139,9 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 3D Semantic Segmentation
 ### Papers
-1. PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation [[Paper]](http://stanford.edu/%7Erqi/pointnet/)
+1.PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation [[Paper]](http://stanford.edu/%7Erqi/pointnet/)
 
-2. PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space (2017) [[Paper]](https://arxiv.org/pdf/1706.02413.pdf)
+2.PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space (2017) [[Paper]](https://arxiv.org/pdf/1706.02413.pdf)
 
 3.Learning 3D Mesh Segmentation and Labeling (2010)</b> [[Paper]](https://people.cs.umass.edu/~kalo/papers/LabelMeshes/LabelMeshes.pdf)
 
@@ -155,11 +155,11 @@ Some implementation of semantic segmantation for DL model</br>
 
 8.3D Graph Neural Networks for RGBD Semantic Segmentation (2017) [[Paper]](http://www.cs.toronto.edu/~rjliao/papers/iccv_2017_3DGNN.pdf)
 
-9.3DCNN-DQN-RNN: A Deep Reinforcement Learning Framework for Semantic Parsing of Large-scale 3D Point Clouds (2017)</b> [[Paper]](https://arxiv.org/pdf/1707.06783.pdf)
+9.3DCNN-DQN-RNN: A Deep Reinforcement Learning Framework for Semantic Parsing of Large-scale 3D Point Clouds (2017)[[Paper]](https://arxiv.org/pdf/1707.06783.pdf)
 
 ## Scene Understanding
 ### Papers
-
+1.Spatial As Deep: Spatial CNN for Traffic Scene Understanding [[Paper]](https://arxiv.org/pdf/1712.06080.pdf)</br>
 
 ### Dataset & Resources
 + SUNRGB-D 3D Object Detection Challenge</b> [[Link]](http://rgbd.cs.princeton.edu/challenge.html)
@@ -218,7 +218,7 @@ MINOS is a simulator designed to support the development of multisensory models 
 2016----A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation</br>
 2016----Clockwork Convnets for Video Semantic Segmentation</br>
 2016----MaskTrack ----Learning Video Object Segmentation from Static Images</br>
-2017----DAVIS-Challenge-1st----Video Object Segmentation with Re-identification</br>
+2017----DAVIS-Challenge-1st----[Video Object Segmentation with Re-identification](https://arxiv.org/pdf/1708.00197.pdf)</br>
 2017----DAVIS-Challenge-2nd----Lucid Data Dreaming for Multiple Object Tracking</br>
 2017----DAVIS-Challenge-3rd----Instance Re-Identification Flow for Video Object Segmentation</br>
 2017----DAVIS-Challenge-4th----Multiple-Instance Video Segmentation with Sequence-Specific Object Proposals</br>
@@ -253,6 +253,7 @@ MINOS is a simulator designed to support the development of multisensory models 
 ## Transferable Semantic Segmentation
 1. Weakly Supervised Object Localization Using Things and Stuff Transfer [[Paper]](https://arxiv.org/pdf/1703.08000.pdf)</br>
 2. Semi and Weakly Supervised Semantic Segmentation Using Generative Adversarial Network [[Paper]](http://crcv.ucf.edu/papers/1703.09695.pdf)</br>
+3. Weakly- and Semi-Supervised Learning of a Deep Convolutional Network for Semantic Image Segmentation [[Paper]](https://arxiv.org/pdf/1502.02734.pdf)
 
 ## Real-Time Semantic Segmentation
 1.	 LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation [[Paper]](https://arxiv.org/abs/1707.03718.pdf)</br>
