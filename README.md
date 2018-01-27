@@ -309,6 +309,7 @@ MINOS is a simulator designed to support the development of multisensory models 
 ## Distinguished Researchers & Teams:</br>
 - [Liang-Chieh (Jay) Chen](http://liangchiehchen.com/)(Deeplab)
 - [Jianping Shi](http://shijianping.me/)
+- [Kaiming He](http://kaiminghe.com/)
 
 ## Popular Methods and Implementations
 - U-Net [https://arxiv.org/pdf/1505.04597.pdf]
