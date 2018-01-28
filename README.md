@@ -136,6 +136,7 @@ Some implementation of semantic segmantation for DL model</br>
 83. Convolutional Oriented Boundaries: From Image Segmentation to High-Level Tasks [[Paper]](https://arxiv.org/pdf/1701.04658.pdf) [[Project]](http://www.vision.ee.ethz.ch/~cvlsegmentation/)</br>
 84. Scale-Aware Alignment of Hierarchical Image Segmentation [[Paper]](https://www.vision.ee.ethz.ch/en/publications/papers/proceedings/eth_biwi_01271.pdf) [[Project]](http://www.vision.ee.ethz.ch/~cvlsegmentation/)</br>
 84. ICCV-2017 Semi Supervised Semantic Segmentation Using Generative Adversarial Network[[Paper]](https://arxiv.org/abs/1703.09695)</br>
+85. Object Region Mining with Adversarial Erasing: A Simple Classification to Semantic Segmentation Approach [[Paper]](https://arxiv.org/pdf/1703.08448.pdf)</br>
 
 ## 3D Semantic Segmentation
 ### Papers
@@ -261,6 +262,7 @@ MINOS is a simulator designed to support the development of multisensory models 
 2.	 ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation-2016 [[Code-Caffe1]](https://github.com/e-lab/ENet-training)[[Code-Caffe2]](https://github.com/TimoSaemann/ENet) [[Paper]](https://arxiv.org/abs/1606.02147) [[Blog]](https://culurciello.github.io/tech/2016/06/20/training-enet.html)</br>
 3.	 Efficient Deep Models for Monocular Road Segmentation[[Paper]](http://ais.informatik.uni-freiburg.de/publications/papers/oliveira16iros.pdf)</br>
 4.	 Real-Time Coarse-to-fine Topologically Preserving Segmentation[[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Yao_Real-Time_Coarse-to-Fine_Topologically_2015_CVPR_paper.pdf)</br>
+5. - ICNet [[Paper]](https://arxiv.org/pdf/1704.08545.pdf)</br>
 
 ## Part Semantic Segmentation
 1.  Look into Person: Self-supervised Structure-sensitive Learning and A New Benchmark for Human Parsing-2017 [[Project]](http://hcp.sysu.edu.cn/lip/) [[Code-Caffe]](https://github.com/Engineering-Course/LIP_SSL) [[Paper]](https://arxiv.org/abs/1703.05446)</br>
@@ -307,7 +309,7 @@ MINOS is a simulator designed to support the development of multisensory models 
 ## Foreground Object Segmentation
 1.  **Pixel Objectness-2017** [[Project]](http://vision.cs.utexas.edu/projects/pixelobjectness/) [[Code-Caffe]](https://github.com/suyogduttjain/pixelobjectness) [[Paper]](https://arxiv.org/abs/1701.05349)</br>
 2.  A Deep Convolutional Neural Network for Background Subtraction-2017 [[Paper]](https://arxiv.org/abs/1702.01731)</br>
-
+3. From Image-level to Pixel-level Labeling with Convolutional Networks [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Pinheiro_From_Image-Level_to_2015_CVPR_paper.pdf)</br>
 ## Distinguished Researchers & Teams:</br>
 - [Liang-Chieh (Jay) Chen](http://liangchiehchen.com/)(Deeplab)
 - [Jianping Shi](http://shijianping.me/)
