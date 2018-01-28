@@ -200,10 +200,11 @@ MINOS is a simulator designed to support the development of multisensory models 
 
 
 ## Weakly-Supervised-Segmentation
-1. Di Lin, Jifeng Dai, Jiaya Jia, Kaiming He, and Jian Sun.ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016
-2. Pathak, Deepak, Philipp Krahenbuhl, and Trevor Darrell. Constrained convolutional neural networks for weakly supervised segmentation. Proceedings of the IEEE International Conference on Computer Vision. 2015.
-3. Papandreou, George, et al. Weakly-and semi-supervised learning of a DCNN for semantic image segmentation. arXiv preprint arXiv:1502.02734 (2015).
-4. Xu, Jia, Alexander G. Schwing, and Raquel Urtasun. Learning to segment under various forms of weak supervision. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015.
+1. ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016[[Paper]]()
+2. Constrained convolutional neural networks for weakly supervised segmentation. Proceedings of the IEEE International Conference on Computer Vision. 2015.[[Paper]]()
+3. Weakly-and semi-supervised learning of a DCNN for semantic image segmentation. arXiv preprint arXiv:1502.02734 (2015).[[Paper]](https://arxiv.org/pdf/1502.02734.pdf)
+4. Learning to segment under various forms of weak supervision. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015.[[Paper]]()
+5. STC: A Simple to Complex Framework for Weakly-supervised Semantic Segmentation 2017 TPAMI [[Paper]](https://arxiv.org/pdf/1509.03150.pdf) [[Project]]()
 
 ## Video Semantic Segmentation
 1. Feature Space Optimization for Semantic Video Segmentation[[Paper]](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Kundu2016CVPR.pdf)[[Slides]](http://www.cvlibs.net/projects/autonomous_vision_survey/slides/Kundu2016CVPR/top.pdf)</br>
