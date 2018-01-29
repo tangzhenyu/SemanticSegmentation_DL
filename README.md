@@ -200,12 +200,23 @@ MINOS is a simulator designed to support the development of multisensory models 
 ### Codes
 
 
-## Weakly-Supervised-Segmentation
-1. ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016[[Paper]]()
-2. Constrained convolutional neural networks for weakly supervised segmentation. Proceedings of the IEEE International Conference on Computer Vision. 2015.[[Paper]]()
-3. Weakly-and semi-supervised learning of a DCNN for semantic image segmentation. arXiv preprint arXiv:1502.02734 (2015).[[Paper]](https://arxiv.org/pdf/1502.02734.pdf)
-4. Learning to segment under various forms of weak supervision. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015.[[Paper]]()
-5. STC: A Simple to Complex Framework for Weakly-supervised Semantic Segmentation 2017 TPAMI [[Paper]](https://arxiv.org/pdf/1509.03150.pdf) [[Project]]()
+## Weakly-Supervised-Segmentatio
++ Weakly Supervised Structured Output Learning for Semantic Segmentation [[Paper]](http://groups.inf.ed.ac.uk/calvin/hp_avezhnev/Pubs/VezhnevetsCVPR2012b.pdf)
++ ICCV-2011 Weakly supervised semantic segmentation with a multi-image model [[Paper]](http://ieeexplore.ieee.org/document/6126299/)
++ ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016[[Paper]](https://arxiv.org/abs/1604.05144)</br>
++ Constrained convolutional neural networks for weakly supervised segmentation. Proceedings of the IEEE International Conference on Computer Vision. 2015.[[Paper]](https://arxiv.org/abs/1506.03648)
++ Weakly-and semi-supervised learning of a DCNN for semantic image segmentation. arXiv preprint arXiv:1502.02734 (2015).[[Paper]](https://arxiv.org/pdf/1502.02734.pdf)
++ Learning to segment under various forms of weak supervision. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015.[[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/app/2B_048.pdf)
++ STC: A Simple to Complex Framework for Weakly-supervised Semantic Segmentation 2017 TPAMI [[Paper]](https://arxiv.org/pdf/1509.03150.pdf) [[Project]]()
++ [[Paper]](https://www.robots.ox.ac.uk/~vgg/rg/papers/semanticsegmentation.pdf)
++ CVPR-2017-Simple Does It: Weakly Supervised Instance and Semantic Segmentation [[Paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Khoreva_Simple_Does_It_CVPR_2017_paper.pdf) 
++ CVPR-2017-Weakly Supervised Semantic Segmentation using Web-Crawled Videos [[Paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Hong_Weakly_Supervised_Semantic_CVPR_2017_paper.pdf)
++ AAAI-2017-Weakly Supervised Semantic Segmentation Using Superpixel Pooling Network [[Paper]](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14445/14288)
++ ICCV-2015-Weakly supervised graph based semantic segmentation by learning communities of image-parts [[Paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Pourian_Weakly_Supervised_Graph_ICCV_2015_paper.pdf)
++ Towards Weakly Supervised Semantic Segmentation by Means of Multiple Instance and Multitask Learning [[Paper]](https://pdfs.semanticscholar.org/168f/7c5fda213447fb215b57bf00c1e27bbeac7a.pdf)
++ Weakly-Supervised Semantic Segmentation using Motion Cues [[Paper]](https://arxiv.org/pdf/1603.07188) [[Project]](http://thoth.inrialpes.fr/research/weakseg/)
++ Weakly Supervised Semantic Segmentation Based on Web Image Co-segmentation [[Paper]](https://arxiv.org/pdf/1705.09052)
+
 
 ## Video Semantic Segmentation
 1. Feature Space Optimization for Semantic Video Segmentation[[Paper]](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Kundu2016CVPR.pdf)[[Slides]](http://www.cvlibs.net/projects/autonomous_vision_survey/slides/Kundu2016CVPR/top.pdf)</br>
@@ -310,11 +321,6 @@ MINOS is a simulator designed to support the development of multisensory models 
 1.  **Pixel Objectness-2017** [[Project]](http://vision.cs.utexas.edu/projects/pixelobjectness/) [[Code-Caffe]](https://github.com/suyogduttjain/pixelobjectness) [[Paper]](https://arxiv.org/abs/1701.05349)</br>
 2.  A Deep Convolutional Neural Network for Background Subtraction-2017 [[Paper]](https://arxiv.org/abs/1702.01731)</br>
 3. From Image-level to Pixel-level Labeling with Convolutional Networks [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Pinheiro_From_Image-Level_to_2015_CVPR_paper.pdf)</br>
-## Distinguished Researchers & Teams:</br>
-- [Liang-Chieh (Jay) Chen](http://liangchiehchen.com/)(Deeplab)
-- [Jianping Shi](http://shijianping.me/)
-- [Kaiming He](http://kaiminghe.com/)
-- [Ming-Ming Cheng](http://mmcheng.net/publications/)
 
 ## Popular Methods and Implementations
 - U-Net [https://arxiv.org/pdf/1505.04597.pdf]
@@ -393,6 +399,13 @@ https://github.com/tangzhenyu/SemanticSegmentation_DL/tree/master/U-net
   + https://github.com/seanbell/opensurfaces-segmentation-ui
   + https://github.com/lzx1413/labelImgPlus
   + https://github.com/wkentaro/labelme
+  
+## Distinguished Researchers & Teams:</br>
+- [Liang-Chieh (Jay) Chen](http://liangchiehchen.com/)(Deeplab)
+- [Jianping Shi](http://shijianping.me/)
+- [Kaiming He](http://kaiminghe.com/)
+- [Ming-Ming Cheng](http://mmcheng.net/publications/)
+- [Joachim M. Buhmann] (https://scholar.google.com/citations?user=zQWbCzYAAAAJ)
 
 ## Results:
 
