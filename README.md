@@ -294,23 +294,24 @@ MINOS is a simulator designed to support the development of multisensory models 
 
 
 ## Instance Segmentation
-1.  Pixelwise Instance Segmentation with a Dynamically Instantiated Network-2017 [[Paper]](https://arxiv.org/abs/1704.02386)</br>
-2.  Semantic Instance Segmentation via Deep Metric Learning-2017 [[Paper]](https://arxiv.org/abs/1703.10277)</br>
-3.  Mask R-CNN-2017 [[Code-Tensorflow]](https://github.com/CharlesShang/FastMaskRCNN) [[Paper]](https://arxiv.org/abs/1703.06870)</br>
-4.  Pose2Instance: Harnessing Keypoints for Person Instance Segmentation-2017 [[Paper]](https://arxiv.org/abs/1704.01152)</br>
-5.  Pixelwise Instance Segmentation with a Dynamically Instantiated Network-2017 [[Paper]](https://arxiv.org/abs/1704.02386)</br>
-6.  Fully Convolutional Instance-aware Semantic Segmentation-2016 [[Code]](https://github.com/msracver/FCIS) [[Paper]](https://arxiv.org/abs/1611.07709)</br>
-7.  **Instance-aware Semantic Segmentation via Multi-task Network Cascades-2015** [[Code]](https://github.com/daijifeng001/MNC) [[Paper]](http://arxiv.org/abs/1512.04412)</br>
-8.  Recurrent Instance Segmentation-2015 [[Project]](http://romera-paredes.com/ris) [[Code-Torch7]](https://github.com/bernard24/ris) [[Paper]](http://arxiv.org/abs/1511.08250) [[Poster]](http://www.eccv2016.org/files/posters/P-4B-46.pdf) [[Video]](https://www.youtube.com/watch?v=l_WD2OWOqBk)</br>
-9. Annotating Object Instances with a Polygon-RNN [[Paper]](https://arxiv.org/abs/1704.05548)
-10. MaskLab: Instance Segmentation by Refining Object Detection with Semantic and Direction Features [[Paper]](https://arxiv.org/pdf/1712.04837.pdf)
-11. BlitzNet: A Real-Time Deep Network for Scene Understanding [[Paper]](https://arxiv.org/pdf/1708.02813.pdf)
-12. FCIS [[Paper]](https://arxiv.org/pdf/1611.07709.pdf)[Code](https://github.com/msracver/FCIS)
-13. MNC [[Paper]](https://arxiv.org/pdf/1512.04412.pdf)[Code](https://github.com/daijifeng001/MNC)
-14. DeepMask [[Paper]](https://arxiv.org/pdf/1506.06204.pdf)[Code](thttps://github.com/facebookresearch/deepmask)
-15. SharpMask [[Paper]](https://arxiv.org/pdf/1603.08695.pdf)[Code](https://github.com/facebookresearch/deepmask)
-16. RIS [[Paper]](https://arxiv.org/pdf/1511.08250.pdf)[Code](https://github.com/bernard24/RIS)
-17. FastMask [[Paper]](https://arxiv.org/pdf/1612.08843.pdf)[Code](https://github.com/voidrank/FastMask)
++  Pixelwise Instance Segmentation with a Dynamically Instantiated Network-2017 [[Paper]](https://arxiv.org/abs/1704.02386)</br>
++  Semantic Instance Segmentation via Deep Metric Learning-2017 [[Paper]](https://arxiv.org/abs/1703.10277)</br>
++  Mask R-CNN-2017 [[Code-Tensorflow]](https://github.com/CharlesShang/FastMaskRCNN) [[Paper]](https://arxiv.org/abs/1703.06870)</br>
++  Pose2Instance: Harnessing Keypoints for Person Instance Segmentation-2017 [[Paper]](https://arxiv.org/abs/1704.01152)</br>
++  Pixelwise Instance Segmentation with a Dynamically Instantiated Network-2017 [[Paper]](https://arxiv.org/abs/1704.02386)</br>
++  Fully Convolutional Instance-aware Semantic Segmentation-2016 [[Code]](https://github.com/msracver/FCIS) [[Paper]](https://arxiv.org/abs/1611.07709)</br>
++  **Instance-aware Semantic Segmentation via Multi-task Network Cascades-2015** [[Code]](https://github.com/daijifeng001/MNC) [[Paper]](http://arxiv.org/abs/1512.04412)</br>
++  Recurrent Instance Segmentation-2015 [[Project]](http://romera-paredes.com/ris) [[Code-Torch7]](https://github.com/bernard24/ris) [[Paper]](http://arxiv.org/abs/1511.08250) [[Poster]](http://www.eccv2016.org/files/posters/P-4B-46.pdf) [[Video]](https://www.youtube.com/watch?v=l_WD2OWOqBk)</br>
++ Annotating Object Instances with a Polygon-RNN [[Paper]](https://arxiv.org/abs/1704.05548)
++ MaskLab: Instance Segmentation by Refining Object Detection with Semantic and Direction Features [[Paper]](https://arxiv.org/pdf/1712.04837.pdf)
++ BlitzNet: A Real-Time Deep Network for Scene Understanding [[Paper]](https://arxiv.org/pdf/1708.02813.pdf)
++ FCIS [[Paper]](https://arxiv.org/pdf/1611.07709.pdf)[Code](https://github.com/msracver/FCIS)
++ MNC:Instance-aware Semantic Segmentation via Multi-task Network Cascades [[Paper]](https://arxiv.org/pdf/1512.04412.pdf)[Code](https://github.com/daijifeng001/MNC)
++ DeepMask:Learning to Segment Object Candidates [[Paper]](https://arxiv.org/pdf/1506.06204.pdf) [Code](https://github.com/facebookresearch/deepmask)
++ SharpMask [[Paper]](https://arxiv.org/pdf/1603.08695.pdf)[Code](https://github.com/facebookresearch/deepmask)
++ RIS:Recurrent Instance Segmentation [[Paper]](https://arxiv.org/pdf/1511.08250.pdf)[Code](https://github.com/bernard24/RIS)
++ FastMask: Segment Multi-scale Object Candidates in One Shot [[Paper]](https://arxiv.org/pdf/1612.08843.pdf)[Code](https://github.com/voidrank/FastMask)
++ Proposal-free network for instance-level object segmentation [[Paper]](https://arxiv.org/pdf/1509.02636)
 
 ## Segment Object Candidates
 1.  FastMask: Segment Object Multi-scale Candidates in One Shot-2016 [[Code-Caffe]](https://github.com/voidrank/FastMask) [[Paper]](https://arxiv.org/abs/1612.08843)</br>
