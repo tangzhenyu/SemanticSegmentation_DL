@@ -216,7 +216,7 @@ MINOS is a simulator designed to support the development of multisensory models 
 + Towards Weakly Supervised Semantic Segmentation by Means of Multiple Instance and Multitask Learning [[Paper]](https://pdfs.semanticscholar.org/168f/7c5fda213447fb215b57bf00c1e27bbeac7a.pdf)
 + Weakly-Supervised Semantic Segmentation using Motion Cues [[Paper]](https://arxiv.org/pdf/1603.07188) [[Project]](http://thoth.inrialpes.fr/research/weakseg/)
 + Weakly Supervised Semantic Segmentation Based on Web Image Co-segmentation [[Paper]](https://arxiv.org/pdf/1705.09052)
-
++ Learning to Rene Object Segments [[Paper]](https://arxiv.org/pdf/1603.08695.pdf)
 
 ## Video Semantic Segmentation
 1. Feature Space Optimization for Semantic Video Segmentation[[Paper]](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Kundu2016CVPR.pdf)[[Slides]](http://www.cvlibs.net/projects/autonomous_vision_survey/slides/Kundu2016CVPR/top.pdf)</br>
