@@ -1,9 +1,9 @@
 ## semantic-segmentation-implementations
 
 ### DataSets Usage
-[Kitti Dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php)
-[MIT ADE20K scene parsing dataset](https://github.com/hangzhaomit/semantic-segmentation-pytorch)
-[Cityscapes dataset](https://www.cityscapes-dataset.com/benchmarks/)
++ [Kitti Dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php)
++ [MIT ADE20K scene parsing dataset](https://github.com/hangzhaomit/semantic-segmentation-pytorch)
++ [Cityscapes dataset](https://www.cityscapes-dataset.com/benchmarks/)
 
 ## Models
 + [FCN:Fully Convolutional Networks for Semantic Segmentation](http://arxiv.org/abs/1411.4038) [Paper2](http://arxiv.org/abs/1605.06211)
