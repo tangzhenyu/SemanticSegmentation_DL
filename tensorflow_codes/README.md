@@ -52,18 +52,18 @@ python inference.py --img-path /Path/To/Image --dataset Model_Type
 
 ### Import module in your code:
 ```python
-from model import FCN8s, PSPNet50, ICNet, ENet
+from model RefineNet
 
-model = PSPNet50() # or another model
+model = RefineNet() # initializing model
 
-model.read_input(img_path)  # read image data from path
+model.read_input(img_path)  # read image from image path
 
 sess = tf.Session(config=config)
 init = tf.global_variables_initializer()
 sess.run(init)
 
-model.load(model_path, sess)  # load pretrained model
-preds = model.forward(sess) # Get prediction 
+model.load(model_path, sess)  # load pretrained model file
+preds = model.forward(sess) # inference, get result
 ```
 
 ## Referrence
