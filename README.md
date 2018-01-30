@@ -261,19 +261,17 @@ MINOS is a simulator designed to support the development of multisensory models 
   + https://github.com/mvirgo/MLND-Capstone
   + https://github.com/zhujun98/semantic_segmentation/tree/master/fcn8s_road
 
-
-
 ## Transferable Semantic Segmentation
 1. Weakly Supervised Object Localization Using Things and Stuff Transfer [[Paper]](https://arxiv.org/pdf/1703.08000.pdf)</br>
 2. Semi and Weakly Supervised Semantic Segmentation Using Generative Adversarial Network [[Paper]](http://crcv.ucf.edu/papers/1703.09695.pdf)</br>
 3. Weakly- and Semi-Supervised Learning of a Deep Convolutional Network for Semantic Image Segmentation [[Paper]](https://arxiv.org/pdf/1502.02734.pdf)
 
 ## Real-Time Semantic Segmentation
-1.	 LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation [[Paper]](https://arxiv.org/abs/1707.03718.pdf)</br>
-2.	 ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation-2016 [[Code-Caffe1]](https://github.com/e-lab/ENet-training)[[Code-Caffe2]](https://github.com/TimoSaemann/ENet) [[Paper]](https://arxiv.org/abs/1606.02147) [[Blog]](https://culurciello.github.io/tech/2016/06/20/training-enet.html)</br>
-3.	 Efficient Deep Models for Monocular Road Segmentation[[Paper]](http://ais.informatik.uni-freiburg.de/publications/papers/oliveira16iros.pdf)</br>
-4.	 Real-Time Coarse-to-fine Topologically Preserving Segmentation[[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Yao_Real-Time_Coarse-to-Fine_Topologically_2015_CVPR_paper.pdf)</br>
-5. - ICNet [[Paper]](https://arxiv.org/pdf/1704.08545.pdf)</br>
++	 LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation [[Paper]](https://arxiv.org/abs/1707.03718.pdf)</br>
++	 ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation-2016 [[Code-Caffe1]](https://github.com/e-lab/ENet-training)[[Code-Caffe2]](https://github.com/TimoSaemann/ENet) [[Paper]](https://arxiv.org/abs/1606.02147) [[Blog]](https://culurciello.github.io/tech/2016/06/20/training-enet.html)</br>
++	 Efficient Deep Models for Monocular Road Segmentation[[Paper]](http://ais.informatik.uni-freiburg.de/publications/papers/oliveira16iros.pdf)</br>
++	 Real-Time Coarse-to-fine Topologically Preserving Segmentation[[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Yao_Real-Time_Coarse-to-Fine_Topologically_2015_CVPR_paper.pdf)</br>
++ - ICNet [[Paper]](https://arxiv.org/pdf/1704.08545.pdf)</br>
 
 ## Part Semantic Segmentation
 1.  Look into Person: Self-supervised Structure-sensitive Learning and A New Benchmark for Human Parsing-2017 [[Project]](http://hcp.sysu.edu.cn/lip/) [[Code-Caffe]](https://github.com/Engineering-Course/LIP_SSL) [[Paper]](https://arxiv.org/abs/1703.05446)</br>
@@ -324,73 +322,29 @@ MINOS is a simulator designed to support the development of multisensory models 
 3. From Image-level to Pixel-level Labeling with Convolutional Networks [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Pinheiro_From_Image-Level_to_2015_CVPR_paper.pdf)</br>
 
 ## Popular Methods and Implementations
-- U-Net [https://arxiv.org/pdf/1505.04597.pdf]
-https://github.com/tangzhenyu/SemanticSegmentation_DL/tree/master/U-net
-
-- SegNet [https://arxiv.org/pdf/1511.00561.pdf]
-+ https://github.com/alexgkendall/caffe-segnet [Caffe]
-
-- DeepLab [https://arxiv.org/pdf/1606.00915.pdf]
-+ https://bitbucket.org/deeplab/deeplab-public/ [Caffe]
-
-
-- FCN [https://arxiv.org/pdf/1605.06211.pdf]
-+ https://github.com/tangzhenyu/SemanticSegmentation_DL/tree/master/FCN
-
-- ENet [https://arxiv.org/pdf/1606.02147.pdf]
- + https://github.com/TimoSaemann/ENet [Caffe]
-
-- LinkNet [https://arxiv.org/pdf/1707.03718.pdf]
-+ https://github.com/e-lab/LinkNet [Torch]
-
+- U-Net [https://arxiv.org/pdf/1505.04597.pdf][Pytorch](https://github.com/tangzhenyu/SemanticSegmentation_DL/tree/master/U-net)
+- SegNet [https://arxiv.org/pdf/1511.00561.pdf][Caffe](https://github.com/alexgkendall/caffe-segnet)
+- DeepLab [https://arxiv.org/pdf/1606.00915.pdf][Caffe](https://bitbucket.org/deeplab/deeplab-public/)
+- FCN [https://arxiv.org/pdf/1605.06211.pdf][tensorflow](https://github.com/tangzhenyu/SemanticSegmentation_DL/tree/master/FCN)
+- ENet [https://arxiv.org/pdf/1606.02147.pdf][Caffe](https://github.com/TimoSaemann/ENet)
+- LinkNet [https://arxiv.org/pdf/1707.03718.pdf][Torch](https://github.com/e-lab/LinkNet)
 - DenseNet [https://arxiv.org/pdf/1608.06993.pdf]
-
 - Tiramisu [https://arxiv.org/pdf/1611.09326.pdf]
-
 - DilatedNet [https://arxiv.org/pdf/1511.07122.pdf]
-
-- PixelNet [https://arxiv.org/pdf/1609.06694.pdf]
-+ https://github.com/aayushbansal/PixelNet [Caffe]
-
-- ICNet [https://arxiv.org/pdf/1704.08545.pdf]
-+ https://github.com/hszhao/ICNet [Caffe]
-
-- ERFNet [http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17iv.pdf]
-+ https://github.com/Eromera/erfnet [Torch]
-
-- RefineNet [https://arxiv.org/pdf/1611.06612.pdf]
-+ https://github.com/tangzhenyu/SemanticSegmentation_DL/tree/master/RefineNet
-
-- PSPNet [https://arxiv.org/pdf/1612.01105.pdf,https://hszhao.github.io/projects/pspnet/]
-+ https://github.com/hszhao/PSPNet [Caffe]
-
-- Dilated convolution [https://arxiv.org/pdf/1511.07122.pdf]
-+ https://github.com/fyu/dilation [Caffe]
-
-- DeconvNet [https://arxiv.org/pdf/1505.04366.pdf]
-+ http://cvlab.postech.ac.kr/research/deconvnet/ [Caffe]
-
-- FRRN [https://arxiv.org/pdf/1611.08323.pdf]
-+ https://github.com/TobyPDE/FRRN [Lasagne]
-
-- GCN [https://arxiv.org/pdf/1703.02719.pdf]
-+ https://github.com/ZijunDeng/pytorch-semantic-segmentation [PyTorch]
-
-- LRR [https://arxiv.org/pdf/1605.02264.pdf]
-+ https://github.com/golnazghiasi/LRR [Matconvnet]
-
-- DUC, HDC [https://arxiv.org/pdf/1702.08502.pdf]
-+ https://github.com/ZijunDeng/pytorch-semantic-segmentation [PyTorch]
-
-- MultiNet [https://arxiv.org/pdf/1612.07695.pdf]
-+ https://github.com/MarvinTeichmann/MultiNet
-+ https://github.com/MarvinTeichmann/KittiSeg
-
-- Segaware [https://arxiv.org/pdf/1708.04607.pdf]
-+ https://github.com/aharley/segaware [Caffe]
-
-- Semantic Segmentation using Adversarial Networks [https://arxiv.org/pdf/1611.08408.pdf]
-+ https://github.com/oyam/Semantic-Segmentation-using-Adversarial-Networks [Chainer]
+- PixelNet [https://arxiv.org/pdf/1609.06694.pdf][Caffe](https://github.com/aayushbansal/PixelNet)
+- ICNet [https://arxiv.org/pdf/1704.08545.pdf][Caffe](https://github.com/hszhao/ICNet )
+- ERFNet [http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17iv.pdf][Torch](https://github.com/Eromera/erfnet )
+- RefineNet [https://arxiv.org/pdf/1611.06612.pdf][tensorflow](https://github.com/tangzhenyu/SemanticSegmentation_DL/tree/master/RefineNet)
+- PSPNet [https://arxiv.org/pdf/1612.01105.pdf,https://hszhao.github.io/projects/pspnet/][Caffe](https://github.com/hszhao/PSPNet )
+- Dilated convolution [https://arxiv.org/pdf/1511.07122.pdf][Caffe](https://github.com/fyu/dilation )
+- DeconvNet [https://arxiv.org/pdf/1505.04366.pdf][Caffe](http://cvlab.postech.ac.kr/research/deconvnet/ )
+- FRRN [https://arxiv.org/pdf/1611.08323.pdf][Lasagne](https://github.com/TobyPDE/FRRN )
+- GCN [https://arxiv.org/pdf/1703.02719.pdf][PyTorch](https://github.com/ZijunDeng/pytorch-semantic-segmentation )
+- LRR [https://arxiv.org/pdf/1605.02264.pdf][Matconvnet](https://github.com/golnazghiasi/LRR )
+- DUC, HDC [https://arxiv.org/pdf/1702.08502.pdf][PyTorch](https://github.com/ZijunDeng/pytorch-semantic-segmentation )
+- MultiNet [https://arxiv.org/pdf/1612.07695.pdf] [tensorflow1](https://github.com/MarvinTeichmann/MultiNet)[tensorflow2](https://github.com/MarvinTeichmann/KittiSeg)
+- Segaware [https://arxiv.org/pdf/1708.04607.pdf][Caffe](https://github.com/aharley/segaware )
+- Semantic Segmentation using Adversarial Networks [https://arxiv.org/pdf/1611.08408.pdf] [Chainer](+ https://github.com/oyam/Semantic-Segmentation-using-Adversarial-Networks )
 
 ## Annotation Tools:
 
