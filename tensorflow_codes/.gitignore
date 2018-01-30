@@ -1,0 +1,4 @@
+*.pyc
+*.npy
+__pycache__
+*.ckpt

@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 """
-This module is a Keras/Tensorflow based implementation of Pyramid Scene Parsing Networks.
-
 Original paper & code published by Hengshuang Zhao et al. (2017)
 """
 from __future__ import print_function
