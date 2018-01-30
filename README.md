@@ -51,17 +51,19 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 2D Semantic Segmentation
 ### Papers:
-1.  Stacked Deconvolutional Network for Semantic Segmentation-2017 [[Paper]](https://arxiv.org/pdf/1708.04943.pdf)</br>
-2.  Deeplab v3: Rethinking Atrous Convolution for Semantic Image Segmentation-2017(DeeplabV3) [[Paper]](https://arxiv.org/pdf/1706.05587.pdf)</br>
-3.  Learning Object Interactions and Descriptions for Semantic Image Segmentation-2017 [[Paper]](http://personal.ie.cuhk.edu.hk/~pluo/pdf/wangLLWcvpr17.pdf)</br>
-4.  Pixel Deconvolutional Networks-2017 [[Code-Tensorflow]](https://github.com/HongyangGao/PixelDCN) [[Paper]](https://arxiv.org/abs/1705.06820)</br>
-5.  Dilated Residual Networks-2017 [[Paper]](http://vladlen.info/papers/DRN.pdf)</br>
-6.  A Review on Deep Learning Techniques Applied to Semantic Segmentation-2017 [[Paper]](https://arxiv.org/abs/1704.06857)</br>
-7.  BiSeg: Simultaneous Instance Segmentation and Semantic Segmentation with Fully Convolutional Networks [[Paper]](https://arxiv.org/abs/1706.02135)</br>
-8.  ICNet for Real-Time Semantic Segmentation on High-Resolution Images-2017 [[Project]](https://hszhao.github.io/projects/icnet/) [[Code]](https://github.com/hszhao/ICNet) [[Paper]](https://arxiv.org/abs/1704.08545) [[Video]](https://www.youtube.com/watch?v=qWl9idsCuLQ)</br>
-9.  Not All Pixels Are Equal: Difficulty-Aware Semantic Segmentation via Deep Layer Cascade-2017 [[Paper]](https://arxiv.org/abs/1704.01344)</br>
-10.  Loss Max-Pooling for Semantic Image Segmentation-2017 [[Paper]](https://arxiv.org/abs/1704.02966)</br>
-11.  Annotating Object Instances with a Polygon-RNN-2017 [[Project]](http://www.cs.toronto.edu/polyrnn/) [[Paper]](https://arxiv.org/abs/1704.05548)</br>
++ NIPS-2017-Learning Affinity via Spatial Propagation Networks [[Paper]](https://papers.nips.cc/paper/6750-learning-affinity-via-spatial-propagation-networks.pdf)
++ AAAI-2018-Spatial As Deep: Spatial CNN for Traffic Scene Understanding [[Paper]](https://arxiv.org/pdf/1712.06080.pdf)
++ Stacked Deconvolutional Network for Semantic Segmentation-2017 [[Paper]](https://arxiv.org/pdf/1708.04943.pdf)</br>
++ Deeplab v3: Rethinking Atrous Convolution for Semantic Image Segmentation-2017(DeeplabV3) [[Paper]](https://arxiv.org/pdf/1706.05587.pdf)</br>
++ Learning Object Interactions and Descriptions for Semantic Image Segmentation-2017 [[Paper]](http://personal.ie.cuhk.edu.hk/~pluo/pdf/wangLLWcvpr17.pdf)</br>
++ Pixel Deconvolutional Networks-2017 [[Code-Tensorflow]](https://github.com/HongyangGao/PixelDCN) [[Paper]](https://arxiv.org/abs/1705.06820)</br>
++ Dilated Residual Networks-2017 [[Paper]](http://vladlen.info/papers/DRN.pdf)</br>
++ A Review on Deep Learning Techniques Applied to Semantic Segmentation-2017 [[Paper]](https://arxiv.org/abs/1704.06857)</br>
++ BiSeg: Simultaneous Instance Segmentation and Semantic Segmentation with Fully Convolutional Networks [[Paper]](https://arxiv.org/abs/1706.02135)</br>
++ ICNet for Real-Time Semantic Segmentation on High-Resolution Images-2017 [[Project]](https://hszhao.github.io/projects/icnet/) [[Code]](https://github.com/hszhao/ICNet) [[Paper]](https://arxiv.org/abs/1704.08545) [[Video]](https://www.youtube.com/watch?v=qWl9idsCuLQ)</br>
++ Not All Pixels Are Equal: Difficulty-Aware Semantic Segmentation via Deep Layer Cascade-2017 [[Paper]](https://arxiv.org/abs/1704.01344)</br>
++ Loss Max-Pooling for Semantic Image Segmentation-2017 [[Paper]](https://arxiv.org/abs/1704.02966)</br>
++ Annotating Object Instances with a Polygon-RNN-2017 [[Project]](http://www.cs.toronto.edu/polyrnn/) [[Paper]](https://arxiv.org/abs/1704.05548)</br>
 12.  Feature Forwarding: Exploiting Encoder Representations for Efficient Semantic Segmentation-2017 [[Project]](https://codeac29.github.io/projects/linknet/) [[Code-Torch7]](https://github.com/e-lab/LinkNet)</br>
 13.  Reformulating Level Sets as Deep Recurrent Neural Network Approach to Semantic Segmentation-2017 [[Paper]](https://arxiv.org/abs/1704.03593)</br>
 14.  Adversarial Examples for Semantic Image Segmentation-2017 [[Paper]](https://arxiv.org/abs/1703.01101)</br>
