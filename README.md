@@ -246,7 +246,8 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 + CVOS: Causal Video Object Segmentation from Persistence of Occlusions. B. Taylor, V. Karasev, S. Soatto, CVPR 2015. [Project Page] [Precomputed results]
 + TRC: Video segmentation by tracing discontinuities in a trajectory embedding. K. Fragkiadaki, G. Zhang, J. Shi, CVPR 2012. [Project Page] [Precomputed results]
 
-- Result of DAVIS-Challenge 2017
+- [Result of DAVIS-Challenge 2017](http://davischallenge.org/challenge2017/index.html) 
+- [Benchmark](http://davischallenge.org/soa_compare.html)
 2016----A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation</br>
 2016----Clockwork Convnets for Video Semantic Segmentation</br>
 2016----MaskTrack ----Learning Video Object Segmentation from Static Images</br>
