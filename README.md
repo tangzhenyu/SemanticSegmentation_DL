@@ -167,28 +167,20 @@ Some implementation of semantic segmantation for DL model</br>
 ### Dataset & Resources
 + SUNRGB-D 3D Object Detection Challenge</b> [[Link]](http://rgbd.cs.princeton.edu/challenge.html)
 19 object categories for predicting a 3D bounding box in real world dimension Training set: 10,355 RGB-D scene images, Testing set: 2860 RGB-D images
-
 + SceneNN (2016)</b> [[Link]](http://people.sutd.edu.sg/~saikit/projects/sceneNN/)
 100+ indoor scene meshes with per-vertex and per-pixel annotation.
-
 + ScanNet (2017)</b> [[Link]](http://www.scan-net.org/)
 An RGB-D video dataset containing 2.5 million views in more than 1500 scans, annotated with 3D camera poses, surface reconstructions, and instance-level semantic segmentations.
-
 + Matterport3D: Learning from RGB-D Data in Indoor Environments (2017)</b> [[Link]](https://niessner.github.io/Matterport/)
 <br>10,800 panoramic views (in both RGB and depth) from 194,400 RGB-D images of 90 building-scale scenes of private rooms. Instance-level semantic segmentations are provided for region (living room, kitchen) and object (sofa, TV) categories. 
-
 + SUNCG: A Large 3D Model Repository for Indoor Scenes (2017)</b> [[Link]](http://suncg.cs.princeton.edu/)
 <br>The dataset contains over 45K different scenes with manually created realistic room and furniture layouts. All of the scenes are semantically annotated at the object level.
-
 + MINOS: Multimodal Indoor Simulator (2017)</b> [[Link]](https://github.com/minosworld/minos)
 MINOS is a simulator designed to support the development of multisensory models for goal-directed navigation in complex indoor environments. MINOS leverages large datasets of complex 3D environments and supports flexible configuration of multimodal sensor suites. MINOS supports SUNCG and Matterport3D scenes.
-
 + Facebook House3D: A Rich and Realistic 3D Environment (2017)</b> [[Link]](https://github.com/facebookresearch/House3D)
 <br>House3D is a virtual 3D environment which consists of 45K indoor scenes equipped with a diverse set of scene types, layouts and objects sourced from the SUNCG dataset. All 3D objects are fully annotated with category labels. Agents in the environment have access to observations of multiple modalities, including RGB images, depth, segmentation masks and top-down 2D map views.
-
 + HoME: a Household Multimodal Environment (2017)</b> [[Link]](https://home-platform.github.io/)
 <br>HoME integrates over 45,000 diverse 3D house layouts based on the SUNCG dataset, a scale which may facilitate learning, generalization, and transfer. HoME is an open-source, OpenAI Gym-compatible platform extensible to tasks in reinforcement learning, language grounding, sound-based navigation, robotics, multi-agent learning.
-
 + AI2-THOR: Photorealistic Interactive Environments for AI Agents</b> [[Link]](http://ai2thor.allenai.org/)
 <br>AI2-THOR is a photo-realistic interactable framework for AI agents. There are a total 120 scenes in version 1.0 of the THOR environment covering four different room categories: kitchens, living rooms, bedrooms, and bathrooms. Each room has a number of actionable objects.
 
@@ -221,13 +213,38 @@ MINOS is a simulator designed to support the development of multisensory models 
 + Learning to Rene Object Segments [[Paper]](https://arxiv.org/pdf/1603.08695.pdf)
 
 ## Video Semantic Segmentation
-1. Feature Space Optimization for Semantic Video Segmentation[[Paper]](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Kundu2016CVPR.pdf)[[Slides]](http://www.cvlibs.net/projects/autonomous_vision_survey/slides/Kundu2016CVPR/top.pdf)</br>
-2. The Basics of Video Object Segmentation [[Blog]](https://techburst.io/video-object-segmentation-the-basics-758e77321914)
-3. ICCV2017----SegFlow_Joint Learning for Video Object Segmentation and Optical Flow</br>
-4. OSVOS:One-Shot Video Object Segmentation</br>
-5. Surveillance Video Parsing with Single Frame Supervision</br>
-6. The 2017 DAVIS Challenge on Video Object Segmentation</br>
-7. Video Propagation Networks</br>
++ Feature Space Optimization for Semantic Video Segmentation[[Paper]](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Kundu2016CVPR.pdf)[[Slides]](http://www.cvlibs.net/projects/autonomous_vision_survey/slides/Kundu2016CVPR/top.pdf)</br>
++ The Basics of Video Object Segmentation [[Blog]](https://techburst.io/video-object-segmentation-the-basics-758e77321914)
++ ICCV2017----SegFlow_Joint Learning for Video Object Segmentation and Optical Flow</br>
++ OSVOS:One-Shot Video Object Segmentation</br>
++ Surveillance Video Parsing with Single Frame Supervision</br>
++ The 2017 DAVIS Challenge on Video Object Segmentation</br>
++ Video Propagation Networks</br>
++ OnAVOS: Online Adaptation of Convolutional Neural Networks for Video Object Segmentation. P. Voigtlaender, B. Leibe, BMVC 2017. [Project Page] [Precomputed results]
++ OSVOS: One-Shot Video Object Segmentation. S. Caelles*, K.K. Maninis*, J. Pont-Tuset, L. Leal-Taixé, D. Cremers, L. Van Gool, CVPR 2017. [Project Page] [Precomputed results]
++ MSK: Learning Video Object Segmentation from Static Images. F. Perazzi*, A. Khoreva*, R. Benenson, B. Schiele, A. Sorkine-Hornung, CVPR 2017. [Project Page] [Precomputed results]
++ SFL: SegFlow: Joint Learning for Video Object Segmentation and Optical Flow. J. Cheng, Y.-H. Tsai, S. Wang, M.-H. Yang, ICCV 2017. [Project Page] [Precomputed results]
++ CTN: Online Video Object Segmentation via Convolutional Trident Network. W.-D. Jang, C.-S. Kim, CVPR 2017. [Project Page] [Precomputed results]
++ VPN: Video Propagation Networks. V. Jampani, R. Gadde, P. V. Gehler, CVPR 2017. [Project Page] [Precomputed results]
++ PLM: Pixel-level Matching for Video Object Segmentation using Convolutional Neural Networks. J. Shin Yoon, F. Rameau, J. Kim, S. Lee, S. Shin, I. So Kweon, ICCV 2017. [Project Page] [Precomputed results]
++ OFL: Video Segmentation via Object Flow. Y.-H. Tsai, M.-H. Yang, M. Black, CVPR 2016. [Project Page] [Precomputed results]
++ BVS: Bilateral Space Video Segmentation. N. Marki, F. Perazzi, O. Wang, A. Sorkine-Hornung, CVPR 2016. [Project Page] [Precomputed results]
++ FCP: Fully Connected Object Proposals for Video Segmentation. F. Perazzi, O. Wang, M. Gross, A. Sorkine-Hornung, ICCV 2015. [Project Page] [Precomputed results]
++ JMP: JumpCut: Non-Successive Mask Transfer and Interpolation for Video Cutout. Q. Fan, F. Zhong, D. Lischinski, D. Cohen-Or, B. Chen, SIGGRAPH 2015. [Project Page] [Precomputed results]
++ HVS: Efficient hierarchical graph-based video segmentation. M. Grundmann, V. Kwatra, M. Han, I. A. Essa, CVPR 2010. [Project Page] [Precomputed results]
++ SEA: SeamSeg: Video Object Segmentation Using Patch Seams. S. Avinash Ramakanth, R. Venkatesh Babu, CVPR 2014. [Project Page] [Precomputed results]
++ ARP: Primary Object Segmentation in Videos Based on Region Augmentation and Reduction. Y.J. Koh, C.-S. Kim, CVPR 2017. [Project Page] [Precomputed results]
++ LVO: Learning Video Object Segmentation with Visual Memory. P. Tokmakov, K. Alahari, C. Schmid, ICCV 2017. [Project Page] [Precomputed results]
++ FSEG: FusionSeg: Learning to combine motion and appearance for fully automatic segmentation of generic objects in videos. S. Jain, B. Xiong, K. Grauman, CVPR 2017. [Project Page] [Precomputed results]
++ LMP: Learning Motion Patterns in Videos. P. Tokmakov, K. Alahari, C. Schmid, CVPR 2017. [Project Page] [Precomputed results]
++ SFL: SegFlow: Joint Learning for Video Object Segmentation and Optical Flow. J. Cheng, Y.-H. Tsai, S. Wang, M.-H. Yang, ICCV 2017. [Project Page] [Precomputed results]
+FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari, ICCV 2013. [Project Page] [Precomputed results]
++ CUT: Motion Trajectory Segmentation via Minimum Cost Multicuts. M. Keuper, B. Andres, T. Brox, ICCV 2015. [Project Page] [Precomputed results]
++ NLC: Video Segmentation by Non-Local Consensus voting. A. Faktor, M. Irani, BMVC 2014. [Project Page] [Precomputed results]
++ MSG: Object segmentation in video: A hierarchical variational approach for turning point trajectories into dense regions. P. Ochs, T. Brox, ICCV 2011. [Project Page] [Precomputed results]
++ KEY: Key-segments for video object segmentation. Y. Lee, J. Kim, K. Grauman, ICCV 2011. [Project Page] [Precomputed results]
++ CVOS: Causal Video Object Segmentation from Persistence of Occlusions. B. Taylor, V. Karasev, S. Soatto, CVPR 2015. [Project Page] [Precomputed results]
++ TRC: Video segmentation by tracing discontinuities in a trajectory embedding. K. Fragkiadaki, G. Zhang, J. Shi, CVPR 2012. [Project Page] [Precomputed results]
 
 - Result of DAVIS-Challenge 2017
 2016----A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation</br>
