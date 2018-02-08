@@ -245,6 +245,7 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 + KEY: Key-segments for video object segmentation. Y. Lee, J. Kim, K. Grauman, ICCV 2011. [Project Page] [Precomputed results]
 + CVOS: Causal Video Object Segmentation from Persistence of Occlusions. B. Taylor, V. Karasev, S. Soatto, CVPR 2015. [Project Page] [Precomputed results]
 + TRC: Video segmentation by tracing discontinuities in a trajectory embedding. K. Fragkiadaki, G. Zhang, J. Shi, CVPR 2012. [Project Page] [Precomputed results]
++ Instance Embedding Transfer to Unsupervised Video Object Segmentation [[Paper]](https://arxiv.org/abs/1801.00908)
 
 - [Result of DAVIS-Challenge 2017](http://davischallenge.org/challenge2017/index.html) 
 - [Benchmark](http://davischallenge.org/soa_compare.html)
