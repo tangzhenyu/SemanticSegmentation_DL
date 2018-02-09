@@ -133,8 +133,8 @@ Some implementation of semantic segmantation for DL model</br>
 - Learning to Segment Every Thing [[Paper]](https://arxiv.org/pdf/1711.10370.pdf)</br>
 - Weakly-Supervised Dual Clustering for Image Semantic Segmentation [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Liu_Weakly-Supervised_Dual_Clustering_2013_CVPR_paper.pdf)</br>
 80. Panoptic Segmentation [[Paper]](https://arxiv.org/pdf/1801.00868.pdf)</br>
-81. The Devil is in the Decoder [[Paper]](https://arxiv.org/pdf/1707.05847.pdf)</br>
-82. Attention to Scale: Scale-aware Semantic Image Segmentation [[Paper]](http://arxiv.org/pdf/1511.03339)[[Project]](http://liangchiehchen.com/projects/DeepLab.html)</br>
+- The Devil is in the Decoder [[Paper]](https://arxiv.org/pdf/1707.05847.pdf)</br>
+- Attention to Scale: Scale-aware Semantic Image Segmentation [[Paper]](http://arxiv.org/pdf/1511.03339)[[Project]](http://liangchiehchen.com/projects/DeepLab.html)</br>
 - Convolutional Oriented Boundaries: From Image Segmentation to High-Level Tasks [[Paper]](https://arxiv.org/pdf/1701.04658.pdf) [[Project]](http://www.vision.ee.ethz.ch/~cvlsegmentation/)</br>
 - Scale-Aware Alignment of Hierarchical Image Segmentation [[Paper]](https://www.vision.ee.ethz.ch/en/publications/papers/proceedings/eth_biwi_01271.pdf) [[Project]](http://www.vision.ee.ethz.ch/~cvlsegmentation/)</br>
 - ICCV-2017 Semi Supervised Semantic Segmentation Using Generative Adversarial Network[[Paper]](https://arxiv.org/abs/1703.09695)</br>
@@ -297,18 +297,18 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 + Efficient and robust deep networks for semantic segmentation [[Paper]](http://journals.sagepub.com/doi/abs/10.1177/0278364917710542)
 
 ## Part Semantic Segmentation
-1.  Look into Person: Self-supervised Structure-sensitive Learning and A New Benchmark for Human Parsing-2017 [[Project]](http://hcp.sysu.edu.cn/lip/) [[Code-Caffe]](https://github.com/Engineering-Course/LIP_SSL) [[Paper]](https://arxiv.org/abs/1703.05446)</br>
-2.  **Deep Learning for Human Part Discovery in Images-2016** [[Code-Chainer]](https://github.com/shiba24/deep-learning-for-human-part-discovery-in-images) [[Paper]](http://lmb.informatik.uni-freiburg.de/Publications/2016/OB16a/oliveira16icra.pdf)</br>
+-  Look into Person: Self-supervised Structure-sensitive Learning and A New Benchmark for Human Parsing-2017 [[Project]](http://hcp.sysu.edu.cn/lip/) [[Code-Caffe]](https://github.com/Engineering-Course/LIP_SSL) [[Paper]](https://arxiv.org/abs/1703.05446)</br>
+-  **Deep Learning for Human Part Discovery in Images-2016** [[Code-Chainer]](https://github.com/shiba24/deep-learning-for-human-part-discovery-in-images) [[Paper]](http://lmb.informatik.uni-freiburg.de/Publications/2016/OB16a/oliveira16icra.pdf)</br>
 -**A CNN Cascade for Landmark Guided Semantic Part Segmentation-2016** [[Project]](http://aaronsplace.co.uk/papers/jackson2016guided/) [[Paper]](https://arxiv.org/abs/1609.09642)</br>
 - Deep Learning for Semantic Part Segmentation With High-level Guidance-2015 [[Paper]](https://arxiv.org/abs/1505.02438)</br>
 - Neural Activation Constellations-Unsupervised Part Model Discovery with Convolutional Networks-2015 [[Paper]](https://arxiv.org/abs/1504.08289)</br>
 - Human Parsing with Contextualized Convolutional Neural Network-2015 [[Paper]](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liang_Human_Parsing_With_ICCV_2015_paper.pdf)</br>
 - Part detector discovery in deep convolutional neural networks-2014 [[Code]](https://github.com/cvjena/PartDetectorDisovery) [[Paper]](https://arxiv.org/abs/1411.3159)</br>
-8.	Hypercolumns for object segmentation and fine-grained localization [[Paper]](http://www.eecs.berkeley.edu/~bharath2/pubs/pdfs/BharathCVPR2015.pdf)</br>
+-	Hypercolumns for object segmentation and fine-grained localization [[Paper]](http://www.eecs.berkeley.edu/~bharath2/pubs/pdfs/BharathCVPR2015.pdf)</br>
 
 ## Clothes Parsing
-1.  Looking at Outfit to Parse Clothing-2017 [[Paper]](https://arxiv.org/abs/1703.01386)</br>
-2.  Semantic Object Parsing with Local-Global Long Short-Term Memory-2015 [[Paper]](https://arxiv.org/abs/1511.04510)</br>
+-  Looking at Outfit to Parse Clothing-2017 [[Paper]](https://arxiv.org/abs/1703.01386)</br>
+-  Semantic Object Parsing with Local-Global Long Short-Term Memory-2015 [[Paper]](https://arxiv.org/abs/1511.04510)</br>
 -A High Performance CRF Model for Clothes Parsing-2014 [[Project]](http://hi.cs.waseda.ac.jp/~esimo/en/code/clothes_parsing/) [[Code]](https://github.com/bobbens/clothes_parsing) [[Dataset]](http://vision.is.tohoku.ac.jp/~kyamagu/ja/research/clothing_parsing/) [[Paper]](https://pdfs.semanticscholar.org/0416/f5d1564d1f2a597acac04e81b02b2eff67d2.pdf)</br>
 - Clothing co-parsing by joint image segmentation and labeling-2013 [[Project]](http://hcp.sysu.edu.cn/clothing-co-parsing-by-joint-image-segmentation-and-labeling/) [[Dataset]](https://github.com/bearpaw/clothing-co-parsing) [[Paper]](https://arxiv.org/abs/1502.00739)</br>
 - Parsing clothing in fashion photographs-2012 [[Project]](http://vision.is.tohoku.ac.jp/~kyamagu/research/clothing_parsing/) [[Paper]](http://vision.is.tohoku.ac.jp/~kyamagu/papers/yamaguchi_cvpr2012.pdf)</br>
