@@ -151,6 +151,7 @@ Some implementation of semantic segmantation for DL model</br>
 - Learning Hierarchical Shape Segmentation and Labeling from Online Repositories (2017) [[Paper]](http://cs.stanford.edu/~ericyi/project_page/hier_seg/index.html)
 - 3D Graph Neural Networks for RGBD Semantic Segmentation (2017) [[Paper]](http://www.cs.toronto.edu/~rjliao/papers/iccv_2017_3DGNN.pdf)
 - 3DCNN-DQN-RNN: A Deep Reinforcement Learning Framework for Semantic Parsing of Large-scale 3D Point Clouds (2017)[[Paper]](https://arxiv.org/pdf/1707.06783.pdf)
+- Multi-view deep learning for consistent semantic mapping with rgb-d cameras [[Paper]](https://arxiv.org/pdf/1703.08866.pdf)
 
 ## Robotics
 - Virtual-to-Real: Learning to Control in Visual Semantic Segmentation [[Paper]](https://arxiv.org/pdf/1802.00285.pdf)
