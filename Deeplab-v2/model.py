@@ -9,6 +9,20 @@ from PIL import Image
 from network import *
 from utils import ImageReader, decode_labels, inv_preprocess, prepare_label, write_log, read_labeled_image_list
 
+
+
+"""
+This script trains or evaluates the model on augmented PASCAL VOC 2012 dataset.
+The training set contains 10581 training images.
+The validation set contains 1449 validation images.
+
+Training:
+'poly' learning rate
+different learning rates for different layers
+"""
+
+
+
 IMG_MEAN = np.array((104.00698793,116.66876762,122.67891434), dtype=np.float32)
 
 class Model(object):
@@ -162,13 +176,13 @@ class Model(object):
 		elif self.conf.encoder_name == 'deeplab':
 			net = Deeplab_v2(self.image_batch, self.conf.num_classes, True)
 			# Variables that load from pre-trained model.
-			restore_var = [v for v in tf.global_variables() if 'fc' not in v.name] #filter fc variables
+			restore_var = [v for v in tf.global_variables() if 'fc' not in v.name]
 			# Trainable Variables
 			all_trainable = tf.trainable_variables()
 			# Fine-tune part
 			encoder_trainable = [v for v in all_trainable if 'fc' not in v.name] # lr * 1.0
 			# Decoder part
-			decoder_trainable = [v for v in all_trainable if 'fc' in v.name]  #fc in decoder phase
+			decoder_trainable = [v for v in all_trainable if 'fc' in v.name]
 		else:
 			net = ResNet_segmentation(self.image_batch, self.conf.num_classes, True, self.conf.encoder_name)
 			# Variables that load from pre-trained model.
@@ -180,8 +194,6 @@ class Model(object):
 			# Decoder part
 			decoder_trainable = [v for v in all_trainable if 'decoder' in v.name]
 		
-        #gamma:scale
-        #beta:bias
 		decoder_w_trainable = [v for v in decoder_trainable if 'weights' in v.name or 'gamma' in v.name] # lr * 10.0
 		decoder_b_trainable = [v for v in decoder_trainable if 'biases' in v.name or 'beta' in v.name] # lr * 20.0
 		# Check
@@ -193,15 +205,15 @@ class Model(object):
 
 		# Output size
 		output_shape = tf.shape(raw_output)
-		output_size = (output_shape[1], output_shape[2]) #height,weight
+		output_size = (output_shape[1], output_shape[2])
 
 		# Groud Truth: ignoring all labels greater or equal than n_classes
 		label_proc = prepare_label(self.label_batch, output_size, num_classes=self.conf.num_classes, one_hot=False)
 		raw_gt = tf.reshape(label_proc, [-1,])
 		indices = tf.squeeze(tf.where(tf.less_equal(raw_gt, self.conf.num_classes - 1)), 1)
-		gt = tf.cast(tf.gather(raw_gt, indices), tf.int32) # shape:[batch_size, h, w, 1]
-		raw_prediction = tf.reshape(raw_output, [-1, self.conf.num_classes]) # shape:[batch_size, h, w, num_classes]
-		prediction = tf.gather(raw_prediction, indices) # shape:[batch_size, h, w, num_classes]
+		gt = tf.cast(tf.gather(raw_gt, indices), tf.int32)
+		raw_prediction = tf.reshape(raw_output, [-1, self.conf.num_classes])
+		prediction = tf.gather(raw_prediction, indices)
 
 		# Pixel-wise softmax_cross_entropy loss
 		loss = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=prediction, labels=gt)
@@ -214,8 +226,7 @@ class Model(object):
 		# 'poly' learning rate
 		base_lr = tf.constant(self.conf.learning_rate)
 		self.curr_step = tf.placeholder(dtype=tf.float32, shape=())
-		learning_rate = tf.scalar_mul(base_lr, tf.pow((1 - self.curr_step / self.conf.num_steps), self.conf.power)) # base_lr * (1 - curr_step/num_steps) ^ power
-
+		learning_rate = tf.scalar_mul(base_lr, tf.pow((1 - self.curr_step / self.conf.num_steps), self.conf.power))
 		# We have several optimizers here in order to handle the different lr_mult
 		# which is a kind of parameters in Caffe. This controls the actual lr for each
 		# layer.
@@ -226,40 +237,36 @@ class Model(object):
 		# Instead, we separate the steps compute_grads+update_params.
 		# Compute grads
 		grads = tf.gradients(self.reduced_loss, encoder_trainable + decoder_w_trainable + decoder_b_trainable)
-
-        # encoder_trainable : decoder_w_trainable : decoder_b_trainable
 		grads_encoder = grads[:len(encoder_trainable)]
 		grads_decoder_w = grads[len(encoder_trainable) : (len(encoder_trainable) + len(decoder_w_trainable))]
 		grads_decoder_b = grads[(len(encoder_trainable) + len(decoder_w_trainable)):]
-
 		# Update params
 		train_op_conv = opt_encoder.apply_gradients(zip(grads_encoder, encoder_trainable))
 		train_op_fc_w = opt_decoder_w.apply_gradients(zip(grads_decoder_w, decoder_w_trainable))
 		train_op_fc_b = opt_decoder_b.apply_gradients(zip(grads_decoder_b, decoder_b_trainable))
-
 		# Finally, get the train_op!
 		update_ops = tf.get_collection(tf.GraphKeys.UPDATE_OPS) # for collecting moving_mean and moving_variance
 		with tf.control_dependencies(update_ops):
-			self.train_op = tf.group(train_op_conv, train_op_fc_w, train_op_fc_b) #group multiple operations
+			self.train_op = tf.group(train_op_conv, train_op_fc_w, train_op_fc_b)
 
 		# Saver for storing checkpoints of the model
 		self.saver = tf.train.Saver(var_list=tf.global_variables(), max_to_keep=0)
 
 		# Loader for loading the pre-trained model
-		self.loader = tf.train.Saver(var_list=restore_var) # encoder variable
+		self.loader = tf.train.Saver(var_list=restore_var)
 
 		# Training summary
 		# Processed predictions: for visualisation.
-		raw_output_up = tf.image.resize_bilinear(raw_output, input_size) ## batch_size, h, w, num_classes
-		raw_output_up = tf.argmax(raw_output_up, axis=3) # batch_size, h, w
-		self.pred = tf.expand_dims(raw_output_up, dim=3) # batch_size, h, w, 1
-
+		raw_output_up = tf.image.resize_bilinear(raw_output, input_size)
+		raw_output_up = tf.argmax(raw_output_up, axis=3)
+		self.pred = tf.expand_dims(raw_output_up, dim=3)
 		# Image summary.
 		images_summary = tf.py_func(inv_preprocess, [self.image_batch, 2, IMG_MEAN], tf.uint8)
 		labels_summary = tf.py_func(decode_labels, [self.label_batch, 2, self.conf.num_classes], tf.uint8)
 		preds_summary = tf.py_func(decode_labels, [self.pred, 2, self.conf.num_classes], tf.uint8)
 		self.total_summary = tf.summary.image('images',
-			tf.concat(axis=2, values=[images_summary, labels_summary, preds_summary]),max_outputs=2) # Concatenate row-wise.
+			tf.concat(axis=2, values=[images_summary, labels_summary, preds_summary]),
+			max_outputs=2) # Concatenate row-wise.
 		if not os.path.exists(self.conf.logdir):
 			os.makedirs(self.conf.logdir)
 		self.summary_writer = tf.summary.FileWriter(self.conf.logdir, graph=tf.get_default_graph())

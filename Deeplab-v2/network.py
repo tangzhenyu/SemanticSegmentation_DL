@@ -7,132 +7,24 @@ import six
 """
 This script defines the segmentation network.
 
-The encoding part is a pre-trained ResNet.
-The decoding part is a ASPP model.
+The encoding part is a pre-trained ResNet. This script supports several settings (you need to specify in main.py):
+	
+	Deeplab v2 pre-trained model (pre-trained on MSCOCO) ('deeplab_resnet_init.ckpt')
+	Deeplab v2 pre-trained model (pre-trained on MSCOCO + PASCAL_train+val) ('deeplab_resnet.ckpt')
+	Original ResNet-101 ('resnet_v1_101.ckpt')
+	Original ResNet-50 ('resnet_v1_50.ckpt')
+
+You may find the download links in README.
+
+To use the pre-trained models, the name of each layer is the same as that in .ckpy file.
 """
-class Vgg16_segmentation(object):
-	"""
-	Deeplab v2 pre-trained model
-	"""
-	def __init__(self, inputs, num_classes, phase):
-		self.inputs = inputs
-		self.num_classes = num_classes
-		self.channel_axis = 3
-		self.phase = phase # train (True) or test (False), for BN layers in the decoder
-		self.build_network()
 
-	def build_network(self):
-		self.encoding = self.build_encoder()
-		self.outputs = self.build_decoder(self.encoding)
-
-	def build_encoder(self):
-		print("-----------build encoder: vgg17 pre-trained-----------")
-		# block 1 -- outputs 112x112x64  
-	    conv1_1 = _conv2d(self.inputs, name="conv1_1", kernel_size=3, num_o=64, stride=1)  
-	    conv1_2 = _conv2d(conv1_1,  name="conv1_2", kernel_size=3, num_o=64, stride=1)  
-	    pool1 = _max_pool2d(conv1_2,   name="pool1",   kernel_size=2, stride=2)  
-	    print("after block1:", pool1.shape)
-
-	    # block 2 -- outputs 56x56x128  
-	    conv2_1 = _conv2d(pool1,    name="conv2_1", kernel_size=3, num_o=128, stride=1)  
-	    conv2_2 = _conv2d(conv2_1,  name="conv2_2", kernel_size=3, num_o=128, stride=1)  
-	    pool2 = _max_pool2d(conv2_2,   name="pool2",   kernel_size=2, stride=2)  
-	    print("after block2:", pool2.shape)
-
-	    # # block 3 -- outputs 28x28x256  
-	    conv3_1 = _conv2d(pool2,    name="conv3_1", kernel_size=3, num_o=256, stride=1)  
-	    conv3_2 = _conv2d(conv3_1,  name="conv3_2", kernel_size=3, num_o=256, stride=1)  
-	    conv3_3 = _conv2d(conv3_2,  name="conv3_3", kernel_size=3, num_o=256, stride=1)      
-	    pool3 = _max_pool2d(conv3_3,   name="pool3",   kernel_size=2, stride=2)  
-	    print("after block3:", pool3.shape)
-
-	    # block 4 -- outputs 14x14x512  
-	    conv4_1 = _conv2d(pool3,    name="conv4_1", kernel_size=3, num_o=512, stride=1)  
-	    conv4_2 = _conv2d(conv4_1,  name="conv4_2", kernel_size=3, num_o=512, stride=1)  
-	    conv4_3 = _conv2d(conv4_2,  name="conv4_3", kernel_size=3, num_o=512, stride=1)  
-	    pool4 = _max_pool2d(conv4_3,   name="pool4",   kernel_size=2, stride=2)  
-	    print("after block4:", pool4.shape)
-
-	    # block 5 -- outputs 7x7x512  
-	    conv5_1 = _conv2d(pool4,    name="conv5_1", kernel_size=3, num_o=512, stride=1)  
-	    conv5_2 = _conv2d(conv5_1,  name="conv5_2", kernel_size=3, num_o=512, stride=1)  
-	    conv5_3 = _conv2d(conv5_2,  name="conv5_3", kernel_size=3, num_o=512, stride=1)  
-	    pool5 = _max_pool2d(conv5_3,   name="pool5",   kernel_size=2, stride=2)
-	    print("after block5:", pool5.shape)
-		return pool5
-
-	def build_decoder(self, encoding):
-		print("-----------build decoder-----------")
-		outputs = self._ASPP(encoding, self.num_classes, [6, 12, 18, 24])
-		print("after aspp block:", outputs.shape)
-		return outputs
-
-	def _ASPP(self, x, num_o, dilations):
-		o = []
-		for i, d in enumerate(dilations):
-			o.append(self._dilated_conv2d(x, 3, num_o, d, name='fc1_voc12_c%d' % i, biased=True))
-		return self._add(o, name='fc1_voc12')
-
-	# layers
-	def _conv2d(self, x, kernel_size, num_o, stride, name, biased=False):
-		"""
-		Conv2d without BN or relu.
-		"""
-		num_x = x.shape[self.channel_axis].value
-		with tf.variable_scope(name) as scope:
-			w = tf.get_variable('weights', shape=[kernel_size, kernel_size, num_x, num_o])
-			s = [1, stride, stride, 1]
-			o = tf.nn.conv2d(x, w, s, padding='SAME')
-			if biased:
-				b = tf.get_variable('biases', shape=[num_o])
-				o = tf.nn.bias_add(o, b)
-			return o
-
-	def _dilated_conv2d(self, x, kernel_size, num_o, dilation_factor, name, biased=False):
-		"""
-		Dilated conv2d without BN or relu.
-		"""
-		num_x = x.shape[self.channel_axis].value
-		with tf.variable_scope(name) as scope:
-			w = tf.get_variable('weights', shape=[kernel_size, kernel_size, num_x, num_o])
-			o = tf.nn.atrous_conv2d(x, w, dilation_factor, padding='SAME')
-			if biased:
-				b = tf.get_variable('biases', shape=[num_o])
-				o = tf.nn.bias_add(o, b)
-			return o
-
-	def _relu(self, x, name):
-		return tf.nn.relu(x, name=name)
-
-	def _add(self, x_l, name):
-		return tf.add_n(x_l, name=name)
-
-	def _max_pool2d(self, x, kernel_size, stride, name):
-		k = [1, kernel_size, kernel_size, 1]
-		s = [1, stride, stride, 1]
-		return tf.nn.max_pool(x, k, s, padding='SAME', name=name)
-
-	def _batch_norm(self, x, name, is_training, activation_fn, trainable=False):
-		# For a small batch size, it is better to keep 
-		# the statistics of the BN layers (running means and variances) frozen, 
-		# and to not update the values provided by the pre-trained model by setting is_training=False.
-		# Note that is_training=False still updates BN parameters gamma (scale) and beta (offset)
-		# if they are presented in var_list of the optimiser definition.
-		# Set trainable = False to remove them from trainable_variables.
-		with tf.variable_scope(name) as scope:
-			o = tf.contrib.layers.batch_norm(
-				x,
-				scale=True,
-				activation_fn=activation_fn,
-				is_training=is_training,
-				trainable=trainable,
-				scope=scope)
-			return o
 
 
 class Deeplab_v2(object):
 	"""
-	Deeplab v2 pre-trained model
+	Deeplab v2 pre-trained model (pre-trained on MSCOCO) ('deeplab_resnet_init.ckpt')
+	Deeplab v2 pre-trained model (pre-trained on MSCOCO + PASCAL_train+val) ('deeplab_resnet.ckpt')
 	"""
 	def __init__(self, inputs, num_classes, phase):
 		self.inputs = inputs
@@ -293,8 +185,8 @@ class Deeplab_v2(object):
 
 class ResNet_segmentation(object):
 	"""
-	Original ResNet-101 
-	Original ResNet-50
+	Original ResNet-101 ('resnet_v1_101.ckpt')
+	Original ResNet-50 ('resnet_v1_50.ckpt')
 	"""
 	def __init__(self, inputs, num_classes, phase, encoder_name):
 		if encoder_name not in ['res101', 'res50']:
@@ -330,7 +222,7 @@ class ResNet_segmentation(object):
 				print("after block2:", outputs.shape)
 			with tf.variable_scope('block3') as scope:
 				outputs = self._dilated_bottle_resblock(outputs, 1024, 2, 'unit_1',	identity_connection=False)
-				num_layers_block3 = 23 if self.encoder_name == 'res101' else 6   #resnet 101 or resnet 50
+				num_layers_block3 = 23 if self.encoder_name == 'res101' else 6
 				for i in six.moves.range(2, num_layers_block3+1):
 					outputs = self._dilated_bottle_resblock(outputs, 1024, 2, 'unit_%d' % i)
 				print("after block3:", outputs.shape)
@@ -404,16 +296,16 @@ class ResNet_segmentation(object):
 
 	def _ASPP(self, x, num_o, dilations):
 		o = []
-		for i, d in enumerate(dilations): #applying different dilated rate
+		for i, d in enumerate(dilations):
 			o.append(self._dilated_conv2d(x, 3, num_o, d, name='aspp/conv%d' % (i+1), biased=True))
-		return self._add(o, name='aspp/add') #parallel added these feature maps
+		return self._add(o, name='aspp/add')
 
 	# layers
 	def _conv2d(self, x, kernel_size, num_o, stride, name, biased=False):
 		"""
 		Conv2d without BN or relu.
 		"""
-		num_x = x.shape[self.channel_axis].value #get channel nums
+		num_x = x.shape[self.channel_axis].value
 		with tf.variable_scope(name) as scope:
 			w = tf.get_variable('weights', shape=[kernel_size, kernel_size, num_x, num_o])
 			s = [1, stride, stride, 1]

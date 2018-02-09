@@ -3,9 +3,13 @@ import os
 import tensorflow as tf
 from model import Model
 
+
+
 """
 This script defines hyperparameters.
 """
+
+
 
 def configure():
 	flags = tf.app.flags

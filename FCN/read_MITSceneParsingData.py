@@ -14,6 +14,7 @@ DATA_URL = 'http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.z
 def read_dataset(data_dir):
     pickle_filename = "MITSceneParsing.pickle"
     pickle_filepath = os.path.join(data_dir, pickle_filename)
+    print(pickle_filepath)
     if not os.path.exists(pickle_filepath):
         utils.maybe_download_and_extract(data_dir, DATA_URL, is_zipfile=True)
         SceneParsing_folder = os.path.splitext(DATA_URL.split("/")[-1])[0]
@@ -23,7 +24,6 @@ def read_dataset(data_dir):
             pickle.dump(result, f, pickle.HIGHEST_PROTOCOL)
     else:
         print ("Found pickle file!")
-
     with open(pickle_filepath, 'rb') as f:
         result = pickle.load(f)
         training_records = result['training']
@@ -32,14 +32,13 @@ def read_dataset(data_dir):
 
     return training_records, validation_records
 
-
 def create_image_lists(image_dir):
     if not gfile.Exists(image_dir):
         print("Image directory '" + image_dir + "' not found.")
         return None
     directories = ['training', 'validation']
     image_list = {}
-
+    print(image_dir)
     for directory in directories:
         file_list = []
         image_list[directory] = []

@@ -40,6 +40,7 @@ class BatchDatset:
         print (self.annotations.shape)
 
     def _transform(self, filename):
+        #print(filename)
         image = misc.imread(filename)
         if self.__channels and len(image.shape) < 3:  # make sure images are of shape(h,w,3)
             image = np.array([image for i in range(3)])

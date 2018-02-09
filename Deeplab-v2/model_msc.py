@@ -9,6 +9,20 @@ from PIL import Image
 from network import *
 from utils import ImageReader, decode_labels, inv_preprocess, prepare_label, write_log, read_labeled_image_list
 
+
+
+"""
+This script trains or evaluates the model on augmented PASCAL VOC 2012 dataset.
+The training set contains 10581 training images.
+The validation set contains 1449 validation images.
+
+Training:
+'poly' learning rate
+different learning rates for different layers
+"""
+
+
+
 IMG_MEAN = np.array((104.00698793,116.66876762,122.67891434), dtype=np.float32)
 
 class Model_msc(object):
