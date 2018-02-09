@@ -127,12 +127,12 @@ Some implementation of semantic segmantation for DL model</br>
 -	 Convolutional Patch Networks with Spatial Prior for Road Detection and Urban Scene Understanding[[Paper]](https://arxiv.org/abs/1502.06344.pdf)</br>
 -	 Deep Deconvolutional Networks for Scene Parsing[[Paper]](https://arxiv.org/abs/1411.4101)</br>
 -  FusionSeg: Learning to combine motion and appearance for fully automatic segmention of generic objects in videos[[Paper]](https://arxiv.org/pdf/1701.05384.pdf)[[Poject]](http://vision.cs.utexas.edu/projects/fusionseg/)</br>
-- Deep Dual Learning for Semantic Image Segmentation [[Paper]](http://personal.ie.cuhk.edu.hk/~pluo/pdf/luoWLWiccv17.pdf)</br>
+- ICCV-2017 Deep Dual Learning for Semantic Image Segmentation [[Paper]](http://personal.ie.cuhk.edu.hk/~pluo/pdf/luoWLWiccv17.pdf)</br>
 - From image-level to pixel level labeling with convolutional networks [[Paper]]()</br>
 - Scene Segmentation with DAG-Recurrent Neural Networks [[Paper]](http://ieeexplore.ieee.org/abstract/document/7940028/)</br>
 - Learning to Segment Every Thing [[Paper]](https://arxiv.org/pdf/1711.10370.pdf)</br>
 - Weakly-Supervised Dual Clustering for Image Semantic Segmentation [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Liu_Weakly-Supervised_Dual_Clustering_2013_CVPR_paper.pdf)</br>
-80. Panoptic Segmentation [[Paper]](https://arxiv.org/pdf/1801.00868.pdf)</br>
+- Panoptic Segmentation [[Paper]](https://arxiv.org/pdf/1801.00868.pdf)</br>
 - The Devil is in the Decoder [[Paper]](https://arxiv.org/pdf/1707.05847.pdf)</br>
 - Attention to Scale: Scale-aware Semantic Image Segmentation [[Paper]](http://arxiv.org/pdf/1511.03339)[[Project]](http://liangchiehchen.com/projects/DeepLab.html)</br>
 - Convolutional Oriented Boundaries: From Image Segmentation to High-Level Tasks [[Paper]](https://arxiv.org/pdf/1701.04658.pdf) [[Project]](http://www.vision.ee.ethz.ch/~cvlsegmentation/)</br>
