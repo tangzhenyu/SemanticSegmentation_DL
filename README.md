@@ -142,23 +142,18 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 3D Semantic Segmentation
 ### Papers
-1.PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation [[Paper]](http://stanford.edu/%7Erqi/pointnet/)
+- PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation [[Paper]](http://stanford.edu/%7Erqi/pointnet/)
+- PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space (2017) [[Paper]](https://arxiv.org/pdf/1706.02413.pdf)
+- Learning 3D Mesh Segmentation and Labeling (2010)</b> [[Paper]](https://people.cs.umass.edu/~kalo/papers/LabelMeshes/LabelMeshes.pdf)
+- Unsupervised Co-Segmentation of a Set of Shapes via Descriptor-Space Spectral Clustering (2011)</b> [[Paper]](https://www.cs.sfu.ca/~haoz/pubs/sidi_siga11_coseg.pdf)
+- Single-View Reconstruction via Joint Analysis of Image and Shape Collections (2015)</b> [[Paper]](https://www.cs.utexas.edu/~huangqx/modeling_sig15.pdf)
+- 3D Shape Segmentation with Projective Convolutional Networks (2017) [[Paper]](http://people.cs.umass.edu/~kalo/papers/shapepfcn/)
+- Learning Hierarchical Shape Segmentation and Labeling from Online Repositories (2017) [[Paper]](http://cs.stanford.edu/~ericyi/project_page/hier_seg/index.html)
+- 3D Graph Neural Networks for RGBD Semantic Segmentation (2017) [[Paper]](http://www.cs.toronto.edu/~rjliao/papers/iccv_2017_3DGNN.pdf)
+- 3DCNN-DQN-RNN: A Deep Reinforcement Learning Framework for Semantic Parsing of Large-scale 3D Point Clouds (2017)[[Paper]](https://arxiv.org/pdf/1707.06783.pdf)
 
-2.PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space (2017) [[Paper]](https://arxiv.org/pdf/1706.02413.pdf)
-
-3.Learning 3D Mesh Segmentation and Labeling (2010)</b> [[Paper]](https://people.cs.umass.edu/~kalo/papers/LabelMeshes/LabelMeshes.pdf)
-
-4.Unsupervised Co-Segmentation of a Set of Shapes via Descriptor-Space Spectral Clustering (2011)</b> [[Paper]](https://www.cs.sfu.ca/~haoz/pubs/sidi_siga11_coseg.pdf)
-
-5.Single-View Reconstruction via Joint Analysis of Image and Shape Collections (2015)</b> [[Paper]](https://www.cs.utexas.edu/~huangqx/modeling_sig15.pdf)
-
-6.3D Shape Segmentation with Projective Convolutional Networks (2017) [[Paper]](http://people.cs.umass.edu/~kalo/papers/shapepfcn/)
-
-7.Learning Hierarchical Shape Segmentation and Labeling from Online Repositories (2017) [[Paper]](http://cs.stanford.edu/~ericyi/project_page/hier_seg/index.html)
-
-8.3D Graph Neural Networks for RGBD Semantic Segmentation (2017) [[Paper]](http://www.cs.toronto.edu/~rjliao/papers/iccv_2017_3DGNN.pdf)
-
-9.3DCNN-DQN-RNN: A Deep Reinforcement Learning Framework for Semantic Parsing of Large-scale 3D Point Clouds (2017)[[Paper]](https://arxiv.org/pdf/1707.06783.pdf)
+## Robotics
+- Virtual-to-Real: Learning to Control in Visual Semantic Segmentation [[Paper]](https://arxiv.org/pdf/1802.00285.pdf)
 
 ## Scene Understanding
 ### Papers
