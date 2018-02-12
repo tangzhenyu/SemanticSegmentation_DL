@@ -197,7 +197,7 @@ MINOS is a simulator designed to support the development of multisensory models 
 ### Codes
 
 
-## Weakly-Supervised-Segmentatio
+## Weakly-Supervised-Segmentation
 + Weakly Supervised Structured Output Learning for Semantic Segmentation [[Paper]](http://groups.inf.ed.ac.uk/calvin/hp_avezhnev/Pubs/VezhnevetsCVPR2012b.pdf)
 + ICCV-2011 Weakly supervised semantic segmentation with a multi-image model [[Paper]](http://ieeexplore.ieee.org/document/6126299/)
 + ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016[[Paper]](https://arxiv.org/abs/1604.05144)</br>
@@ -206,7 +206,7 @@ MINOS is a simulator designed to support the development of multisensory models 
 + Learning to segment under various forms of weak supervision. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015.[[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/app/2B_048.pdf)
 + STC: A Simple to Complex Framework for Weakly-supervised Semantic Segmentation 2017 TPAMI [[Paper]](https://arxiv.org/pdf/1509.03150.pdf) [[Project]]()
 + [[Paper]](https://www.robots.ox.ac.uk/~vgg/rg/papers/semanticsegmentation.pdf)
-+ CVPR-2017-Simple Does It: Weakly Supervised Instance and Semantic Segmentation [[Paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Khoreva_Simple_Does_It_CVPR_2017_paper.pdf) 
++ CVPR-2017-Simple Does It: Weakly Supervised Instance and Semantic Segmentation [[Paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Khoreva_Simple_Does_It_CVPR_2017_paper.pdf) [[tensorflow]](https://github.com/philferriere/tfwss)
 + CVPR-2017-Weakly Supervised Semantic Segmentation using Web-Crawled Videos [[Paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Hong_Weakly_Supervised_Semantic_CVPR_2017_paper.pdf)
 + AAAI-2017-Weakly Supervised Semantic Segmentation Using Superpixel Pooling Network [[Paper]](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14445/14288)
 + ICCV-2015-Weakly supervised graph based semantic segmentation by learning communities of image-parts [[Paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Pourian_Weakly_Supervised_Graph_ICCV_2015_paper.pdf)
