@@ -51,6 +51,7 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 2D Semantic Segmentation
 ### Papers:
++ AAAI-2018 Mix-and-Match Tuning for Self-Supervised Semantic Segmentation [[Paper]](https://arxiv.org/pdf/1712.00661.pdf)
 + NIPS-2017-Learning Affinity via Spatial Propagation Networks [[Paper]](https://papers.nips.cc/paper/6750-learning-affinity-via-spatial-propagation-networks.pdf)
 + AAAI-2018-Spatial As Deep: Spatial CNN for Traffic Scene Understanding [[Paper]](https://arxiv.org/pdf/1712.06080.pdf)
 + Stacked Deconvolutional Network for Semantic Segmentation-2017 [[Paper]](https://arxiv.org/pdf/1708.04943.pdf)</br>
