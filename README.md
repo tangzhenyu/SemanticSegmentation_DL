@@ -107,7 +107,6 @@ Some implementation of semantic segmantation for DL model</br>
 -  ParseNet: Looking Wider to See Better-2015 [[Code-Caffe]](https://github.com/weiliu89/caffe/tree/fcn) [[Model-Caffe]](https://github.com/BVLC/caffe/wiki/Model-Zoo#parsenet-looking-wider-to-see-better) [[Paper]](http://arxiv.org/abs/1506.04579)</br>
 -  Decoupled Deep Neural Network for Semi-supervised Semantic Segmentation-2015 [[Project]](http://cvlab.postech.ac.kr/research/decouplednet/) [[Code-Caffe]](https://github.com/HyeonwooNoh/DecoupledNet) [[Paper]](http://arxiv.org/abs/1506.04924)</br>
 -  **SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation-2015** [[Project]](http://mi.eng.cam.ac.uk/projects/segnet/) [[Code-Caffe]](https://github.com/alexgkendall/caffe-segnet) [[Paper]](http://arxiv.org/abs/1511.00561) [[Tutorial1]](http://mi.eng.cam.ac.uk/projects/segnet/tutorial.html) [[Tutorial2]](https://github.com/alexgkendall/SegNet-Tutorial)</br>
--  SegNet: A Deep Convolutional Encoder-Decoder Architecture for Robust Semantic Pixel-Wise Labelling-2015 [[Code-Caffe]](https://github.com/alexgkendall/caffe-segnet) [[Code-Chainer]](https://github.com/pfnet-research/chainer-segnet) [[Paper]](http://arxiv.org/abs/1505.07293)</br>
 -  Semantic Image Segmentation with Task-Specific Edge Detection Using CNNs and a Discriminatively Trained Domain Transform-2015 [[Paper]](https://arxiv.org/abs/1511.03328)</br>
 -  Semantic Segmentation with Boundary Neural Fields-2015 [[Code]](https://github.com/gberta/BNF_globalization) [[Paper]](https://arxiv.org/abs/1511.02674)</br>
 -  Semantic Image Segmentation via Deep Parsing Network-2015 [[Project]](http://personal.ie.cuhk.edu.hk/~lz013/projects/DPN.html) [[Paper1]](http://arxiv.org/abs/1509.02634) [[Paper2]](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Semantic_Image_Segmentation_ICCV_2015_paper.pdf) [[Slides]](http://personal.ie.cuhk.edu.hk/~pluo/pdf/presentation_dpn.pdf)</br>
@@ -198,7 +197,7 @@ MINOS is a simulator designed to support the development of multisensory models 
 ### Codes
 
 
-## Weakly-Supervised-Segmentatio
+## Weakly-Supervised-Segmentation
 + Weakly Supervised Structured Output Learning for Semantic Segmentation [[Paper]](http://groups.inf.ed.ac.uk/calvin/hp_avezhnev/Pubs/VezhnevetsCVPR2012b.pdf)
 + ICCV-2011 Weakly supervised semantic segmentation with a multi-image model [[Paper]](http://ieeexplore.ieee.org/document/6126299/)
 + ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016[[Paper]](https://arxiv.org/abs/1604.05144)</br>
@@ -387,7 +386,7 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 - [Jianping Shi](http://shijianping.me/)
 - [Kaiming He](http://kaiminghe.com/)
 - [Ming-Ming Cheng](http://mmcheng.net/publications/)
-- [Joachim M. Buhmann] (https://scholar.google.com/citations?user=zQWbCzYAAAAJ)
+- [Joachim M. Buhmann](https://scholar.google.com/citations?user=zQWbCzYAAAAJ)
 
 ## Results:
 
