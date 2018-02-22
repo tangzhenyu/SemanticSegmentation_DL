@@ -44,6 +44,7 @@ Some implementation of semantic segmantation for DL model</br>
 - A 2017 Guide to Semantic Segmentation with Deep Learning by Qure AI [[Blog about different sem. segm. methods]](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review)
 - A Review on Deep Learning Techniques Applied to Semantic Segmentation [[Survey paper with a special focus on datasets and the highest performing methods]](https://arxiv.org/abs/1704.06857)
 - Computer Vision for Autonomous Vehicles: Problems, Datasets and State-of-the-Art [[Survey paper about all aspects of autonomous vehicles, including sem. segm.]](https://arxiv.org/abs/1704.05519) [[Webpage with a summary of all relevant publications]](http://www.cvlibs.net/projects/autonomous_vision_survey/)
+- A Survey on Deep Learning in Medical Image Analysis [[Paper]](https://arxiv.org/pdf/1702.05747）
 
 ## Online demos
 - [CRF as RNN](http://www.robots.ox.ac.uk/~szheng/crfasrnndemo)
