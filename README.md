@@ -189,11 +189,33 @@ MINOS is a simulator designed to support the development of multisensory models 
 
 ## Medical Image Semantic Segmentation
 ### Papers
+- Deep neural networks segment neuronal membranes in electron microscopy images
 - Semantic Image  Segmentation with Deep Learning [[Paper]](http://www.robots.ox.ac.uk/~sadeep/files/crfasrnn_presentation.pdf)</br>
 - Automatic Liver and Tumor Segmentation of CT and MRI Volumes Using Cascaded Fully Convolutional Neural Networks [[Paper]](https://arxiv.org/pdf/1702.05970.pdf)</br>
 - DeepNAT: Deep Convolutional Neural Network for Segmenting Neuroanatomy [[Paper]](https://arxiv.org/pdf/1702.08192.pdf)</br>
 - CNN-based Segmentation of Medical Imaging Data [[Paper]](https://arxiv.org/pdf/1701.03056.pdf)</br>
-- Deep Retinal Image Understanding (http://www.vision.ee.ethz.ch/~cvlsegmentation/driu/data/paper/DRIU_MICCAI2016.pdf)</br>
+- Deep Retinal Image Understanding (http://www.vision.ee.ethz.ch/~cvlsegmentation/driu/data/paper/DRIU_MICCAI2016.pdf)
+- Model-based segmentation of vertebral bodies from MR images with 3D CNNs
+- Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation
+- U-net: Convolutional networks for biomedical image segmentation
+- 3D U-Net: Learning dense volumetric segmentation from sparse annotation. 
+- V-Net: Fully convolutional neural networks for volumetric medical image segmentation.arXiv:1606.04797
+- The importance of skip connections in biomedical image segmentation Spatial clockwork recurrent neural network for muscle perimysium segmentation
+- NPIS-2015 Parallel multi-dimensional LSTM, with application to fast biomedical volumetric image segmentation
+- Multi-dimensional gated recurrent units for the segmentation of biomedical 3D-data
+- Combining fully convolutional and recurrent neural networks for 3D biomedical image segmentation
+- Recurrent fully convolutional neural networks for multi-slice MRI cardiac segmentation. arXiv:1608.03974
+- Automatic detection and classification of colorectal polyps by transferring low-level CNN features from nonmedical domain
+- Deep learning for multi-task medical image segmentation in multiple modalities
+- Sub-cortical brain structure segmentation using F-CNNs
+- Segmentation label propagation using deep convolutional neural networks and dense conditional random field
+- Fast fully automatic segmentation of the human placenta from motion corrupted MRI
+- Automatic detection of cerebral microbleeds from MR images via 3D convolutional neural networks
+- Non-uniform patch sampling with deep convolutional neural networks for white matter hyperintensity segmentation
+- A unified framework for automatic wound segmentation and analysis with deep convolutional neural networks
+- Deep 3D convolutional encoder networks with shortcuts for multiscale feature integration applied to Multiple Sclerosis lesion segmentation 
+- Brain tumor segmentation using convolutional neural networks in MRI images
+
 ### Codes
 
 
