@@ -347,8 +347,8 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 +  Mask R-CNN-2017 [[Code-Tensorflow]](https://github.com/CharlesShang/FastMaskRCNN) [[Paper]](https://arxiv.org/abs/1703.06870)</br>
 +  Pose2Instance: Harnessing Keypoints for Person Instance Segmentation-2017 [[Paper]](https://arxiv.org/abs/1704.01152)</br>
 +  Pixelwise Instance Segmentation with a Dynamically Instantiated Network-2017 [[Paper]](https://arxiv.org/abs/1704.02386)</br>
-+  Fully Convolutional Instance-aware Semantic Segmentation-2016 [[Code]](https://github.com/msracver/FCIS) [[Paper]](https://arxiv.org/abs/1611.07709)</br>
-+  **Instance-aware Semantic Segmentation via Multi-task Network Cascades-2015** [[Code]](https://github.com/daijifeng001/MNC) [[Paper]](http://arxiv.org/abs/1512.04412)</br>
++  CVPR-2017-spotlight Fully Convolutional Instance-aware Semantic Segmentation-2016 [[Code]](https://github.com/msracver/FCIS) [[Paper]](https://arxiv.org/abs/1611.07709)</br>
++  CVPR-2016-oral **Instance-aware Semantic Segmentation via Multi-task Network Cascades-2015** [[Code]](https://github.com/daijifeng001/MNC) [[Paper]](http://arxiv.org/abs/1512.04412)</br>
 +  Recurrent Instance Segmentation-2015 [[Project]](http://romera-paredes.com/ris) [[Code-Torch7]](https://github.com/bernard24/ris) [[Paper]](http://arxiv.org/abs/1511.08250) [[Poster]](http://www.eccv2016.org/files/posters/P-4B-46.pdf) [[Video]](https://www.youtube.com/watch?v=l_WD2OWOqBk)</br>
 + Annotating Object Instances with a Polygon-RNN [[Paper]](https://arxiv.org/abs/1704.05548)
 + MaskLab: Instance Segmentation by Refining Object Detection with Semantic and Direction Features [[Paper]](https://arxiv.org/pdf/1712.04837.pdf)
@@ -360,6 +360,7 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 + RIS:Recurrent Instance Segmentation [[Paper]](https://arxiv.org/pdf/1511.08250.pdf)[Code](https://github.com/bernard24/RIS)
 + FastMask: Segment Multi-scale Object Candidates in One Shot [[Paper]](https://arxiv.org/pdf/1612.08843.pdf)[Code](https://github.com/voidrank/FastMask)
 + Proposal-free network for instance-level object segmentation [[Paper]](https://arxiv.org/pdf/1509.02636)
++ ECCV-2016 Instance-sensitive Fully Convolutional Networks  [[Paper]](http://arxiv.org/abs/1603.08678)
 
 ## Segment Object Candidates
 -  FastMask: Segment Object Multi-scale Candidates in One Shot-2016 [[Code-Caffe]](https://github.com/voidrank/FastMask) [[Paper]](https://arxiv.org/abs/1612.08843)</br>
