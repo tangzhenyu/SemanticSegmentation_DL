@@ -413,6 +413,7 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 - [Kaiming He](http://kaiminghe.com/)
 - [Ming-Ming Cheng](http://mmcheng.net/publications/)
 - [Joachim M. Buhmann](https://scholar.google.com/citations?user=zQWbCzYAAAAJ)
+- [Jifeng Dai]MSRA(http://www.jifengdai.org)
 
 ## Results:
 
