@@ -361,6 +361,7 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 + FastMask: Segment Multi-scale Object Candidates in One Shot [[Paper]](https://arxiv.org/pdf/1612.08843.pdf)[Code](https://github.com/voidrank/FastMask)
 + Proposal-free network for instance-level object segmentation [[Paper]](https://arxiv.org/pdf/1509.02636)
 + ECCV-2016 Instance-sensitive Fully Convolutional Networks  [[Paper]](http://arxiv.org/abs/1603.08678)
++ Pixel-level encoding and depth layering for instance-level semantic labeling [[Paper]](https://arxiv.org/pdf/1604.05096)
 
 ## Segment Object Candidates
 -  FastMask: Segment Object Multi-scale Candidates in One Shot-2016 [[Code-Caffe]](https://github.com/voidrank/FastMask) [[Paper]](https://arxiv.org/abs/1612.08843)</br>
