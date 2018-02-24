@@ -408,12 +408,12 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
   + https://github.com/wkentaro/labelme
   
 ## Distinguished Researchers & Teams:</br>
-- [Liang-Chieh (Jay) Chen](http://liangchiehchen.com/)(Deeplab)
+- [Liang-Chieh (Jay) Chen](http://liangchiehchen.com/) Deeplab-Google
 - [Jianping Shi](http://shijianping.me/)
 - [Kaiming He](http://kaiminghe.com/)
 - [Ming-Ming Cheng](http://mmcheng.net/publications/)
 - [Joachim M. Buhmann](https://scholar.google.com/citations?user=zQWbCzYAAAAJ)
-- [Jifeng Dai]MSRA(http://www.jifengdai.org)
+- [Jifeng Dai](http://www.jifengdai.org) FCIS-MSRA
 
 ## Results:
 
