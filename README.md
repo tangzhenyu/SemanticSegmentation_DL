@@ -77,7 +77,7 @@ Some implementation of semantic segmantation for DL model</br>
 -  LabelBank: Revisiting Global Perspectives for Semantic Segmentation-2017 [[Paper]](https://arxiv.org/abs/1703.09891)</br>
 -  Progressively Diffused Networks for Semantic Image Segmentation-2017 [[Paper]](https://arxiv.org/abs/1702.05839)</br>
 -  Understanding Convolution for Semantic Segmentation-2017 [[Model-Mxnet]](https://drive.google.com/drive/folders/0B72xLTlRb0SoREhISlhibFZTRmM) [[Paper]](https://arxiv.org/abs/1702.08502) [[Code]](https://github.com/TuSimple/TuSimple-DUC)</br>
--  Predicting Deeper into the Future of Semantic Segmentation-2017 [[Paper]](https://arxiv.org/abs/1703.07684)</br>
+-  ICCV-2017 Predicting Deeper into the Future of Semantic Segmentation-2017 [[Paper]](https://arxiv.org/abs/1703.07684)</br>
 -  **Pyramid Scene Parsing Network-2017** [[Project]](https://hszhao.github.io/projects/pspnet/) [[Code-Caffe]](https://github.com/hszhao/PSPNet) [[Paper]](https://arxiv.org/abs/1612.01105) [[Slides]](http://image-net.org/challenges/talks/2016/SenseCUSceneParsing.pdf)</br>
 -  FCNs in the Wild: Pixel-level Adversarial and Constraint-based Adaptation-2016 [[Paper]](https://arxiv.org/abs/1612.02649)</br>
 -  FusionNet: A deep fully residual convolutional neural network for image segmentation in connectomics-2016 [[Code-PyTorch]](https://github.com/GunhoChoi/FusionNet_Pytorch) [[Paper]](https://arxiv.org/abs/1612.05360)</br>
@@ -99,7 +99,7 @@ Some implementation of semantic segmantation for DL model</br>
 -  Convolutional Random Walk Networks for Semantic Image Segmentation-2016 [[Paper]](https://arxiv.org/abs/1605.07681)</br>
 -  ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation-2016 [[Code-Caffe1]](https://github.com/e-lab/ENet-training)[[Code-Caffe2]](https://github.com/TimoSaemann/ENet) [[Paper]](https://arxiv.org/abs/1606.02147) [[Blog]](https://culurciello.github.io/tech/2016/06/20/training-enet.html)</br>
 -  High-performance Semantic Segmentation Using Very Deep Fully Convolutional Networks-2016 [[Paper]](https://arxiv.org/abs/1604.04339)</br>
--  ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation-2016 [[Paper]](http://arxiv.org/abs/1604.05144)</br>
+-  CVPR-2016-oral ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation-2016 [[Paper]](http://arxiv.org/abs/1604.05144)</br>
 -  Object Boundary Guided Semantic Segmentation-2016 [[Code-Caffe]](https://github.com/twtygqyy/obg_fcn) [[Paper]](http://arxiv.org/abs/1603.09742)</br>
 -  Segmentation from Natural Language Expressions-2016 [[Project]](http://ronghanghu.com/text_objseg/) [[Code-Tensorflow]](https://github.com/ronghanghu/text_objseg) [[Code-Caffe]](https://github.com/Seth-Park/text_objseg_caffe) [[Paper]](http://arxiv.org/abs/1603.06180)</br>
 -  Seed, Expand and Constrain: Three Principles for Weakly-Supervised Image Segmentation-2016 [[Code-Caffe]](https://github.com/kolesman/SEC) [[Paper]](https://arxiv.org/abs/1603.06098)</br>
@@ -117,7 +117,7 @@ Some implementation of semantic segmantation for DL model</br>
 -  Learning Deconvolution Network for Semantic Segmentation(DeconvNet)-2015 [[Project]](http://cvlab.postech.ac.kr/research/deconvnet/) [[Code-Caffe]](https://github.com/HyeonwooNoh/DeconvNet) [[Paper]](http://arxiv.org/abs/1505.04366) [[Slides]](http://web.cs.hacettepe.edu.tr/~aykut/classes/spring2016/bil722/slides/w06-deconvnet.pdf)</br>
 -  Multi-scale Context Aggregation by Dilated Convolutions-2015 [[Project]](http://vladlen.info/publications/multi-scale-context-aggregation-by-dilated-convolutions/) [[Code-Caffe]](https://github.com/fyu/dilation) [[Code-Keras]](https://github.com/nicolov/segmentation_keras) [[Paper]](http://arxiv.org/abs/1511.07122) [[Notes]](http://www.inference.vc/dilated-convolutions-and-kronecker-factorisation/)</br>
 -  ReSeg: A Recurrent Neural Network-based Model for Semantic Segmentation-2015 [[Code-Theano]](https://github.com/fvisin/reseg) [[Paper]](https://arxiv.org/abs/1511.07053)</br>
--  BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation-2015 [[Paper]](https://arxiv.org/abs/1503.01640)</br>
+-  ICCV-2015 BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation-2015 [[Paper]](https://arxiv.org/abs/1503.01640)</br>
 -  Feedforward semantic segmentation with zoom-out features-2015 [[Code]](https://bitbucket.org/m_mostajabi/zoom-out-release) [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Mostajabi_Feedforward_Semantic_Segmentation_2015_CVPR_paper.pdf) [[Video]](https://www.youtube.com/watch?v=HvgvX1LXQa8)</br>
 -  Conditional Random Fields as Recurrent Neural Networks-2015 [[Project]](http://www.robots.ox.ac.uk/~szheng/CRFasRNN.html) [[Code-Caffe1]](https://github.com/torrvision/crfasrnn) [[Code-Caffe2]](https://github.com/martinkersner/train-CRF-RNN) [[Demo]](http://www.robots.ox.ac.uk/~szheng/crfasrnndemo) [[Paper1]](http://www.robots.ox.ac.uk/~szheng/papers/CRFasRNN.pdf) [[Paper2]](http://arxiv.org/abs/1502.03240)</br>
 -  Efficient Piecewise Training of Deep Structured Models for Semantic Segmentation-2015 [[Paper]](https://arxiv.org/abs/1504.01013)</br>
@@ -142,6 +142,7 @@ Some implementation of semantic segmantation for DL model</br>
 - Scale-Aware Alignment of Hierarchical Image Segmentation [[Paper]](https://www.vision.ee.ethz.ch/en/publications/papers/proceedings/eth_biwi_01271.pdf) [[Project]](http://www.vision.ee.ethz.ch/~cvlsegmentation/)</br>
 - ICCV-2017 Semi Supervised Semantic Segmentation Using Generative Adversarial Network[[Paper]](https://arxiv.org/abs/1703.09695)</br>
 - Object Region Mining with Adversarial Erasing: A Simple Classification to Semantic Segmentation Approach [[Paper]](https://arxiv.org/pdf/1703.08448.pdf)</br>
++ CVPR-2016 Convolutional Feature Masking for Joint Object and Stuff Segmentation [[Paper]](http://arxiv.org/abs/1412.1283)
 
 ## 3D Semantic Segmentation
 ### Papers
