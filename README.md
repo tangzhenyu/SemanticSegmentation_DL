@@ -52,6 +52,7 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 2D Semantic Segmentation
 ### Papers:
++ ICCV-2017 Scale-adaptive convolutions for scene parsing [[Paper]](https://pdfs.semanticscholar.org/f984/781ccef66e6a6114707271b8bb29148ad45d.pdf)
 + Towards End-to-End Lane Detection: an Instance Segmentation Approach [[Paper]](https://arxiv.org/pdf/1802.05591.pdf)arxiv-1802
 + Deeplab v4: Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation [[Paper]](https://arxiv.org/pdf/1802.02611.pdf) arxiv-1802
 + AAAI-2018 Mix-and-Match Tuning for Self-Supervised Semantic Segmentation [[Paper]](https://arxiv.org/pdf/1712.00661.pdf) arxiv-1712
