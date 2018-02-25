@@ -52,6 +52,7 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 2D Semantic Segmentation
 ### Papers:
++ ICCV-2017 Curriculum Domain Adaptation for Semantic Segmentation of Urban Scenes [[Paper]](https://arxiv.org/abs/1707.09465)[[Code]](https://github.com/YangZhang4065/AdaptationSeg)
 + CVPR-2017 Not All Pixels Are Equal: Difficulty-Aware Semantic Segmentation via Deep Layer Cascade-2017 [[Paper]](https://arxiv.org/abs/1704.01344)
 + CVPR-2017 Annotating Object Instances with a Polygon-RNN-2017 [[Project]](http://www.cs.toronto.edu/polyrnn/) [[Paper]](https://arxiv.org/abs/1704.05548)
 + CVPR-2017  Loss maxpooling for semantic image segmentation [[Paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Bulo_Loss_Max-Pooling_for_CVPR_2017_paper.pdf)
@@ -156,6 +157,7 @@ Some implementation of semantic segmantation for DL model</br>
 - 3D Graph Neural Networks for RGBD Semantic Segmentation (2017) [[Paper]](http://www.cs.toronto.edu/~rjliao/papers/iccv_2017_3DGNN.pdf)
 - 3DCNN-DQN-RNN: A Deep Reinforcement Learning Framework for Semantic Parsing of Large-scale 3D Point Clouds (2017)[[Paper]](https://arxiv.org/pdf/1707.06783.pdf)
 - Multi-view deep learning for consistent semantic mapping with rgb-d cameras [[Paper]](https://arxiv.org/pdf/1703.08866.pdf)
++ ICCV-2017 Large-scale 3D Shape Reconstruction and Segmentation from ShapeNet Core55 [[Paper]]()[[Project]](https://shapenet.cs.stanford.edu/iccv17/)
 
 ## Instance Segmentation
 +  Pixelwise Instance Segmentation with a Dynamically Instantiated Network-2017 [[Paper]](https://arxiv.org/abs/1704.02386)</br>
