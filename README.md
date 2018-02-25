@@ -52,6 +52,9 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 2D Semantic Segmentation
 ### Papers:
++ CVPR-2017 Not All Pixels Are Equal: Difficulty-Aware Semantic Segmentation via Deep Layer Cascade-2017 [[Paper]](https://arxiv.org/abs/1704.01344)
++ CVPR-2017 Annotating Object Instances with a Polygon-RNN-2017 [[Project]](http://www.cs.toronto.edu/polyrnn/) [[Paper]](https://arxiv.org/abs/1704.05548)
++ CVPR-2017  Loss maxpooling for semantic image segmentation [[Paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Bulo_Loss_Max-Pooling_for_CVPR_2017_paper.pdf)
 + ICCV-2017 Scale-adaptive convolutions for scene parsing [[Paper]](https://pdfs.semanticscholar.org/f984/781ccef66e6a6114707271b8bb29148ad45d.pdf)
 + Towards End-to-End Lane Detection: an Instance Segmentation Approach [[Paper]](https://arxiv.org/pdf/1802.05591.pdf)arxiv-1802
 + Deeplab v4: Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation [[Paper]](https://arxiv.org/pdf/1802.02611.pdf) arxiv-1802
@@ -66,9 +69,6 @@ Some implementation of semantic segmantation for DL model</br>
 + A Review on Deep Learning Techniques Applied to Semantic Segmentation-2017 [[Paper]](https://arxiv.org/abs/1704.06857)</br>
 + BiSeg: Simultaneous Instance Segmentation and Semantic Segmentation with Fully Convolutional Networks [[Paper]](https://arxiv.org/abs/1706.02135)</br>
 + ICNet for Real-Time Semantic Segmentation on High-Resolution Images-2017 [[Project]](https://hszhao.github.io/projects/icnet/) [[Code]](https://github.com/hszhao/ICNet) [[Paper]](https://arxiv.org/abs/1704.08545) [[Video]](https://www.youtube.com/watch?v=qWl9idsCuLQ)</br>
-+ Not All Pixels Are Equal: Difficulty-Aware Semantic Segmentation via Deep Layer Cascade-2017 [[Paper]](https://arxiv.org/abs/1704.01344)</br>
-+ Loss Max-Pooling for Semantic Image Segmentation-2017 [[Paper]](https://arxiv.org/abs/1704.02966)</br>
-+ Annotating Object Instances with a Polygon-RNN-2017 [[Project]](http://www.cs.toronto.edu/polyrnn/) [[Paper]](https://arxiv.org/abs/1704.05548)</br>
 -  Feature Forwarding: Exploiting Encoder Representations for Efficient Semantic Segmentation-2017 [[Project]](https://codeac29.github.io/projects/linknet/) [[Code-Torch7]](https://github.com/e-lab/LinkNet)</br>
 -  Reformulating Level Sets as Deep Recurrent Neural Network Approach to Semantic Segmentation-2017 [[Paper]](https://arxiv.org/abs/1704.03593)</br>
 -  Adversarial Examples for Semantic Image Segmentation-2017 [[Paper]](https://arxiv.org/abs/1703.01101)</br>
