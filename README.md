@@ -52,6 +52,7 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 2D Semantic Segmentation
 ### Papers:
++ Piecewise Flat Embedding for Image Segmentation [[Paper]](https://pdfs.semanticscholar.org/4690/3c0ca5540e312b8f4c20c012f586e5071914.pdf)
 + ICCV-2017 Curriculum Domain Adaptation for Semantic Segmentation of Urban Scenes [[Paper]](https://arxiv.org/abs/1707.09465)[[Code]](https://github.com/YangZhang4065/AdaptationSeg)
 + CVPR-2017 Not All Pixels Are Equal: Difficulty-Aware Semantic Segmentation via Deep Layer Cascade-2017 [[Paper]](https://arxiv.org/abs/1704.01344)
 + CVPR-2017 Annotating Object Instances with a Polygon-RNN-2017 [[Project]](http://www.cs.toronto.edu/polyrnn/) [[Paper]](https://arxiv.org/abs/1704.05548)
