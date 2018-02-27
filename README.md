@@ -145,6 +145,7 @@ Some implementation of semantic segmantation for DL model</br>
 - ICCV-2017 Semi Supervised Semantic Segmentation Using Generative Adversarial Network[[Paper]](https://arxiv.org/abs/1703.09695)</br>
 - Object Region Mining with Adversarial Erasing: A Simple Classification to Semantic Segmentation Approach [[Paper]](https://arxiv.org/pdf/1703.08448.pdf)</br>
 + CVPR-2016 Convolutional Feature Masking for Joint Object and Stuff Segmentation [[Paper]](http://arxiv.org/abs/1412.1283)
++ ECCV-2016 Laplacian Pyramid Reconstruction and Refinement for Semantic Segmentation [[Paper]](https://arxiv.org/pdf/1411.5752.pdf)
 
 ## 3D Semantic Segmentation
 ### Papers
