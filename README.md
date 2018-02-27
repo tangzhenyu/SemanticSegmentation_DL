@@ -348,6 +348,9 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 - Deep 3D convolutional encoder networks with shortcuts for multiscale feature integration applied to Multiple Sclerosis lesion segmentation 
 - Brain tumor segmentation using convolutional neural networks in MRI images
 - Deep feature learning for knee cartilage segmentation using a triplanar convolutional neural network
+- Automatic Coronary Calcium Scoring in Cardiac CT Angiography Using Convolutional Neural Networks [[Paper]](https://pdfs.semanticscholar.org/4490/792b673bd3b7aead9095777ad611a99f0d64.pdf)
+- Improving computer-aided detection using convolutional neural networks and random view aggregation [[Paper]](https://arxiv.org/pdf/1505.03046.pdf)
+- Pulmonary nodule detection in CT images: false positive reduction using multi-view convolutional networks [[Paper]](http://ieeexplore.ieee.org/document/7422783/)
 
 ### Codes
 
