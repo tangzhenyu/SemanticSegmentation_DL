@@ -52,6 +52,12 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 2D Semantic Segmentation
 ### Papers:
++ ICCV-2017 Semantic Line Detection and Its Applications [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lee_Semantic_Line_Detection_ICCV_2017_paper.pdf)
++ ICCV-2017 Attentive Semantic Video Generation Using Captions [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Marwah_Attentive_Semantic_Video_ICCV_2017_paper.pdf)
++ ICCV-2017 BlitzNet: A Real-Time Deep Network for Scene Understanding [[Paper]](https://arxiv.org/pdf/1708.02813.pdf) [[Code]](https://github.com/dvornikita/blitznet)
++ ICCV-2017 SCNet: Learning Semantic Correspondence   [[Code]](https://github.com/k-han/SCNet)
++ CVPR-2017 End-to-End Instance Segmentation with Recurrent Attention [[Code]](https://github.com/renmengye/rec-attend-public)
++ CVPR-2017 Deep Watershed Transform for Instance Segmentation [[Code]](https://github.com/min2209/dwt)
 + Piecewise Flat Embedding for Image Segmentation [[Paper]](https://pdfs.semanticscholar.org/4690/3c0ca5540e312b8f4c20c012f586e5071914.pdf)
 + ICCV-2017 Curriculum Domain Adaptation for Semantic Segmentation of Urban Scenes [[Paper]](https://arxiv.org/abs/1707.09465)[[Code]](https://github.com/YangZhang4065/AdaptationSeg)
 + CVPR-2017 Not All Pixels Are Equal: Difficulty-Aware Semantic Segmentation via Deep Layer Cascade-2017 [[Paper]](https://arxiv.org/abs/1704.01344)
@@ -89,12 +95,12 @@ Some implementation of semantic segmantation for DL model</br>
 -  Progressively Diffused Networks for Semantic Image Segmentation-2017 [[Paper]](https://arxiv.org/abs/1702.05839)</br>
 -  Understanding Convolution for Semantic Segmentation-2017 [[Model-Mxnet]](https://drive.google.com/drive/folders/0B72xLTlRb0SoREhISlhibFZTRmM) [[Paper]](https://arxiv.org/abs/1702.08502) [[Code]](https://github.com/TuSimple/TuSimple-DUC)</br>
 -  ICCV-2017 Predicting Deeper into the Future of Semantic Segmentation-2017 [[Paper]](https://arxiv.org/abs/1703.07684)</br>
--  **Pyramid Scene Parsing Network-2017** [[Project]](https://hszhao.github.io/projects/pspnet/) [[Code-Caffe]](https://github.com/hszhao/PSPNet) [[Paper]](https://arxiv.org/abs/1612.01105) [[Slides]](http://image-net.org/challenges/talks/2016/SenseCUSceneParsing.pdf)</br>
+-  CVPR-2017 **Pyramid Scene Parsing Network-2017** [[Project]](https://hszhao.github.io/projects/pspnet/) [[Code-Caffe]](https://github.com/hszhao/PSPNet) [[Paper]](https://arxiv.org/abs/1612.01105) [[Slides]](http://image-net.org/challenges/talks/2016/SenseCUSceneParsing.pdf)</br>
 -  FCNs in the Wild: Pixel-level Adversarial and Constraint-based Adaptation-2016 [[Paper]](https://arxiv.org/abs/1612.02649)</br>
 -  FusionNet: A deep fully residual convolutional neural network for image segmentation in connectomics-2016 [[Code-PyTorch]](https://github.com/GunhoChoi/FusionNet_Pytorch) [[Paper]](https://arxiv.org/abs/1612.05360)</br>
 -  RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation-2016 [[Code-MatConvNet]](https://github.com/guosheng/refinenet) [[Paper]](https://arxiv.org/abs/1611.06612)</br>
--  The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation [[Code-Theano]](https://github.com/SimJeg/FC-DenseNet) [[Code-Keras1]](https://github.com/titu1994/Fully-Connected-DenseNets-Semantic-Segmentation) [[Code-Keras2]](https://github.com/0bserver07/One-Hundred-Layers-Tiramisu) [[Paper]](https://arxiv.org/abs/1611.09326)</br>
--  Full-Resolution Residual Networks for Semantic Segmentation in Street Scenes [[Code-Theano]](https://github.com/TobyPDE/FRRN) [[Paper]](https://arxiv.org/abs/1611.08323)</br>
+-  CVPRW-2017 The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation [[Code-Theano]](https://github.com/SimJeg/FC-DenseNet) [[Code-Keras1]](https://github.com/titu1994/Fully-Connected-DenseNets-Semantic-Segmentation) [[Code-Keras2]](https://github.com/0bserver07/One-Hundred-Layers-Tiramisu) [[Paper]](https://arxiv.org/abs/1611.09326)</br>
+-  CVPR-2017 Full-Resolution Residual Networks for Semantic Segmentation in Street Scenes [[Code-Theano]](https://github.com/TobyPDE/FRRN) [[Paper]](https://arxiv.org/abs/1611.08323)</br>
 -  PixelNet: Towards a General Pixel-level Architecture-2016 [[Paper]](http://arxiv.org/abs/1609.06694)</br>
 -  Recalling Holistic Information for Semantic Segmentation-2016 [[Paper]](https://arxiv.org/abs/1611.08061)</br>
 -  Semantic Segmentation using Adversarial Networks-2016 [[Paper]](https://arxiv.org/abs/1611.08408) [[Code-Chainer]](https://github.com/oyam/Semantic-Segmentation-using-Adversarial-Networks)</br>
@@ -104,9 +110,10 @@ Some implementation of semantic segmantation for DL model</br>
 - Boundary-aware Instance Segmentation-2016 [[Paper]](https://infoscience.epfl.ch/record/227439/files/HayderHeSalzmannCVPR17.pdf)</br>
 - Improving Fully Convolution Network for Semantic Segmentation-2016 [[Paper]](https://arxiv.org/abs/1611.08986)</br>
 - Deep Structured Features for Semantic Segmentation-2016 [[Paper]](https://arxiv.org/abs/1609.07916)</br>
-- v2: DeepLab:Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs-2016** [[Project]](http://liangchiehchen.com/projects/DeepLab.html) [[Code-Caffe]](https://bitbucket.org/deeplab/deeplab-public/) [[Code-Tensorflow]](https://github.com/DrSleep/tensorflow-deeplab-resnet) [[Code-PyTorch]](https://github.com/isht7/pytorch-deeplab-resnet) [[Paper]](https://arxiv.org/abs/1606.00915)</br>
+- DeepLab v2:Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs-2016** [[Project]](http://liangchiehchen.com/projects/DeepLab.html) [[Code-Caffe]](https://bitbucket.org/deeplab/deeplab-public/) [[Code-Tensorflow]](https://github.com/DrSleep/tensorflow-deeplab-resnet) [[Code-PyTorch]](https://github.com/isht7/pytorch-deeplab-resnet) [[Paper]](https://arxiv.org/abs/1606.00915)</br>
 - DeepLab v1: Semantic Image Segmentation With Deep Convolutional Nets and Fully Connected CRFs-2014** [[Code-Caffe1]](https://bitbucket.org/deeplab/deeplab-public/) [[Code-Caffe2]](https://github.com/TheLegendAli/DeepLab-Context) [[Paper]](http://arxiv.org/abs/1412.7062)</br>
 - Deep Learning Markov Random Field for Semantic Segmentation-2016 [[Project]](http://personal.ie.cuhk.edu.hk/~lz013/projects/DPN.html) [[Paper]](https://arxiv.org/abs/1606.07230)</br>
+- ECCV2016 Salient Deconvolutional Networks  [[Code]](https://github.com/aravindhm/deconvnet_analysis)
 -  Convolutional Random Walk Networks for Semantic Image Segmentation-2016 [[Paper]](https://arxiv.org/abs/1605.07681)</br>
 -  ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation-2016 [[Code-Caffe1]](https://github.com/e-lab/ENet-training)[[Code-Caffe2]](https://github.com/TimoSaemann/ENet) [[Paper]](https://arxiv.org/abs/1606.02147) [[Blog]](https://culurciello.github.io/tech/2016/06/20/training-enet.html)</br>
 -  High-performance Semantic Segmentation Using Very Deep Fully Convolutional Networks-2016 [[Paper]](https://arxiv.org/abs/1604.04339)</br>
@@ -173,7 +180,7 @@ Some implementation of semantic segmantation for DL model</br>
 ## Instance Segmentation
 +  Pixelwise Instance Segmentation with a Dynamically Instantiated Network-2017 [[Paper]](https://arxiv.org/abs/1704.02386)</br>
 +  Semantic Instance Segmentation via Deep Metric Learning-2017 [[Paper]](https://arxiv.org/abs/1703.10277)</br>
-+  Mask R-CNN-2017 [[Code-Tensorflow]](https://github.com/CharlesShang/FastMaskRCNN) [[Paper]](https://arxiv.org/abs/1703.06870)</br>
++  CVPR-2017 FastMask: Segment Multi-scale Object Candidates in One Shot [[Code-Tensorflow]](https://github.com/CharlesShang/FastMaskRCNN) [[Paper]](https://arxiv.org/abs/1703.06870)</br>
 +  Pose2Instance: Harnessing Keypoints for Person Instance Segmentation-2017 [[Paper]](https://arxiv.org/abs/1704.01152)</br>
 +  Pixelwise Instance Segmentation with a Dynamically Instantiated Network-2017 [[Paper]](https://arxiv.org/abs/1704.02386)</br>
 +  CVPR-2017-spotlight Fully Convolutional Instance-aware Semantic Segmentation-2016 [[Code]](https://github.com/msracver/FCIS) [[Paper]](https://arxiv.org/abs/1611.07709)</br>
@@ -181,7 +188,6 @@ Some implementation of semantic segmantation for DL model</br>
 +  Recurrent Instance Segmentation-2015 [[Project]](http://romera-paredes.com/ris) [[Code-Torch7]](https://github.com/bernard24/ris) [[Paper]](http://arxiv.org/abs/1511.08250) [[Poster]](http://www.eccv2016.org/files/posters/P-4B-46.pdf) [[Video]](https://www.youtube.com/watch?v=l_WD2OWOqBk)</br>
 + Annotating Object Instances with a Polygon-RNN [[Paper]](https://arxiv.org/abs/1704.05548)
 + MaskLab: Instance Segmentation by Refining Object Detection with Semantic and Direction Features [[Paper]](https://arxiv.org/pdf/1712.04837.pdf)
-+ BlitzNet: A Real-Time Deep Network for Scene Understanding [[Paper]](https://arxiv.org/pdf/1708.02813.pdf)
 + FCIS [[Paper]](https://arxiv.org/pdf/1611.07709.pdf)[Code](https://github.com/msracver/FCIS)
 + MNC:Instance-aware Semantic Segmentation via Multi-task Network Cascades [[Paper]](https://arxiv.org/pdf/1512.04412.pdf)[Code](https://github.com/daijifeng001/MNC)
 + DeepMask:Learning to Segment Object Candidates [[Paper]](https://arxiv.org/pdf/1506.06204.pdf) [Code](https://github.com/facebookresearch/deepmask)
@@ -247,6 +253,7 @@ MINOS is a simulator designed to support the development of multisensory models 
 - Weakly-Supervised Dual Clustering for Image Semantic Segmentation [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Liu_Weakly-Supervised_Dual_Clustering_2013_CVPR_paper.pdf)
 
 ## Video Semantic Segmentation
++ CVPR-2017 Video Object Segmentation Without Temporal Information One-Shot Video Object Segmentation [[Project]](http://www.vision.ee.ethz.ch/~cvlsegmentation/osvos/)
 + Feature Space Optimization for Semantic Video Segmentation[[Paper]](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Kundu2016CVPR.pdf)[[Slides]](http://www.cvlibs.net/projects/autonomous_vision_survey/slides/Kundu2016CVPR/top.pdf)</br>
 + The Basics of Video Object Segmentation [[Blog]](https://techburst.io/video-object-segmentation-the-basics-758e77321914)
 + ICCV2017----SegFlow_Joint Learning for Video Object Segmentation and Optical Flow</br>
@@ -255,7 +262,6 @@ MINOS is a simulator designed to support the development of multisensory models 
 + The 2017 DAVIS Challenge on Video Object Segmentation</br>
 + Video Propagation Networks</br>
 + OnAVOS: Online Adaptation of Convolutional Neural Networks for Video Object Segmentation. P. Voigtlaender, B. Leibe, BMVC 2017. [Project Page] [Precomputed results]
-+ OSVOS: One-Shot Video Object Segmentation. S. Caelles*, K.K. Maninis*, J. Pont-Tuset, L. Leal-Taixé, D. Cremers, L. Van Gool, CVPR 2017. [Project Page] [Precomputed results]
 + MSK: Learning Video Object Segmentation from Static Images. F. Perazzi*, A. Khoreva*, R. Benenson, B. Schiele, A. Sorkine-Hornung, CVPR 2017. [Project Page] [Precomputed results]
 + SFL: SegFlow: Joint Learning for Video Object Segmentation and Optical Flow. J. Cheng, Y.-H. Tsai, S. Wang, M.-H. Yang, ICCV 2017. [Project Page] [Precomputed results]
 + CTN: Online Video Object Segmentation via Convolutional Trident Network. W.-D. Jang, C.-S. Kim, CVPR 2017. [Project Page] [Precomputed results]
