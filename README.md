@@ -119,6 +119,7 @@ Some implementation of semantic segmantation for DL model</br>
 -  Learning Dense Convolutional Embeddings for Semantic Segmentation-2015 [[Paper]](https://arxiv.org/abs/1511.04377)</br>
 -  ParseNet: Looking Wider to See Better-2015 [[Code-Caffe]](https://github.com/weiliu89/caffe/tree/fcn) [[Model-Caffe]](https://github.com/BVLC/caffe/wiki/Model-Zoo#parsenet-looking-wider-to-see-better) [[Paper]](http://arxiv.org/abs/1506.04579)</br>
 -  Decoupled Deep Neural Network for Semi-supervised Semantic Segmentation-2015 [[Project]](http://cvlab.postech.ac.kr/research/decouplednet/) [[Code-Caffe]](https://github.com/HyeonwooNoh/DecoupledNet) [[Paper]](http://arxiv.org/abs/1506.04924)</br>
+- Bayesian segnet: Model uncertainty in deep convolutional encoder-decoder architectures for scene understanding [[Paper]](https://arxiv.org/pdf/1511.02680.pdf)
 -  **SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation-2015** [[Project]](http://mi.eng.cam.ac.uk/projects/segnet/) [[Code-Caffe]](https://github.com/alexgkendall/caffe-segnet) [[Paper]](http://arxiv.org/abs/1511.00561) [[Tutorial1]](http://mi.eng.cam.ac.uk/projects/segnet/tutorial.html) [[Tutorial2]](https://github.com/alexgkendall/SegNet-Tutorial)</br>
 -  Semantic Image Segmentation with Task-Specific Edge Detection Using CNNs and a Discriminatively Trained Domain Transform-2015 [[Paper]](https://arxiv.org/abs/1511.03328)</br>
 -  Semantic Segmentation with Boundary Neural Fields-2015 [[Code]](https://github.com/gberta/BNF_globalization) [[Paper]](https://arxiv.org/abs/1511.02674)</br>
@@ -425,11 +426,12 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
   
 ## Distinguished Researchers & Teams:</br>
 - [Liang-Chieh (Jay) Chen](http://liangchiehchen.com/) Deeplab-Google
-- [Jianping Shi](http://shijianping.me/)
-- [Kaiming He](http://kaiminghe.com/)
+- [Jianping Shi](http://shijianping.me/) PSPNet
+- [Kaiming He](http://kaiminghe.com/) Mask-RCNN
 - [Ming-Ming Cheng](http://mmcheng.net/publications/)
 - [Joachim M. Buhmann](https://scholar.google.com/citations?user=zQWbCzYAAAAJ)
 - [Jifeng Dai](http://www.jifengdai.org) FCIS-MSRA
+- [Alex Kendall](https://alexgkendall.com) SegNet
 
 ## Results:
 
