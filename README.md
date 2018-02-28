@@ -75,7 +75,15 @@ Some implementation of semantic segmantation for DL model</br>
 -  Reformulating Level Sets as Deep Recurrent Neural Network Approach to Semantic Segmentation-2017 [[Paper]](https://arxiv.org/abs/1704.03593)</br>
 -  Adversarial Examples for Semantic Image Segmentation-2017 [[Paper]](https://arxiv.org/abs/1703.01101)</br>
 -  Large Kernel Matters - Improve Semantic Segmentation by Global Convolutional Network-2017 [[Paper]](https://arxiv.org/abs/1703.02719)</br>
+- HyperNet: Towards Accurate Region Proposal Generation and Joint Object Detection [[Paper]](https://arxiv.org/pdf/1604.00600)
+- Hypercolumns for Object Segmentation and Fine-grained Localization [[Paper]](https://arxiv.org/pdf/1411.5752)
+- Matching-CNN meets KNN: Quasi-parametric human parsing[[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/app/1B_034_ext.pdf)
+- Deep Human Parsing with Active Template Regression [[Paper]](https://arxiv.org/pdf/1503.02391.pdf)
+- TPAMI-2012 **Learning Hierarchical Features for Scene Labeling** The first paper for applying dl on semantic segmentation !!![[Paper]](http://yann.lecun.com/exdb/publis/pdf/farabet-pami-13.pdf)
 -  Label Refinement Network for Coarse-to-Fine Semantic Segmentation-2017 [[Paper]](https://www.arxiv.org/abs/1703.00551)</br>
+- Laplacian Pyramid Reconstruction and Refinement for Semantic Segmentation [[Paper]](https://arxiv.org/pdf/1605.02264.pdf)
+- ParseNet: Looking Wider to See Better [[Paper]](https://www.cs.unc.edu/~wliu/papers/parsenet.pdf)
+- CVPR-2016 Recombinator Networks: Learning Coarse-to-Fine Feature Aggregation [[Paper]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Honari_Recombinator_Networks_Learning_CVPR_2016_paper.pdf)
 -  **PixelNet: Representation of the pixels, by the pixels, and for the pixels-2017** [[Project]](http://www.cs.cmu.edu/~aayushb/pixelNet/) [[Code-Caffe]](https://github.com/aayushbansal/PixelNet) [[Paper]](https://arxiv.org/abs/1702.06506)</br>
 -  LabelBank: Revisiting Global Perspectives for Semantic Segmentation-2017 [[Paper]](https://arxiv.org/abs/1703.09891)</br>
 -  Progressively Diffused Networks for Semantic Image Segmentation-2017 [[Paper]](https://arxiv.org/abs/1702.05839)</br>
