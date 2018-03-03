@@ -52,6 +52,7 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 2D Semantic Segmentation
 ### Papers:
++ Deep Value Networks Learn to Evaluate and Iteratively Refine Structured Outputs [[Paper]](https://arxiv.org/pdf/1703.04363.pdf)[[Code]](https://github.com/gyglim/dvn)
 + ICCV-2017 Semantic Line Detection and Its Applications [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lee_Semantic_Line_Detection_ICCV_2017_paper.pdf)
 + ICCV-2017 Attentive Semantic Video Generation Using Captions [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Marwah_Attentive_Semantic_Video_ICCV_2017_paper.pdf)
 + ICCV-2017 BlitzNet: A Real-Time Deep Network for Scene Understanding [[Paper]](https://arxiv.org/pdf/1708.02813.pdf) [[Code]](https://github.com/dvornikita/blitznet)
