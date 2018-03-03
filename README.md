@@ -233,7 +233,7 @@ MINOS is a simulator designed to support the development of multisensory models 
 <br>AI2-THOR is a photo-realistic interactable framework for AI agents. There are a total 120 scenes in version 1.0 of the THOR environment covering four different room categories: kitchens, living rooms, bedrooms, and bathrooms. Each room has a number of actionable objects.
 
 
-## Weakly-Supervised-Segmentation
+## Weakly-Supervised-Segmentation && Interactive Segmentation
 + Weakly Supervised Structured Output Learning for Semantic Segmentation [[Paper]](http://groups.inf.ed.ac.uk/calvin/hp_avezhnev/Pubs/VezhnevetsCVPR2012b.pdf)
 + ICCV-2011 Weakly supervised semantic segmentation with a multi-image model [[Paper]](http://ieeexplore.ieee.org/document/6126299/)
 + ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016[[Paper]](https://arxiv.org/abs/1604.05144)</br>
@@ -251,6 +251,7 @@ MINOS is a simulator designed to support the development of multisensory models 
 + Weakly Supervised Semantic Segmentation Based on Web Image Co-segmentation [[Paper]](https://arxiv.org/pdf/1705.09052)
 + Learning to Rene Object Segments [[Paper]](https://arxiv.org/pdf/1603.08695.pdf)
 - Weakly-Supervised Dual Clustering for Image Semantic Segmentation [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Liu_Weakly-Supervised_Dual_Clustering_2013_CVPR_paper.pdf)
++  Interactive Video Object Segmentation in the Wild [[Paper]](https://arxiv.org/pdf/1801.00269)
 
 ## Video Semantic Segmentation
 + CVPR-2017 Video Object Segmentation Without Temporal Information One-Shot Video Object Segmentation [[Project]](http://www.vision.ee.ethz.ch/~cvlsegmentation/osvos/)
