@@ -234,7 +234,10 @@ MINOS is a simulator designed to support the development of multisensory models 
 <br>AI2-THOR is a photo-realistic interactable framework for AI agents. There are a total 120 scenes in version 1.0 of the THOR environment covering four different room categories: kitchens, living rooms, bedrooms, and bathrooms. Each room has a number of actionable objects.
 
 
-## Weakly-Supervised-Segmentation && Interactive Segmentation
+## Weakly-Supervised-Segmentation && Interactive Segmentation && Transferable Semantic Segmentation
+- Weakly Supervised Object Localization Using Things and Stuff Transfer [[Paper]](https://arxiv.org/pdf/1703.08000.pdf)</br>
+- Semi and Weakly Supervised Semantic Segmentation Using Generative Adversarial Network [[Paper]](http://crcv.ucf.edu/papers/1703.09695.pdf)</br>
+- Weakly- and Semi-Supervised Learning of a Deep Convolutional Network for Semantic Image Segmentation [[Paper]](https://arxiv.org/pdf/1502.02734.pdf)
 + Weakly Supervised Structured Output Learning for Semantic Segmentation [[Paper]](http://groups.inf.ed.ac.uk/calvin/hp_avezhnev/Pubs/VezhnevetsCVPR2012b.pdf)
 + ICCV-2011 Weakly supervised semantic segmentation with a multi-image model [[Paper]](http://ieeexplore.ieee.org/document/6126299/)
 + ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016[[Paper]](https://arxiv.org/abs/1604.05144)</br>
@@ -304,7 +307,12 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 2017----DAVIS-Challenge-8th----[One-Shot Video Object Segmentation with Iterative Online Fine-Tuning](https://arxiv.org/pdf/1611.05198.pdf)</br>
 2017----DAVIS-Challenge-9th----Video Object Segmentation using Tracked Object Proposals</br>
 
-## Road Segmentation
+## Multi-Task Learning
+### Papers:
+- Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics [[Paper]]()
+- Multi-task Learning using Multi-modal Encoder-Decoder Networks with Shared Skip Connections [[Paper]]()
+
+## Road Segmentation && Real Time Segmentation
 ### Papers:
 - MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving [[Paper]](https://arxiv.org/pdf/1612.07695.pdf)</br>
 - self-driving-car-road-segmentation [[Link]](https://medium.com/@karol_majek/self-driving-car-road-segmentation-514ae80e103a)</br>
@@ -312,9 +320,16 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 - Semantic Road Segmentation via Multi-scale Ensembles of Learned Features [[Paper]]()</br>
 - Distantly Supervised Road Segmentation [[Paper]](https://arxiv.org/pdf/1708.06118)</br>
 - Deep Fully Convolutional Networks with Random Data Augmentation for Enhanced Generalization in Road Detection [[Paper]](http://isislab.es/llorca/publications_files/IEEEITSC17_RoadAugmentedDataFCNN.pdf)</br>
-- Real-time category-based and general obstacle detection for autonomous driving [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Garnett_Real-Time_Category-Based_and_ICCV_2017_paper.pdf)</br>
-- Road Scene Segmentation from a Single Image [[Paper]](http://yann.lecun.com/exdb/publis/pdf/alvarez-eccv-12.pdf)</br>
-- FoveaNet: Perspective-aware Urban Scene Parsing [[Paper]](http://users.eecs.northwestern.edu/~xsh835/assets/iccv2017_foveanet.pdf)</br>
+- ICCV-2017 Real-time category-based and general obstacle detection for autonomous driving [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Garnett_Real-Time_Category-Based_and_ICCV_2017_paper.pdf)</br>
+- ECCV-2012 Road Scene Segmentation from a Single Image [[Paper]](http://yann.lecun.com/exdb/publis/pdf/alvarez-eccv-12.pdf)</br>
+- ICCV-2017 FoveaNet: Perspective-aware Urban Scene Parsing [[Paper]](http://users.eecs.northwestern.edu/~xsh835/assets/iccv2017_foveanet.pdf)</br>
+- CVPR-2017 UberNet: Training a universal convolutional neural network for low-, mid-, and high-level vision using diverse datasets and limited memory [[Paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Kokkinos_Ubernet_Training_a_CVPR_2017_paper.pdf)
++	LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation [[Paper]](https://arxiv.org/abs/1707.03718.pdf)
++	ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation-2016 [[Code-Caffe1]](https://github.com/e-lab/ENet-training)[[Code-Caffe2]](https://github.com/TimoSaemann/ENet) [[Paper]](https://arxiv.org/abs/1606.02147) [[Blog]](https://culurciello.github.io/tech/2016/06/20/training-enet.html)
++	Efficient Deep Models for Monocular Road Segmentation[[Paper]](http://ais.informatik.uni-freiburg.de/publications/papers/oliveira16iros.pdf)
++	Real-Time Coarse-to-fine Topologically Preserving Segmentation[[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Yao_Real-Time_Coarse-to-Fine_Topologically_2015_CVPR_paper.pdf)
++ ICNet [[Paper]](https://arxiv.org/pdf/1704.08545.pdf)
++ Efficient and robust deep networks for semantic segmentation [[Paper]](http://journals.sagepub.com/doi/abs/10.1177/0278364917710542)
 
 ### Codes
   + https://github.com/MarvinTeichmann/MultiNet
@@ -324,18 +339,8 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
   + https://github.com/mvirgo/MLND-Capstone
   + https://github.com/zhujun98/semantic_segmentation/tree/master/fcn8s_road
 
-## Transferable Semantic Segmentation
-- Weakly Supervised Object Localization Using Things and Stuff Transfer [[Paper]](https://arxiv.org/pdf/1703.08000.pdf)</br>
-- Semi and Weakly Supervised Semantic Segmentation Using Generative Adversarial Network [[Paper]](http://crcv.ucf.edu/papers/1703.09695.pdf)</br>
-- Weakly- and Semi-Supervised Learning of a Deep Convolutional Network for Semantic Image Segmentation [[Paper]](https://arxiv.org/pdf/1502.02734.pdf)
 
-## Real-Time Semantic Segmentation
-+	LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation [[Paper]](https://arxiv.org/abs/1707.03718.pdf)
-+	ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation-2016 [[Code-Caffe1]](https://github.com/e-lab/ENet-training)[[Code-Caffe2]](https://github.com/TimoSaemann/ENet) [[Paper]](https://arxiv.org/abs/1606.02147) [[Blog]](https://culurciello.github.io/tech/2016/06/20/training-enet.html)
-+	Efficient Deep Models for Monocular Road Segmentation[[Paper]](http://ais.informatik.uni-freiburg.de/publications/papers/oliveira16iros.pdf)
-+	Real-Time Coarse-to-fine Topologically Preserving Segmentation[[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Yao_Real-Time_Coarse-to-Fine_Topologically_2015_CVPR_paper.pdf)
-+ ICNet [[Paper]](https://arxiv.org/pdf/1704.08545.pdf)
-+ Efficient and robust deep networks for semantic segmentation [[Paper]](http://journals.sagepub.com/doi/abs/10.1177/0278364917710542)
+
 
 ## Medical Image Semantic Segmentation
 ### Papers
