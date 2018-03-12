@@ -179,6 +179,7 @@ Some implementation of semantic segmantation for DL model</br>
 + ICCV-2017 Large-scale 3D Shape Reconstruction and Segmentation from ShapeNet Core55 [[Paper]]()[[Project]](https://shapenet.cs.stanford.edu/iccv17/)
 
 ## Instance Segmentation
++ Path Aggregation Network for Instance Segmentation [[Paper]](https://arxiv.org/pdf/1803.01534.pdf) better than Mask-rcnn!！
 +  Pixelwise Instance Segmentation with a Dynamically Instantiated Network-2017 [[Paper]](https://arxiv.org/abs/1704.02386)</br>
 +  Semantic Instance Segmentation via Deep Metric Learning-2017 [[Paper]](https://arxiv.org/abs/1703.10277)</br>
 +  CVPR-2017 FastMask: Segment Multi-scale Object Candidates in One Shot [[Code-Tensorflow]](https://github.com/CharlesShang/FastMaskRCNN) [[Paper]](https://arxiv.org/abs/1703.06870)</br>
@@ -314,6 +315,7 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 
 ## Road Segmentation && Real Time Segmentation
 ### Papers:
+- 2018-arxiv Real-time Semantic Segmentation Comparative Study[[Paper]](https://arxiv.org/pdf/1803.02758.pdf)[[Code]](https://github.com/MSiam/TFSegmentation)
 - MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving [[Paper]](https://arxiv.org/pdf/1612.07695.pdf)</br>
 - self-driving-car-road-segmentation [[Link]](https://medium.com/@karol_majek/self-driving-car-road-segmentation-514ae80e103a)</br>
 - Efficient Deep Models for Monocular Road Segmentation[[Paper]](http://ais.informatik.uni-freiburg.de/publications/papers/oliveira16iros.pdf)</br>
