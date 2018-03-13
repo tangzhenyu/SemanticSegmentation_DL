@@ -52,6 +52,7 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 2D Semantic Segmentation
 ### Papers:
++ Deeplab v4: Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation [[Paper]](https://arxiv.org/pdf/1802.02611.pdf) [[Code]](https://github.com/tensorflow/models/tree/master/research/deeplab)
 + Deep Value Networks Learn to Evaluate and Iteratively Refine Structured Outputs [[Paper]](https://arxiv.org/pdf/1703.04363.pdf)[[Code]](https://github.com/gyglim/dvn)
 + ICCV-2017 Semantic Line Detection and Its Applications [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lee_Semantic_Line_Detection_ICCV_2017_paper.pdf)
 + ICCV-2017 Attentive Semantic Video Generation Using Captions [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Marwah_Attentive_Semantic_Video_ICCV_2017_paper.pdf)
@@ -66,7 +67,6 @@ Some implementation of semantic segmantation for DL model</br>
 + CVPR-2017  Loss maxpooling for semantic image segmentation [[Paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Bulo_Loss_Max-Pooling_for_CVPR_2017_paper.pdf)
 + ICCV-2017 Scale-adaptive convolutions for scene parsing [[Paper]](https://pdfs.semanticscholar.org/f984/781ccef66e6a6114707271b8bb29148ad45d.pdf)
 + Towards End-to-End Lane Detection: an Instance Segmentation Approach [[Paper]](https://arxiv.org/pdf/1802.05591.pdf)arxiv-1802
-+ Deeplab v4: Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation [[Paper]](https://arxiv.org/pdf/1802.02611.pdf) arxiv-1802
 + AAAI-2018 Mix-and-Match Tuning for Self-Supervised Semantic Segmentation [[Paper]](https://arxiv.org/pdf/1712.00661.pdf) arxiv-1712
 + NIPS-2017-Learning Affinity via Spatial Propagation Networks [[Paper]](https://papers.nips.cc/paper/6750-learning-affinity-via-spatial-propagation-networks.pdf)
 + AAAI-2018-Spatial As Deep: Spatial CNN for Traffic Scene Understanding [[Paper]](https://arxiv.org/pdf/1712.06080.pdf)
