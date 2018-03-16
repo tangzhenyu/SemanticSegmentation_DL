@@ -41,6 +41,7 @@ Some implementation of semantic segmantation for DL model</br>
 
 
 ## Survey papers
+- RTSeg: Real-time Semantic Segmentation Comparative Study [[Paper]](https://arxiv.org/abs/1803.02758) [[Code]](https://github.com/MSiam/TFSegmentation)
 - A 2017 Guide to Semantic Segmentation with Deep Learning by Qure AI [[Blog about different sem. segm. methods]](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review)
 - A Review on Deep Learning Techniques Applied to Semantic Segmentation [[Survey paper with a special focus on datasets and the highest performing methods]](https://arxiv.org/abs/1704.06857)
 - Computer Vision for Autonomous Vehicles: Problems, Datasets and State-of-the-Art [[Survey paper about all aspects of autonomous vehicles, including sem. segm.]](https://arxiv.org/abs/1704.05519) [[Webpage with a summary of all relevant publications]](http://www.cvlibs.net/projects/autonomous_vision_survey/)
@@ -52,6 +53,7 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 2D Semantic Segmentation
 ### Papers:
++ ShuffleSeg: Real-time Semantic Segmentation Network [[Paper]](https://arxiv.org/pdf/1803.03816.pdf) [[Code]](https://github.com/MSiam/TFSegmentation)
 + Deeplab v4: Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation [[Paper]](https://arxiv.org/pdf/1802.02611.pdf) [[Code]](https://github.com/tensorflow/models/tree/master/research/deeplab)
 + Deep Value Networks Learn to Evaluate and Iteratively Refine Structured Outputs [[Paper]](https://arxiv.org/pdf/1703.04363.pdf)[[Code]](https://github.com/gyglim/dvn)
 + ICCV-2017 Semantic Line Detection and Its Applications [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lee_Semantic_Line_Detection_ICCV_2017_paper.pdf)
