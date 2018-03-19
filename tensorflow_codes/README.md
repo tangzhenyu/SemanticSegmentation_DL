@@ -17,15 +17,6 @@
 + [Encoder-Decoder based on SegNet](https://arxiv.org/abs/1511.00561)
 + [Full-Resolution Residual Networks for Semantic Segmentation in Street Scenes](https://arxiv.org/abs/1611.08323)
 
-## Installation
-This project has the following dependencies:
-
-- Numpy `sudo pip install numpy`
-
-- OpenCV Python `sudo apt-get install python-opencv`
-
-- TensorFlow `sudo pip install --upgrade tensorflow-gpu`
-
 ## Training
 The only thing you have to do to get started is set up the folders in the following structure:
 
@@ -36,40 +27,3 @@ The only thing you have to do to get started is set up the folders in the follow
     |   ├── val_labels
     |   ├── test
     |   ├── test_labels
-
-python train.py
-
-## Test
-Get corresponding transformed pre-trained weights, and put into `model` directory:   
-```
-python inference.py --img-path /Path/To/Image --dataset Model_Type
-```
-### optional arguments:
-```
---dataset - choose from "RefineNet-Res50"/"icnet"/"PSPNet"/"fcn"/"enet"  
---model MODEL  -The model you are using
-```
-
-### Import module in your code:
-```python
-from model RefineNet
-
-model = RefineNet() # initializing model
-
-model.read_input(img_path)  # read image from image path
-
-sess = tf.Session(config=config)
-init = tf.global_variables_initializer()
-sess.run(init)
-
-model.load(model_path, sess)  # load pretrained model file
-preds = model.forward(sess) # inference, get result
-```
-
-## Referrence
-+ [PSPNet:Pyramid Scene Parsing Network](https://github.com/hszhao/PSPNet),
-+ [FCN](https://github.com/CSAILVision/sceneparsing)
-+ [ICNet](https://github.com/hszhao/ICNet)
-+ [ENet](https://github.com/fregu856/segmentation).
-+ [Semantic understanding of scenes through the ade20k dataset](http://people.csail.mit.edu/bzhou/publication/scene-parse-camera-ready.pdf)
-+ [Semantic understanding of scenes through the ade20k dataset](https://arxiv.org/pdf/1608.05442.pdf)
