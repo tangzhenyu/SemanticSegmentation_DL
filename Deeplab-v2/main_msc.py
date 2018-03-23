@@ -23,25 +23,25 @@ def configure():
 	flags.DEFINE_float('power', 0.9, 'hyperparameter for poly learning rate')
 	flags.DEFINE_float('momentum', 0.9, 'momentum')
 	flags.DEFINE_string('encoder_name', 'deeplab', 'name of pre-trained model, res101, res50 or deeplab')
-	flags.DEFINE_string('pretrain_file', '../reference model/deeplab_resnet_init.ckpt', 'pre-trained model filename corresponding to encoder_name')
-	flags.DEFINE_string('data_list', './dataset/train.txt', 'training data list filename')
+	flags.DEFINE_string('pretrain_file', './pretrained_model/deeplab_resnet_init.ckpt', 'pre-trained model filename corresponding to encoder_name')
+	flags.DEFINE_string('data_list', './dataset_voc2012/train.txt', 'training data list filename')
 	flags.DEFINE_integer('grad_update_every', 10, 'gradient accumulation step')
 	# Note: grad_update_every = true training batch size
 	
 	# validation
 	flags.DEFINE_integer('valid_step', 20000, 'checkpoint number for validation')
 	flags.DEFINE_integer('valid_num_steps', 1449, '= number of validation samples')
-	flags.DEFINE_string('valid_data_list', './dataset/val.txt', 'validation data list filename')
+	flags.DEFINE_string('valid_data_list', './dataset_voc2012/val.txt', 'validation data list filename')
 
 	# prediction / saving outputs for testing or validation
 	flags.DEFINE_string('out_dir', 'output', 'directory for saving outputs')
 	flags.DEFINE_integer('test_step', 20000, 'checkpoint number for testing/validation')
 	flags.DEFINE_integer('test_num_steps', 1449, '= number of testing/validation samples')
-	flags.DEFINE_string('test_data_list', './dataset/val.txt', 'testing/validation data list filename')
+	flags.DEFINE_string('test_data_list', './dataset_voc2012/val.txt', 'testing/validation data list filename')
 	flags.DEFINE_boolean('visual', True, 'whether to save predictions for visualization')
 
 	# data
-	flags.DEFINE_string('data_dir', '/tempspace2/zwang6/VOC2012', 'data directory')
+	flags.DEFINE_string('data_dir', '/logs/VOCdevkit/VOC2012', 'data directory')
 	flags.DEFINE_integer('batch_size', 1, 'training batch size')
 	flags.DEFINE_integer('input_height', 321, 'input image height')
 	flags.DEFINE_integer('input_width', 321, 'input image width')
