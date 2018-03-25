@@ -16,16 +16,16 @@ import tensorflow as tf
 import numpy as np
 
 from model.network import ResNet_segmentation
-from util import ImageReader, prepare_label
+from utils import ImageReader, prepare_label
 
 IMG_MEAN = np.array((104.00698793,116.66876762,122.67891434), dtype=np.float32)
 
-DATA_DIRECTORY = '/home/VOCdevkit'
-DATA_LIST_PATH = './dataset/val.txt'
+DATA_DIRECTORY = '/data_b/bd-recommend/zhenyutang/logs/VOCdevkit/VOC2012'
+DATA_LIST_PATH = './dataset_voc2012/val.txt'
 IGNORE_LABEL = 255
 NUM_CLASSES = 21
 NUM_STEPS = 1449 # Number of images in the validation set.
-RESTORE_FROM = './model/model.ckpt'
+RESTORE_FROM = './model/model.ckpt-19000'
 
 def get_arguments():
     """Parse all the arguments provided from the CLI.
@@ -46,6 +46,9 @@ def get_arguments():
                         help="Number of images in the validation set.")
     parser.add_argument("--restore-from", type=str, default=RESTORE_FROM,
                         help="Where restore model parameters from.")
+    parser.add_argument("--encoder-name", type=str, default='res50',
+                        help='name of pre-trained model, res101, res50')
+
     return parser.parse_args()
 
 def load(saver, sess, ckpt_path):
@@ -81,23 +84,23 @@ def main():
     image_batch, label_batch = tf.expand_dims(image, dim=0), tf.expand_dims(label, dim=0) # Add one batch dimension.
 
     # Create network.
-    if self.conf.encoder_name not in ['res101', 'res50']:
+    if args.encoder_name not in ['res101', 'res50']:
        print('encoder_name ERROR!')
        print("Please input: res101, res50")
        sys.exit(-1)
     else:
-       net = ResNet_segmentation(self.image_batch, self.conf.num_classes, False, self.conf.encoder_name)
+       net = ResNet_segmentation(image_batch, args.num_classes, False, args.encoder_name)
 
     # predictions
     raw_output = net.outputs
-    raw_output = tf.image.resize_bilinear(raw_output, tf.shape(self.image_batch)[1:3,])
+    raw_output = tf.image.resize_bilinear(raw_output, tf.shape(image_batch)[1:3,])
     raw_output = tf.argmax(raw_output, axis=3)
     pred = tf.expand_dims(raw_output, dim=3)
-    self.pred = tf.reshape(pred, [-1,])
+    pred = tf.reshape(pred, [-1,])
     # labels
-    gt = tf.reshape(self.label_batch, [-1,])
+    gt = tf.reshape(label_batch, [-1,])
     # Ignoring all labels greater than or equal to n_classes.
-    temp = tf.less_equal(gt, self.conf.num_classes - 1)
+    temp = tf.less_equal(gt, args.num_classes - 1)
     weights = tf.cast(temp, tf.int32)
 
     # fix for tf 1.3.0
@@ -115,7 +118,7 @@ def main():
 
     #groud truth
     gt = tf.reshape(label_batch, [-1,])
-    indexes = tf.less_equal(gt, self.conf.num_classes - 1)
+    indexes = tf.less_equal(gt, args.num_classes - 1)
     gt = tf.where(indexes, gt, tf.cast(temp, tf.uint8))
     weights = tf.cast(indexes, tf.int32) # Ignoring all labels greater than or equal to n_classes.
     # mIoU

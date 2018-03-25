@@ -65,12 +65,12 @@ def main():
     img -= IMG_MEAN 
     
     # Create network.
-    if self.conf.encoder_name not in ['res101', 'res50']:
+    if args.encoder_name not in ['res101', 'res50']:
        print('encoder_name ERROR!')
        print("Please input: res101, res50")
        sys.exit(-1)
     else:
-       net = ResNet_segmentation(self.image_batch, self.conf.num_classes, False, self.conf.encoder_name)
+       net = ResNet_segmentation(image_batch, args.num_classes, False, args.encoder_name)
 
     # Which variables to load.
     restore_var = tf.global_variables()
