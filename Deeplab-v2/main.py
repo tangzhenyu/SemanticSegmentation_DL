@@ -1,15 +1,13 @@
 import argparse
 import os
 import tensorflow as tf
-from model import Model
+from model.model import Model
 
 
 
 """
 This script defines hyperparameters.
 """
-
-
 
 def configure():
 	flags = tf.app.flags
@@ -22,8 +20,8 @@ def configure():
 	flags.DEFINE_float('learning_rate', 2.5e-4, 'learning rate')
 	flags.DEFINE_float('power', 0.9, 'hyperparameter for poly learning rate')
 	flags.DEFINE_float('momentum', 0.9, 'momentum')
-	flags.DEFINE_string('encoder_name', 'deeplab', 'name of pre-trained model, res101, res50 or deeplab')
-	flags.DEFINE_string('pretrain_file', './pretrained_model/deeplab_resnet_init.ckpt', 'pre-trained model filename corresponding to encoder_name')
+	flags.DEFINE_string('encoder_name', 'res50', 'name of pre-trained model, res101, res50')
+	flags.DEFINE_string('pretrain_file', './pretrained_model/resnet_v1_50.ckpt', 'pre-trained model filename corresponding to encoder_name')
 	flags.DEFINE_string('data_list', './dataset_voc2012/train.txt', 'training data list filename')
 
 	# validation
@@ -35,11 +33,11 @@ def configure():
 	flags.DEFINE_string('out_dir', 'output', 'directory for saving outputs')
 	flags.DEFINE_integer('test_step', 20000, 'checkpoint number for testing/validation')
 	flags.DEFINE_integer('test_num_steps', 1449, '= number of testing/validation samples')
-	flags.DEFINE_string('test_data_list', './dataset_voc2012/val.txt', 'testing/validation data list filename')
+	flags.DEFINE_string('test_data_list', './dataset_voc2012/test.txt', 'testing/validation data list filename')
 	flags.DEFINE_boolean('visual', True, 'whether to save predictions for visualization')
 
 	# data
-	flags.DEFINE_string('data_dir', '/logs/VOCdevkit/VOC2012', 'data directory')
+	flags.DEFINE_string('data_dir', '/data_b/bd-recommend/zhenyutang/logs/VOCdevkit/VOC2012', 'data directory')
 	flags.DEFINE_integer('batch_size', 10, 'training batch size')
 	flags.DEFINE_integer('input_height', 321, 'input image height')
 	flags.DEFINE_integer('input_width', 321, 'input image width')
@@ -78,5 +76,5 @@ def main(_):
 
 if __name__ == '__main__':
 	# Choose which gpu or cpu to use
-	os.environ['CUDA_VISIBLE_DEVICES'] = '7'
+	os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 	tf.app.run()

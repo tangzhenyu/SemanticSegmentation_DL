@@ -74,5 +74,6 @@ def inv_preprocess(imgs, num_images, img_mean):
     assert(n >= num_images), 'Batch size %d should be greater or equal than number of images to save %d.' % (n, num_images)
     outputs = np.zeros((num_images, h, w, c), dtype=np.uint8)
     for i in range(num_images):
-        outputs[i] = (imgs[i] + img_mean)[:, :, ::-1].astype(np.uint8) #BGR to RGB
+        #outputs[i] = (imgs[i] + img_mean)[:, :, ::-1].astype(np.uint8)
+        outputs[i] = (imgs[i] + img_mean).astype(np.uint8)
     return outputs

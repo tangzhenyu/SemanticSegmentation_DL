@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-LOG_FILE = './log.txt'
+LOG_FILE = '../log.txt'
 
 def get_log(log):
 	f = open(log, 'r')
