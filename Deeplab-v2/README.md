@@ -45,13 +45,17 @@ mv ./cls_png ./SegmentationClassAug
 You can download [res101](http://download.tensorflow.org/models/resnet_v1_101_2016_08_28.tar.gz) and [res50](http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz)
 
 cd ./pretrained_model/
+
 wget http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz
+
 tar zxvf resnet_v1_50_2016_08_28.tar.gz
 
 #### Start training
 
 After configuring the network, we can start to train. Run
+
 python main.py
+
 The training of Deeplab v2 ResNet will start.
 
 #### Visualization
