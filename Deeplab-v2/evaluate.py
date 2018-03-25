@@ -15,7 +15,8 @@ import time
 import tensorflow as tf
 import numpy as np
 
-from deeplab_resnet import DeepLabResNetModel, ImageReader, prepare_label
+from model.network import ResNet_segmentation
+from util import ImageReader, prepare_label
 
 IMG_MEAN = np.array((104.00698793,116.66876762,122.67891434), dtype=np.float32)
 
@@ -80,22 +81,49 @@ def main():
     image_batch, label_batch = tf.expand_dims(image, dim=0), tf.expand_dims(label, dim=0) # Add one batch dimension.
 
     # Create network.
-    net = DeepLabResNetModel({'data': image_batch}, is_training=False, num_classes=args.num_classes)
+    if self.conf.encoder_name not in ['res101', 'res50']:
+       print('encoder_name ERROR!')
+       print("Please input: res101, res50")
+       sys.exit(-1)
+    else:
+       net = ResNet_segmentation(self.image_batch, self.conf.num_classes, False, self.conf.encoder_name)
+
+    # predictions
+    raw_output = net.outputs
+    raw_output = tf.image.resize_bilinear(raw_output, tf.shape(self.image_batch)[1:3,])
+    raw_output = tf.argmax(raw_output, axis=3)
+    pred = tf.expand_dims(raw_output, dim=3)
+    self.pred = tf.reshape(pred, [-1,])
+    # labels
+    gt = tf.reshape(self.label_batch, [-1,])
+    # Ignoring all labels greater than or equal to n_classes.
+    temp = tf.less_equal(gt, self.conf.num_classes - 1)
+    weights = tf.cast(temp, tf.int32)
+
+    # fix for tf 1.3.0
+    gt = tf.where(temp, gt, tf.cast(temp, tf.uint8))
 
     # Which variables to load.
     restore_var = tf.global_variables()
     
     # Predictions.
-    raw_output = net.layers['fc1_voc12']
+    raw_output = net.outputs
     raw_output = tf.image.resize_bilinear(raw_output, tf.shape(image_batch)[1:3,])
     raw_output = tf.argmax(raw_output, dimension=3)
     pred = tf.expand_dims(raw_output, dim=3) # Create 4-d tensor.
-    
-    # mIoU
     pred = tf.reshape(pred, [-1,])
+
+    #groud truth
     gt = tf.reshape(label_batch, [-1,])
-    weights = tf.cast(tf.less_equal(gt, args.num_classes - 1), tf.int32) # Ignoring all labels greater than or equal to n_classes.
+    indexes = tf.less_equal(gt, self.conf.num_classes - 1)
+    gt = tf.where(indexes, gt, tf.cast(temp, tf.uint8))
+    weights = tf.cast(indexes, tf.int32) # Ignoring all labels greater than or equal to n_classes.
+    # mIoU
     mIoU, update_op = tf.contrib.metrics.streaming_mean_iou(pred, gt, num_classes=args.num_classes, weights=weights)
+
+    # Pixel accuracy
+    accu, accu_update_op = tf.contrib.metrics.streaming_accuracy(
+                pred, gt, weights=weights)
     
     # Set up tf session and initialize variables. 
     config = tf.ConfigProto()
@@ -116,10 +144,11 @@ def main():
     
     # Iterate over training steps.
     for step in range(args.num_steps):
-        preds, _ = sess.run([pred, update_op])
+        preds, _, _ = sess.run([pred, update_op, accu_update_op])
         if step % 100 == 0:
             print('step {:d}'.format(step))
     print('Mean IoU: {:.3f}'.format(mIoU.eval(session=sess)))
+    print('Pixel Accuracy: {:.3f}'.format(accu.eval(session=sess)))
     coord.request_stop()
     coord.join(threads)
     

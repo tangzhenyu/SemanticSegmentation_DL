@@ -22,8 +22,8 @@ def configure():
 	flags.DEFINE_float('learning_rate', 2.5e-4, 'learning rate')
 	flags.DEFINE_float('power', 0.9, 'hyperparameter for poly learning rate')
 	flags.DEFINE_float('momentum', 0.9, 'momentum')
-	flags.DEFINE_string('encoder_name', 'deeplab', 'name of pre-trained model, res101, res50 or deeplab')
-	flags.DEFINE_string('pretrain_file', './pretrained_model/deeplab_resnet_init.ckpt', 'pre-trained model filename corresponding to encoder_name')
+	flags.DEFINE_string('encoder_name', 'res50', 'name of pre-trained model, res101, res50')
+	flags.DEFINE_string('pretrain_file', './pretrained_model/resnet_v1_50.ckpt', 'pre-trained model filename corresponding to encoder_name')
 	flags.DEFINE_string('data_list', './dataset_voc2012/train.txt', 'training data list filename')
 	flags.DEFINE_integer('grad_update_every', 10, 'gradient accumulation step')
 	# Note: grad_update_every = true training batch size
