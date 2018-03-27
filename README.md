@@ -52,6 +52,7 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 2D Semantic Segmentation
 ### Papers:
++ CVPR-2018 Learning to Adapt Structured Output Space for Semantic Segmentation [[Paper]](https://arxiv.org/abs/1802.10349)[[Code]](https://github.com/wasidennis/AdaptSegNet)
 + CVPR-2018 Dynamic-structured Semantic Propagation Network [[Paper]](https://arxiv.org/abs/1803.06067)
 + Deeplab v4: Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation [[Paper]](https://arxiv.org/pdf/1802.02611.pdf) [[Code]](https://github.com/tensorflow/models/tree/master/research/deeplab)
 + Deep Value Networks Learn to Evaluate and Iteratively Refine Structured Outputs [[Paper]](https://arxiv.org/pdf/1703.04363.pdf)[[Code]](https://github.com/gyglim/dvn)
