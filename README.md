@@ -238,8 +238,9 @@ MINOS is a simulator designed to support the development of multisensory models 
 
 
 ## Weakly-Supervised-Segmentation && Interactive Segmentation && Transferable Semantic Segmentation
-- Weakly Supervised Object Localization Using Things and Stuff Transfer [[Paper]](https://arxiv.org/pdf/1703.08000.pdf)</br>
-- Semi and Weakly Supervised Semantic Segmentation Using Generative Adversarial Network [[Paper]](http://crcv.ucf.edu/papers/1703.09695.pdf)</br>
+- arxiv-2018 WebSeg: Learning Semantic Segmentation from Web Searches [[Paper]](https://arxiv.org/pdf/1803.09859.pdf)
+- Weakly Supervised Object Localization Using Things and Stuff Transfer [[Paper]](https://arxiv.org/pdf/1703.08000.pdf)
+- Semi and Weakly Supervised Semantic Segmentation Using Generative Adversarial Network [[Paper]](http://crcv.ucf.edu/papers/1703.09695.pdf)
 - Weakly- and Semi-Supervised Learning of a Deep Convolutional Network for Semantic Image Segmentation [[Paper]](https://arxiv.org/pdf/1502.02734.pdf)
 + Weakly Supervised Structured Output Learning for Semantic Segmentation [[Paper]](http://groups.inf.ed.ac.uk/calvin/hp_avezhnev/Pubs/VezhnevetsCVPR2012b.pdf)
 + ICCV-2011 Weakly supervised semantic segmentation with a multi-image model [[Paper]](http://ieeexplore.ieee.org/document/6126299/)
