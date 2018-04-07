@@ -166,6 +166,9 @@ Some implementation of semantic segmantation for DL model</br>
 - Object Region Mining with Adversarial Erasing: A Simple Classification to Semantic Segmentation Approach [[Paper]](https://arxiv.org/pdf/1703.08448.pdf)</br>
 + CVPR-2016 Convolutional Feature Masking for Joint Object and Stuff Segmentation [[Paper]](http://arxiv.org/abs/1412.1283)
 + ECCV-2016 Laplacian Pyramid Reconstruction and Refinement for Semantic Segmentation [[Paper]](https://arxiv.org/pdf/1411.5752.pdf)
+-  FastMask: Segment Object Multi-scale Candidates in One Shot-2016 [[Code-Caffe]](https://github.com/voidrank/FastMask) [[Paper]](https://arxiv.org/abs/1612.08843)</br>
+-  **Pixel Objectness-2017** [[Project]](http://vision.cs.utexas.edu/projects/pixelobjectness/) [[Code-Caffe]](https://github.com/suyogduttjain/pixelobjectness) [[Paper]](https://arxiv.org/abs/1701.05349)</br>
+
 
 ## 3D Semantic Segmentation
 ### Papers
@@ -320,6 +323,7 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 
 ## Road Segmentation && Real Time Segmentation
 ### Papers:
+- Deep Semantic Segmentation for Automated Driving: Taxonomy, Roadmap and Challenges [[Paper]](https://arxiv.org/pdf/1707.02432.pdf)
 - 2018-arxiv Real-time Semantic Segmentation Comparative Study[[Paper]](https://arxiv.org/pdf/1803.02758.pdf)[[Code]](https://github.com/MSiam/TFSegmentation)
 - MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving [[Paper]](https://arxiv.org/pdf/1612.07695.pdf)</br>
 - self-driving-car-road-segmentation [[Link]](https://medium.com/@karol_majek/self-driving-car-road-segmentation-514ae80e103a)</br>
@@ -403,13 +407,6 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 - Clothing co-parsing by joint image segmentation and labeling-2013 [[Project]](http://hcp.sysu.edu.cn/clothing-co-parsing-by-joint-image-segmentation-and-labeling/) [[Dataset]](https://github.com/bearpaw/clothing-co-parsing) [[Paper]](https://arxiv.org/abs/1502.00739)</br>
 - Parsing clothing in fashion photographs-2012 [[Project]](http://vision.is.tohoku.ac.jp/~kyamagu/research/clothing_parsing/) [[Paper]](http://vision.is.tohoku.ac.jp/~kyamagu/papers/yamaguchi_cvpr2012.pdf)</br>
 
-## Segment Object Candidates
--  FastMask: Segment Object Multi-scale Candidates in One Shot-2016 [[Code-Caffe]](https://github.com/voidrank/FastMask) [[Paper]](https://arxiv.org/abs/1612.08843)</br>
--   Learning to Refine Object Segments-2016 [[Code-Torch]](https://github.com/facebookresearch/deepmask) [[Paper]](http://arxiv.org/abs/1603.08695)</br>
-- Learning to Segment Object Candidates-2015 [[Code-Torch]](https://github.com/facebookresearch/deepmask) [[Code-Theano-Keras]](https://github.com/abbypa/NNProject_DeepMask) [[Paper]](http://arxiv.org/abs/1506.06204)</br>
--  **Pixel Objectness-2017** [[Project]](http://vision.cs.utexas.edu/projects/pixelobjectness/) [[Code-Caffe]](https://github.com/suyogduttjain/pixelobjectness) [[Paper]](https://arxiv.org/abs/1701.05349)</br>
--  A Deep Convolutional Neural Network for Background Subtraction-2017 [[Paper]](https://arxiv.org/abs/1702.01731)</br>
-- From Image-level to Pixel-level Labeling with Convolutional Networks [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Pinheiro_From_Image-Level_to_2015_CVPR_paper.pdf)</br>
 
 ## Popular Methods and Implementations
 - U-Net [https://arxiv.org/pdf/1505.04597.pdf][Pytorch](https://github.com/tangzhenyu/SemanticSegmentation_DL/tree/master/U-net)
