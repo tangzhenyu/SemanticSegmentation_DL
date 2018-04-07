@@ -88,8 +88,8 @@ Some implementation of semantic segmantation for DL model</br>
 - Hypercolumns for Object Segmentation and Fine-grained Localization [[Paper]](https://arxiv.org/pdf/1411.5752)
 - Matching-CNN meets KNN: Quasi-parametric human parsing[[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/app/1B_034_ext.pdf)
 - Deep Human Parsing with Active Template Regression [[Paper]](https://arxiv.org/pdf/1503.02391.pdf)
-- TPAMI-2012 **Learning Hierarchical Features for Scene Labeling** The first paper for applying dl on semantic segmentation !!![[Paper]](http://yann.lecun.com/exdb/publis/pdf/farabet-pami-13.pdf)
--  Label Refinement Network for Coarse-to-Fine Semantic Segmentation-2017 [[Paper]](https://www.arxiv.org/abs/1703.00551)</br>
+- TPAMI-2012 **Learning Hierarchical Features for Scene Labeling** The first paper for applying dl on semantic segmentation !!! [[Paper]](http://yann.lecun.com/exdb/publis/pdf/farabet-pami-13.pdf)
+-  Label Refinement Network for Coarse-to-Fine Semantic Segmentation-2017 [[Paper]](https://www.arxiv.org/abs/1703.00551)
 - Laplacian Pyramid Reconstruction and Refinement for Semantic Segmentation [[Paper]](https://arxiv.org/pdf/1605.02264.pdf)
 - ParseNet: Looking Wider to See Better [[Paper]](https://www.cs.unc.edu/~wliu/papers/parsenet.pdf)
 - CVPR-2016 Recombinator Networks: Learning Coarse-to-Fine Feature Aggregation [[Paper]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Honari_Recombinator_Networks_Learning_CVPR_2016_paper.pdf)
@@ -108,7 +108,8 @@ Some implementation of semantic segmantation for DL model</br>
 -  Recalling Holistic Information for Semantic Segmentation-2016 [[Paper]](https://arxiv.org/abs/1611.08061)</br>
 -  Semantic Segmentation using Adversarial Networks-2016 [[Paper]](https://arxiv.org/abs/1611.08408) [[Code-Chainer]](https://github.com/oyam/Semantic-Segmentation-using-Adversarial-Networks)</br>
 -  Region-based semantic segmentation with end-to-end training-2016 [[Paper]](http://arxiv.org/abs/1607.07671)</br>
--  Exploring Context with Deep Structured models for Semantic Segmentation-2016 [[Paper]](https://arxiv.org/abs/1603.03183)</br>
+-  Exploring Context with Deep Structured models for Semantic Segmentation-2016 [[Paper]](https://arxiv.org/abs/1603.03183)</
+- **Multi-scale context aggregation by dilated convolutions** [[Paper]](https://arxiv.org/pdf/1511.07122.pdf)
 -  Better Image Segmentation by Exploiting Dense Semantic Predictions-2016 [[Paper]](https://arxiv.org/abs/1606.01481)</br>
 - Boundary-aware Instance Segmentation-2016 [[Paper]](https://infoscience.epfl.ch/record/227439/files/HayderHeSalzmannCVPR17.pdf)</br>
 - Improving Fully Convolution Network for Semantic Segmentation-2016 [[Paper]](https://arxiv.org/abs/1611.08986)</br>
