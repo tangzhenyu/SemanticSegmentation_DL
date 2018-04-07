@@ -327,15 +327,17 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 - Distantly Supervised Road Segmentation [[Paper]](https://arxiv.org/pdf/1708.06118)</br>
 - Deep Fully Convolutional Networks with Random Data Augmentation for Enhanced Generalization in Road Detection [[Paper]](http://isislab.es/llorca/publications_files/IEEEITSC17_RoadAugmentedDataFCNN.pdf)</br>
 - ICCV-2017 Real-time category-based and general obstacle detection for autonomous driving [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Garnett_Real-Time_Category-Based_and_ICCV_2017_paper.pdf)</br>
-- ECCV-2012 Road Scene Segmentation from a Single Image [[Paper]](http://yann.lecun.com/exdb/publis/pdf/alvarez-eccv-12.pdf)</br>
 - ICCV-2017 FoveaNet: Perspective-aware Urban Scene Parsing [[Paper]](http://users.eecs.northwestern.edu/~xsh835/assets/iccv2017_foveanet.pdf)</br>
 - CVPR-2017 UberNet: Training a universal convolutional neural network for low-, mid-, and high-level vision using diverse datasets and limited memory [[Paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Kokkinos_Ubernet_Training_a_CVPR_2017_paper.pdf)
 +	LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation [[Paper]](https://arxiv.org/abs/1707.03718.pdf)
 +	ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation-2016 [[Code-Caffe1]](https://github.com/e-lab/ENet-training)[[Code-Caffe2]](https://github.com/TimoSaemann/ENet) [[Paper]](https://arxiv.org/abs/1606.02147) [[Blog]](https://culurciello.github.io/tech/2016/06/20/training-enet.html)
 +	Efficient Deep Models for Monocular Road Segmentation[[Paper]](http://ais.informatik.uni-freiburg.de/publications/papers/oliveira16iros.pdf)
 +	Real-Time Coarse-to-fine Topologically Preserving Segmentation[[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Yao_Real-Time_Coarse-to-Fine_Topologically_2015_CVPR_paper.pdf)
-+ ICNet [[Paper]](https://arxiv.org/pdf/1704.08545.pdf)
++ ICNet for Real-Time Semantic Segmentation on High-Resolution Images [[Paper]](https://arxiv.org/pdf/1704.08545.pdf)
 + Efficient and robust deep networks for semantic segmentation [[Paper]](http://journals.sagepub.com/doi/abs/10.1177/0278364917710542)
++ NIPSW-2017 Speeding up semantic segmentation for autonomous driving [[Paper]](https://openreview.net/pdf?id=S1uHiFyyg)
+- ECCV-2012 Road Scene Segmentation from a Single Image [[Paper]](http://yann.lecun.com/exdb/publis/pdf/alvarez-eccv-12.pdf)
+
 
 ### Codes
   + https://github.com/MarvinTeichmann/MultiNet
