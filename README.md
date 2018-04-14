@@ -52,6 +52,7 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 2D Semantic Segmentation
 ### Papers:
++ Arxiv-2018 Context Encoding for Semantic Segmentation [[Paper]](https://arxiv.org/pdf/1803.08904.pdf) [[Code]](https://github.com/zhanghang1989/MXNet-Gluon-SyncBN)
 + CVPR-2018 Learning to Adapt Structured Output Space for Semantic Segmentation [[Paper]](https://arxiv.org/abs/1802.10349)[[Code]](https://github.com/wasidennis/AdaptSegNet)
 + CVPR-2018 Dynamic-structured Semantic Propagation Network [[Paper]](https://arxiv.org/abs/1803.06067)
 + Deeplab v4: Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation [[Paper]](https://arxiv.org/pdf/1802.02611.pdf) [[Code]](https://github.com/tensorflow/models/tree/master/research/deeplab)
@@ -357,6 +358,7 @@ FST: Fast Object Segmentation in Unconstrained Video. A. Papazoglou, V. Ferrari,
 
 ## Medical Image Semantic Segmentation
 ### Papers
++ Arxiv-2018 Deep learning and its application to medical image segmentation [[Paper]](https://arxiv.org/pdf/1803.08691)
 - Deep neural networks segment neuronal membranes in electron microscopy images
 - Semantic Image  Segmentation with Deep Learning [[Paper]](http://www.robots.ox.ac.uk/~sadeep/files/crfasrnn_presentation.pdf)</br>
 - Automatic Liver and Tumor Segmentation of CT and MRI Volumes Using Cascaded Fully Convolutional Neural Networks [[Paper]](https://arxiv.org/pdf/1702.05970.pdf)</br>
