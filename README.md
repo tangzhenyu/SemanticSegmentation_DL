@@ -52,6 +52,7 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 2D Semantic Segmentation
 ### Papers:
++ Arxiv-2018 ExFuse: Enhancing Feature Fusion for Semantic Segmentation 87.9% mean Iou->voc2012 [[Paper]](https://arxiv.org/pdf/1804.03821.pdf)
 + CVPR-2018 spotlight Learning to Adapt Structured Output Space for Semantic Segmentation  [[Paper]](https://arxiv.org/abs/1802.10349) [[Code]](https://github.com/wasidennis/AdaptSegNet)
 + Arfix-2018 Adversarial Learning for Semi-supervised Semantic Segmentation [[Paper]](https://arxiv.org/abs/1802.07934) [[Code]](https://github.com/hfslyc/AdvSemiSeg)
 + Arxiv-2018 Context Encoding for Semantic Segmentation [[Paper]](https://arxiv.org/pdf/1803.08904.pdf) [[Code]](https://github.com/zhanghang1989/MXNet-Gluon-SyncBN)
