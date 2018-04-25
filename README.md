@@ -8,7 +8,7 @@ A list of all papers and resoureces on Semantic Segmentation.
 Some implementation of semantic segmantation for DL model</br>
 ## Dataset
 + [voc2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
-+ [CitySpaces](https://www.cityscapes-dataset.com/)
++ [CityScapes](https://www.cityscapes-dataset.com/)
 + [Mapillary](https://www.mapillary.com/dataset/vistas)
 + [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
 + [PASCAL Context](http://www.cs.stanford.edu/~roozbeh/pascal-context/)
