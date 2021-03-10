@@ -52,6 +52,35 @@ Some implementation of semantic segmantation for DL model</br>
 
 ## 2D Semantic Segmentation
 ### Papers:
+- [2019-CVPR oral] CLAN: Category-level Adversaries for Semantics Consistent [[`paper`]](https://arxiv.org/abs/1809.09478?context=cs) [[`code`]](https://github.com/RoyalVane/CLAN)
+
+- [2019-CVPR] BRS: Interactive Image Segmentation via Backpropagating Refinement Scheme(***) [[`paper`]](https://vcg.seas.harvard.edu/publications/interactive-image-segmentation-via-backpropagating-refinement-scheme/paper) [[`code`]](https://github.com/wdjang/BRS-Interactive_segmentation)
+
+- [2019-CVPR] DFANet：Deep Feature Aggregation for Real-Time Semantic Segmentation(used in camera) [[`paper`]](https://share.weiyun.com/5NgHbWH) [[`code`]](https://github.com/j-a-lin/DFANet_PyTorch)
+
+- [2019-CVPR] DeepCO3: Deep Instance Co-segmentation by Co-peak Search and Co-saliency [[`paper`]](http://cvlab.citi.sinica.edu.tw/images/paper/cvpr-hsu19.pdf) [[`code`]](https://github.com/KuangJuiHsu/DeepCO3)
+
+- [2019-CVPR] Domain Adaptation(reducing the domain shif) [[`paper`]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Luo_Taking_a_Closer_Look_at_Domain_Shift_Category-Level_Adversaries_for_CVPR_2019_paper.pdf) 
+
+- [2019-CVPR] ELKPPNet: An Edge-aware Neural Network with Large Kernel Pyramid Pooling for Learning Discriminative Features in Semantic- Segmentation [[`paper`]](https://arxiv.org/abs/1906.11428) [[`code`]](https://github.com/XianweiZheng104/ELKPPNet)
+
+- [2019-CVPR oral] GLNet: Collaborative Global-Local Networks for Memory-Efficient Segmentation of Ultra-High Resolution Images[[`paper`]](https://arxiv.org/abs/1905.06368) [[`code`]](https://github.com/chenwydj/ultra_high_resolution_segmentation)
+
+- [2019-CVPR] Instance Segmentation by Jointly Optimizing Spatial Embeddings and Clustering Bandwidth(***SOTA) [[`paper`]](https://arxiv.org/abs/1906.11109) [[`code`]](https://github.com/davyneven/SpatialEmbeddings)
+
+- [2019-ECCV] ICNet: Real-Time Semantic Segmentation on High-Resolution Images [[`paper`]](https://arxiv.org/abs/1704.08545) [[`code`]](https://github.com/oandrienko/fast-semantic-segmentation)
+
+- [2019-CVPR] LEDNet: A Lightweight Encoder-Decoder Network for Real-Time Semantic Segmentation(***SOTA) [[`paper`]](https://arxiv.org/abs/1905.02423) [[`code`]](https://github.com/xiaoyufenfei/LEDNet)
+
+- [2019-arXiv] LightNet++: Boosted Light-weighted Networks for Real-time Semantic Segmentation [[`paper`]](http://arxiv.org/abs/1605.02766) [[`code`]](https://github.com/ansleliu/LightNetPlusPlus)
+
+- [2019-CVPR] PTSNet: A Cascaded Network for Video Object Segmentation [[`paper`]](https://arxiv.org/abs/1907.01203) [[`code`]](https://github.com/sydney0zq/PTSNet)
+
+- [2019-CVPR] PPGNet: Learning Point-Pair Graph for Line Segment Detection [[`paper`]](https://www.aiyoggle.me/publication/ppgnet-cvpr19/ppgnet-cvpr19.pdf) [[`code`]](https://github.com/svip-lab/PPGNet)
+
+- [2019-CVPR] Show, Match and Segment: Joint Learning of Semantic Matching and Object Co-segmentation [[`paper`]](https://arxiv.org/abs/1906.05857) [[`code`]](https://github.com/YunChunChen/MaCoSNet-pytorch)
+
+- [2019-CVPR] Video Instance Segmentation [[`paper`]](https://arxiv.org/abs/1905.04804) [[`code`]](https://github.com/youtubevos/MaskTrackRCNN)
 + Arxiv-2018 ExFuse: Enhancing Feature Fusion for Semantic Segmentation 87.9% mean Iou->voc2012 [[Paper]](https://arxiv.org/pdf/1804.03821.pdf)
 + CVPR-2018 spotlight Learning to Adapt Structured Output Space for Semantic Segmentation  [[Paper]](https://arxiv.org/abs/1802.10349) [[Code]](https://github.com/wasidennis/AdaptSegNet)
 + Arfix-2018 Adversarial Learning for Semi-supervised Semantic Segmentation [[Paper]](https://arxiv.org/abs/1802.07934) [[Code]](https://github.com/hfslyc/AdvSemiSeg)
@@ -189,6 +218,7 @@ Some implementation of semantic segmantation for DL model</br>
 + ICCV-2017 Large-scale 3D Shape Reconstruction and Segmentation from ShapeNet Core55 [[Paper]]()[[Project]](https://shapenet.cs.stanford.edu/iccv17/)
 
 ## Instance Segmentation
++ Mask Scoring R-CNN (MS R-CNN) [[Code]](https://github.com/zjhuang22/maskscoring_rcnn)[[Paper]](https://arxiv.org/pdf/1903.00241.pdf)
 + Predicting Future Instance Segmentations by Forecasting Convolutional Features [[Paper]](https://hal.inria.fr/hal-01757669/document)
 + CVPR-2018 Path Aggregation Network for Instance Segmentation [[Paper]](https://arxiv.org/pdf/1803.01534.pdf) better than Mask-rcnn!！COCO-2017 1st!
 +  Pixelwise Instance Segmentation with a Dynamically Instantiated Network-2017 [[Paper]](https://arxiv.org/abs/1704.02386)</br>
